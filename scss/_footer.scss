@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #83C000;
+    height: 54px;
+    p {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}

@@ -1,0 +1,38 @@
+.breadcrumbs {
+    ul {
+        display: inline-flex;
+        padding-left: 0;
+        li.breadcrumb-item {
+            position: relative;
+            list-style: none;
+            margin-right: 40px;
+            &:nth-child(1)::after {
+                display: none;
+            }
+            &::after {
+                position: absolute;
+                margin-right: 10px;
+                top: 6px;
+                left: -24px;
+                background-size: contain;
+                width: 15px;
+                height: 15px;
+                content: "";
+                background-image: url(./../assets/img/breadcrumb-chevron-right.svg);
+                display: inline-block;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            a {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 164%;
+                color: #012e71;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promobis - testowa strona</title>
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="top-nav">
+                <div class="hamburger">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./assets/img/logo.svg" alt="promobis-logo" width="274" height="60">
+                    </a>
+                </div>
+                <div class="search-bar-wrapper">
+                    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="|   Czego szukasz?" value="" />
+                    <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 4C7.13401 4 4 7.13401 4 11C4 14.866 7.13401 18 11 18C14.866 18 18 14.866 18 11C18 7.13401 14.866 4 11 4ZM2 11C2 6.02944 6.02944 2 11 2C15.9706 2 20 6.02944 20 11C20 15.9706 15.9706 20 11 20C6.02944 20 2 15.9706 2 11Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9433 15.9428C16.3338 15.5523 16.967 15.5523 17.3575 15.9428L21.7075 20.2928C22.098 20.6833 22.098 21.3165 21.7075 21.707C21.317 22.0975 20.6838 22.0975 20.2933 21.707L15.9433 17.357C15.5528 16.9665 15.5528 16.3333 15.9433 15.9428Z" fill="white"/>
+                        </svg>  
+                    </button>
+                </div>
+                <div class="account-cart-container">
+                    <div class="account-container">
+                        <div class="logo-container">
+                            <img class="account-image" src="./assets/img/account.svg" alt="account image" width="27" height="33">
+                        </div>
+                        <div class="text-container">
+                            <a class="login" href="#">
+                                <p>Zaloguj się</p>
+                            </a>
+                            <a class="create-account" href="#">
+                                Utwórz konto
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <a class="cart-link" href="#">
+                            <div class="cart-logo-container">
+                                <img class="cart-image" src="./assets/img/cart.svg" alt="cart image" width="31" height="31">
+                                <span class="cart-quantity">0</span>
+                            </div>
+                            <div class="cart-total-price">
+                                <p>0,00 zł</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="left-container">
+                    <ul>
+                        <li class="bottom-nav-links">Oferta gadżetów
+                            <div class="bottom-nav-sublist">
+                                <ul>
+                                    <li>Koszulki 1
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Koszulki 2
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Koszulki 3
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Koszulki 4
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="bottom-nav-links">Oferta tematyczna
+                            <div class="bottom-nav-sublist">
+                                <ul>
+                                    <li>Buty 1
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Buty 2
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Buty 3
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Buty 4
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-container">
+                    <ul>
+                        <a href="#">
+                            <li>Promocje</li>
+                        </a>
+                        <a href="#">
+                            <li>Znakowanie</li>
+                        </a>
+                        <a href="#">
+                            <li>E-katalogi</li>
+                        </a>
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                        <a href="#">
+                            <li>Kontakt</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="main-wrapper">
+        <section id="cart-section">
+            <div class="breadcrumbs">
+                <ul>
+                    <li class="breadcrumb-item">
+                        <a href="#">Strona główna</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#">Koszyk</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-container-top">
+                <div class="cart-number">
+                    <p>Nr koszyka: <span>2620643</span></p>
+                </div>
+                <div class="cart-stages">
+                    <ul>
+                        <li class="cart-stage">
+                            <a href="#">Koszyk</a>
+                        </li>
+                        <li class="cart-data">
+                            <a class="active" href="#">Twoje dane</a>
+                        </li>
+                        <li class="cart-summary">
+                            <a href="#">Podsumowanie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cart-container-bottom">
+                <div class="left-cart-container">
+                    <div class="text-container">
+                        <h2>Mam już konto</h2>
+                        <p>Wpisz swoje dane</p>
+                    </div>
+                    <div class="mail-container">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" pattern=".+@globex\.com" required>
+                    </div>
+                    <div class="password-container">
+                        <label for="password">Hasło:</label>
+                        <input type="password" id="password" pattern=".+@globex\.com" required>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="login-btn">
+                            <a href="#">Zaloguj się</a>
+                        </div>
+                        <div class="remind-pass-btn">
+                            <a href="#">Przypomnij hasło</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-cart-container">
+                    <div class="text-container">
+                        <h2>Kontynuuj bez logowania</h2>
+                        <p>Zrealizuj zamówienie jako gość</p>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="without-signup-btn">
+                            <a href="#">Kontynuuj bez rejestracji</a>
+                        </div>    
+                        <span>lub</span>
+                        <div class="create-account-btn">
+                            <a href="#">Załóż konto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-container-back">
+                <div class="back-to-cart-btn">
+                    <div class="back-cart-btn-container ">
+                        <a href="#">
+                            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58579 7V5C6.58579 2.79086 8.37665 1 10.5858 1L15.5858 1C17.7949 1 19.5858 2.79086 19.5858 5V17C19.5858 19.2091 17.7949 21 15.5858 21H10.5858C8.37665 21 6.58579 19.2091 6.58579 17V15M3.58579 8L1.29289 10.2929C0.902369 10.6834 0.902369 11.3166 1.29289 11.7071L3.58579 14M1.58579 11H13.5858" stroke="#012E71" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Wróć do koszyka
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>© 2022 PROMObis. Wszystkie prawa zastrzeżone</p>
+        </footer>
+    </div>
+</body>
+</html>

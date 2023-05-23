@@ -1,0 +1,22 @@
+@import 'nav';
+@import 'breadcrumbs';
+@import 'cart-section';
+@import 'footer';
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+#main-wrapper {
+    position: relative;
+    top: 181px;
+}
+
+@media (max-width: 1280px) {
+    #main-wrapper {
+        top: 80px;
+    }
+}

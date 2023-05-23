@@ -1,0 +1,84 @@
+.cart-stages {
+    ul {
+        display: inline-flex;
+        padding-left: 0;
+        li {
+            position: relative;
+            list-style: none;
+            margin-right: 64px;
+            &:nth-child(1)::after {
+                display: none;
+            }
+            &::after {
+                position: absolute;
+                margin-right: 10px;
+                top: 20px;
+                left: -40px;
+                background-size: contain;
+                width: 15px;
+                height: 15px;
+                content: "";
+                background-image: url(./../assets/img/cart-chevron.svg);
+                display: inline-block;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            a {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                color: #ADADAD;
+                text-decoration: none;
+                pointer-events: none;
+                &.active {
+                    color: #00B2FF;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1560px) {
+    .cart-stages {
+        ul {
+            li {
+                a {
+                    font-size: 28px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .cart-stages {
+        ul {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-left: 40px;
+            li {
+                a {
+                    font-size: 18px !important;
+                    line-height: 26px !important;
+                }
+                &::after {
+                    top: 6px !important;
+                    left: -40px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 672px) {
+    .cart-stages {
+        ul {
+            li {
+                &::after {
+                    top: 6px !important;
+                    left: -22px !important;
+                }
+            }
+        }
+    }
+}
