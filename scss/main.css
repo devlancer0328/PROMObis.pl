@@ -27,6 +27,7 @@ header #nav .top-nav {
   box-sizing: border-box;
 }
 header #nav .top-nav .hamburger {
+  cursor: pointer;
   display: none;
 }
 header #nav .top-nav .hamburger .hamburger-line {
@@ -261,6 +262,13 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li {
   min-height: 50px;
   padding-right: 32px;
   text-transform: none;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a {
+  text-decoration: none;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a:hover {
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+  color: #00B2FF;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:last-child {
   border-color: none;

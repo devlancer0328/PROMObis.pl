@@ -24,6 +24,7 @@ header {
             margin: 0 auto;
             box-sizing: border-box;
             .hamburger {
+                cursor: pointer;
                 display: none;
                 .hamburger-line {
                     display: block;
@@ -249,6 +250,13 @@ header {
                                     min-height: 50px;
                                     padding-right: 32px;
                                     text-transform: none;
+                                    a {
+                                        text-decoration: none;
+                                        &:hover {
+                                            text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+                                            color: #00B2FF;
+                                        }
+                                    }
                                     &:last-child {
                                         border-color: none;
                                         border-radius: 0px 0px 18px 18px;
