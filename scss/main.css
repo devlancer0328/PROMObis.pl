@@ -516,6 +516,9 @@ header #nav .bottom-nav .right-container ul li:hover {
     margin: 8px 0;
     text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   }
+  header #nav .bottom-nav.active .right-container ul a li {
+    margin-left: 0 !important;
+  }
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist {
     width: 100%;
     left: unset;
