@@ -599,6 +599,11 @@ header #nav .bottom-nav .right-container ul li:hover {
      object-position: center;
 }
 
+@media (max-width: 1280px) {
+  #swiper .swiper {
+    height: auto;
+  }
+}
 .cart-stages ul {
   display: inline-flex;
   padding-left: 0;
