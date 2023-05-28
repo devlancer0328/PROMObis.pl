@@ -584,6 +584,7 @@ header #nav .bottom-nav .right-container ul li:hover {
 #swiper .swiper {
   width: 100%;
   height: 563px;
+  z-index: 0;
 }
 #swiper .swiper .swiper-button-next,
 #swiper .swiper .swiper-button-prev {
