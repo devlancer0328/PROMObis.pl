@@ -489,6 +489,16 @@ header #nav .bottom-nav .right-container ul li:hover {
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li:last-child {
     border-radius: 0;
   }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
+    display: none !important;
+  }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active .bottom-nav-sub-sublist {
+    position: relative;
+    display: flex !important;
+  }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active {
+    flex-direction: column;
+  }
   header #nav .bottom-nav.active .right-container {
     display: flex;
     flex-direction: column;
@@ -514,12 +524,6 @@ header #nav .bottom-nav .right-container ul li:hover {
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul {
     position: relative;
     border: 0;
-  }
-  header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
-    position: relative;
-  }
-  header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
-    flex-direction: column;
   }
   header #nav .bottom-nav .left-container ul li.bottom-nav-links {
     text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;

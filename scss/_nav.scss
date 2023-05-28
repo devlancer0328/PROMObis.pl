@@ -491,6 +491,16 @@ header {
                             &:last-child {
                                 border-radius: 0;
                             }
+                            &:hover .bottom-nav-sub-sublist {
+                                display: none !important;
+                            }
+                            &.active .bottom-nav-sub-sublist {
+                                position: relative;
+                                display: flex !important;
+                            }
+                            &.active {
+                                flex-direction: column;
+                            }
                         }
                     }
                 }
@@ -522,12 +532,6 @@ header {
             position: relative;
             border: 0;
         }
-    }
-    header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
-        position: relative;
-    }
-    header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
-        flex-direction: column;
     }
     header #nav .bottom-nav .left-container ul li.bottom-nav-links {
         text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
