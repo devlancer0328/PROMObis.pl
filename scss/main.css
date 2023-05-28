@@ -27,6 +27,7 @@ header #nav .top-nav {
   box-sizing: border-box;
 }
 header #nav .top-nav .hamburger {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   cursor: pointer;
   display: none;
 }

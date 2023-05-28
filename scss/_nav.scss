@@ -24,6 +24,7 @@ header {
             margin: 0 auto;
             box-sizing: border-box;
             .hamburger {
+                -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
                 cursor: pointer;
                 display: none;
                 .hamburger-line {
