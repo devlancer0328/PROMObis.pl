@@ -623,6 +623,32 @@ header #nav .bottom-nav .right-container ul li:hover {
     height: auto;
   }
 }
+#our-products {
+  width: 80vw;
+  margin: 0 auto;
+}
+#our-products .text-container {
+  display: flex;
+  justify-content: space-between;
+}
+#our-products .text-container .left-text-container .h3-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #83C000;
+  margin: 0;
+}
+#our-products .text-container .left-text-container .h1-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #253D4E;
+  margin: 0;
+}
+
 .cart-stages ul {
   display: inline-flex;
   padding-left: 0;

@@ -1,0 +1,27 @@
+#our-products {
+    width: 80vw;
+    margin: 0 auto;
+    .text-container {
+        display: flex;
+        justify-content: space-between;
+        .left-text-container {
+            .h3-title {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 0.28em;
+                text-transform: uppercase;
+                color: #83C000; 
+                margin: 0;
+            }
+            .h1-title {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                text-transform: uppercase;
+                color: #253D4E;
+                margin: 0;
+            }
+        }
+    }
+}
