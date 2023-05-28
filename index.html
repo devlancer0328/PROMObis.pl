@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promobis - testowa strona</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
@@ -219,11 +223,46 @@
         </nav>
     </header>
     <div id="main-wrapper">
+        <section id="swiper">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a href="http://">
+                        <img src="./assets/img/promobis-baner.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://">
+                        <img src="./assets/img/promobis-baner.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="http://">
+                        <img src="./assets/img/promobis-baner.jpg" alt="">
+                    </a>
+                </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
         
         <footer>
             <p>© 2022 PROMObis. Wszystkie prawa zastrzeżone</p>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/hamburger.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
 </html>

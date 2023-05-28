@@ -578,6 +578,23 @@ header #nav .bottom-nav .right-container ul li:hover {
   text-decoration: underline;
 }
 
+#swiper {
+  width: 100vw;
+}
+#swiper .swiper {
+  width: 100%;
+  height: 563px;
+}
+#swiper .swiper .swiper-button-next,
+#swiper .swiper .swiper-button-prev {
+  color: #012E71 !important;
+}
+#swiper .swiper .swiper-slide img {
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .cart-stages ul {
   display: inline-flex;
   padding-left: 0;
