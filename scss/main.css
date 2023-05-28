@@ -597,7 +597,8 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 #swiper .swiper .swiper-button-next,
 #swiper .swiper .swiper-button-prev {
-  color: #012E71 !important;
+  color: #012E71;
+  padding: 24px;
 }
 #swiper .swiper .swiper-slide img {
   width: 100%;
@@ -606,6 +607,15 @@ header #nav .bottom-nav .right-container ul li:hover {
      object-fit: contain;
   -o-object-position: center;
      object-position: center;
+}
+#swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+#swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 18px;
+  height: 18px;
+  background: #a09f9f;
+}
+#swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #83C000;
 }
 
 @media (max-width: 1280px) {

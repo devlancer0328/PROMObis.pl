@@ -7,7 +7,8 @@
         z-index: 0;
         .swiper-button-next,
         .swiper-button-prev {
-            color: #012E71 !important;
+            color: #012E71;
+            padding: 24px;
         }
         .swiper-slide {
             img {
@@ -16,6 +17,15 @@
                 object-fit: contain;
                 object-position: center;
             }
+        }
+        .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
+        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            width: 18px;
+            height: 18px;
+            background: #a09f9f;
+        }
+        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: #83C000;
         }
     }
 }
