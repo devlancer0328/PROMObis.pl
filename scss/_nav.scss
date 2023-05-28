@@ -536,4 +536,19 @@ header {
     header #nav .bottom-nav .left-container ul li.bottom-nav-links {
         text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
     }
+    .hamburger.active .hamburger-line {
+        transition: 0.6s;
+    }
+    
+    .hamburger.active .hamburger-line:nth-child(1) {
+        transform: translateX(-200px);
+    }
+    
+    .hamburger.active .hamburger-line:nth-child(2) {
+        transform: rotate(45deg) translate(2px, 4px);
+    }
+    
+    .hamburger.active .hamburger-line:nth-child(3) {
+        transform: rotate(-45deg) translate(3px, -5px);
+    }
 }
