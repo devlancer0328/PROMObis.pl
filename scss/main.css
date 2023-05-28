@@ -630,6 +630,7 @@ header #nav .bottom-nav .right-container ul li:hover {
 #our-products .text-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 48px;
 }
 #our-products .text-container .left-text-container .h3-title {
   font-weight: 700;
