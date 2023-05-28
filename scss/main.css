@@ -439,10 +439,15 @@ header #nav .bottom-nav .right-container ul li:hover {
   header #nav .top-nav .search-bar-wrapper #searchQuerySubmit svg {
     height: 33px !important;
     width: 33px !important;
-    filter: invert(115%) sepia(57%) saturate(3011%) hue-rotate(206deg) brightness(87%) contrast(105%);
+  }
+  header #nav .top-nav .search-bar-wrapper #searchQuerySubmit svg path {
+    fill: #012E71 !important;
   }
   header #nav .top-nav .account-cart-container .cart-container {
     margin-left: 8px !important;
+  }
+  header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-logo-container {
+    margin-right: 0 !important;
   }
 }
 /* mobile menu */
