@@ -741,6 +741,62 @@ header #nav .bottom-nav .right-container ul li:hover {
   margin-bottom: 120px;
 }
 
+.image-text-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.image-text-container .image-text-container-left .image-container {
+  width: 55%;
+}
+.image-text-container .image-text-container-left .image-container img {
+  border-radius: 29px;
+}
+.image-text-container .image-text-container-right {
+  width: 45%;
+}
+.image-text-container .image-text-container-right h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #253D4E;
+}
+.image-text-container .image-text-container-right p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 164%;
+  color: #253D4E;
+}
+
+.text-image-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.text-image-container .text-image-container-left {
+  width: 45%;
+}
+.text-image-container .text-image-container-left h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #253D4E;
+}
+.text-image-container .text-image-container-left p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 164%;
+  color: #253D4E;
+}
+.text-image-container .text-image-container-right .image-container {
+  width: 55%;
+}
+.text-image-container .text-image-container-right .image-container img {
+  border-radius: 29px;
+}
+
 .cart-stages ul {
   display: inline-flex;
   padding-left: 0;
