@@ -98,7 +98,7 @@ header {
                     .logo-container {
                         margin-right: 8px;
                     }
-                    .text-container {
+                    .account-text-container {
                         .login {
                             font-weight: 400;
                             font-size: 14px;
@@ -364,7 +364,7 @@ header {
 
 @media (max-width: 1280px) {
     .account-cart-container {
-        .text-container {
+        .account-text-container {
             .login {
                 display: none;
             }

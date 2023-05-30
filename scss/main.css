@@ -110,27 +110,27 @@ header #nav .top-nav .account-cart-container .account-container {
 header #nav .top-nav .account-cart-container .account-container .logo-container {
   margin-right: 8px;
 }
-header #nav .top-nav .account-cart-container .account-container .text-container .login {
+header #nav .top-nav .account-cart-container .account-container .account-text-container .login {
   font-weight: 400;
   font-size: 14px;
   line-height: 122.5%;
   color: #012e71;
   text-decoration: none;
 }
-header #nav .top-nav .account-cart-container .account-container .text-container .login:hover {
+header #nav .top-nav .account-cart-container .account-container .account-text-container .login:hover {
   color: #83c000;
 }
-header #nav .top-nav .account-cart-container .account-container .text-container .login p {
+header #nav .top-nav .account-cart-container .account-container .account-text-container .login p {
   margin: 0;
 }
-header #nav .top-nav .account-cart-container .account-container .text-container .create-account {
+header #nav .top-nav .account-cart-container .account-container .account-text-container .create-account {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: #012e71;
   text-decoration: none;
 }
-header #nav .top-nav .account-cart-container .account-container .text-container .create-account:hover {
+header #nav .top-nav .account-cart-container .account-container .account-text-container .create-account:hover {
   color: #83c000;
 }
 header #nav .top-nav .account-cart-container .cart-container {
@@ -366,10 +366,10 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 
 @media (max-width: 1280px) {
-  .account-cart-container .text-container .login {
+  .account-cart-container .account-text-container .login {
     display: none;
   }
-  .account-cart-container .text-container .create-account {
+  .account-cart-container .account-text-container .create-account {
     display: none;
   }
   .cart-container .cart-total-price {
