@@ -1301,6 +1301,113 @@ header #nav .bottom-nav .right-container ul li:hover {
   margin-bottom: 120px;
 }
 
+.clients-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.clients-section .client-image {
+  border-right: 1px solid #012E71;
+  padding-right: 16px;
+}
+.clients-section .client-image img {
+  width: auto;
+  height: 80px;
+}
+.clients-section .client-image:hover img {
+  filter: sepia(100%) hue-rotate(190deg) saturate(100%);
+}
+.clients-section .client-image:first-child {
+  border-left: 1px solid #012E71;
+  padding-left: 16px;
+}
+
+#recommend-products {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.products-container .products-container-slot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  border: 2px solid #EEEEEE;
+  border-radius: 32px;
+  margin-right: 16px;
+  width: 20%;
+  text-decoration: none;
+}
+.products-container .products-container-slot:hover {
+  border: 2px solid #012e71;
+}
+.products-container .products-container-slot .slot-image {
+  background: #EEEEEE;
+  width: 100%;
+  border-radius: 29px 29px 0 0;
+}
+.products-container .products-container-slot .slot-image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 8px);
+  height: auto;
+  padding: 4px;
+  border-radius: 29px;
+}
+.products-container .products-container-slot .slot-description p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.5%;
+  color: #253D4E;
+  text-align: center;
+  text-decoration: none;
+}
+.products-container .products-container-slot .slot-colors p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 122.5%;
+  color: #ADADAD;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.products-container .products-container-slot .slot-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EEEEEE;
+  border-radius: 18px;
+  height: 42px;
+  width: 90%;
+  margin-bottom: 5%;
+  text-decoration: none;
+}
+.products-container .products-container-slot .slot-price p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 122.5%;
+  text-align: center;
+  color: #253D4E;
+  text-decoration: none;
+}
+.products-container .products-container-slot .slot-price p span {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #012E71;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
 footer {
   display: flex;
   justify-content: center;

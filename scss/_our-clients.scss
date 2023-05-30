@@ -3,3 +3,25 @@
     margin: 0 auto;
     margin-bottom: 120px;
 }
+
+.clients-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .client-image {
+        border-right: 1px solid #012E71; 
+        padding-right: 16px;
+        img {
+            width: auto;
+            height: 80px;
+        }
+        &:hover img {
+            filter: sepia(100%) hue-rotate(190deg) saturate(100%);
+        }
+        &:first-child {
+            border-left: 1px solid #012E71;
+            padding-left: 16px;
+        }
+    }
+}

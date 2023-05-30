@@ -1,0 +1,88 @@
+#recommend-products {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .products-container-slot {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: #FFFFFF;
+        border: 2px solid #EEEEEE;
+        border-radius: 32px;
+        margin-right: 16px;
+        width: 20%;
+        text-decoration: none;
+        &:hover {
+            border: 2px solid #012e71; 
+        }
+        .slot-image {
+            background: #EEEEEE;
+            width: 100%;
+            border-radius: 29px 29px 0 0;
+            img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: calc(100% - 8px);
+                height: auto;
+                padding: 4px;
+                border-radius: 29px;
+            }
+        }
+        .slot-description {
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 122.5%;
+                color: #253D4E;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+        .slot-colors {
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 122.5%;
+                color: #ADADAD;
+                margin-bottom: 5px;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+        .slot-price {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #EEEEEE;
+            border-radius: 18px;
+            height: 42px;
+            width: 90%;
+            margin-bottom: 5%;
+            text-decoration: none;
+            p {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 122.5%;
+                text-align: center;
+                color: #253D4E;
+                text-decoration: none;
+                span {
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 34px;
+                    color: #012E71;
+                    margin: 0 4px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
