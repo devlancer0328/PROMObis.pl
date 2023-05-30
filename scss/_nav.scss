@@ -206,7 +206,7 @@ header {
                         &::after {
                             position: absolute;
                             content: "";
-                            background: url("./../assets/img/breadcrumb-chevron-down.svg")
+                            background: url("./../assets/icons/breadcrumb-chevron-down.svg")
                                 no-repeat;
                             background-position: center;
                             background-size: contain;
@@ -267,7 +267,7 @@ header {
                                         top: 50%;
                                         right: 0;
                                         transform: translateY(-50%);
-                                        background: url("./../assets/img/breadcrumb-chevron-right.svg")
+                                        background: url("./../assets/icons/breadcrumb-chevron-right.svg")
                                         no-repeat;
                                         background-position: center;
                                         background-size: contain;

@@ -217,7 +217,7 @@ header #nav .bottom-nav .left-container ul li {
 header #nav .bottom-nav .left-container ul li::after {
   position: absolute;
   content: "";
-  background: url("./../assets/img/breadcrumb-chevron-down.svg") no-repeat;
+  background: url("./../assets/icons/breadcrumb-chevron-down.svg") no-repeat;
   background-position: center;
   background-size: contain;
   width: 15px;
@@ -280,7 +280,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li::after {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background: url("./../assets/img/breadcrumb-chevron-right.svg") no-repeat;
+  background: url("./../assets/icons/breadcrumb-chevron-right.svg") no-repeat;
   background-position: center;
   background-size: contain;
   width: 15px;
@@ -571,7 +571,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   width: 15px;
   height: 15px;
   content: "";
-  background-image: url(./../assets/img/breadcrumb-chevron-right.svg);
+  background-image: url(./../assets/icons/breadcrumb-chevron-right.svg);
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center center;
@@ -824,7 +824,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   width: 15px;
   height: 15px;
   content: "";
-  background-image: url(./../assets/img/cart-chevron.svg);
+  background-image: url(./../assets/icons/cart-chevron.svg);
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center center;
@@ -916,14 +916,14 @@ header #nav .bottom-nav .right-container ul li:hover {
   padding: 32px 80px;
   margin-right: 24px;
 }
-#cart-section .cart-container-bottom .left-cart-container .text-container h2 {
+#cart-section .cart-container-bottom .left-cart-container .text-cart-container h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #253D4E;
   margin: 0;
 }
-#cart-section .cart-container-bottom .left-cart-container .text-container p {
+#cart-section .cart-container-bottom .left-cart-container .text-cart-container p {
   font-weight: 400;
   font-size: 18px;
   line-height: 164%;
@@ -1026,14 +1026,17 @@ header #nav .bottom-nav .right-container ul li:hover {
   border-radius: 30px;
   padding: 32px 80px;
 }
-#cart-section .cart-container-bottom .right-cart-container .text-container h2 {
+#cart-section .cart-container-bottom .right-cart-container .text-cart-container {
+  flex-direction: column;
+}
+#cart-section .cart-container-bottom .right-cart-container .text-cart-container h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #253D4E;
   margin: 0;
 }
-#cart-section .cart-container-bottom .right-cart-container .text-container p {
+#cart-section .cart-container-bottom .right-cart-container .text-cart-container p {
   font-weight: 400;
   font-size: 18px;
   line-height: 164%;
