@@ -10,8 +10,9 @@
     margin-bottom: 40px;
     justify-content: space-between;
     .image-text-container-left {
+        margin-right: 5%;
         .image-container {
-            width: 55%;
+            width: 50%;
             img {
                 border-radius: 29px;
             }
@@ -55,8 +56,9 @@
         }
     }
     .text-image-container-right {
+        margin-left: 5%;
         .image-container {
-            width: 55%;
+            width: 50%;
             img {
                 border-radius: 29px;
             }
