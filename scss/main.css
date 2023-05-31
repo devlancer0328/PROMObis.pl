@@ -751,10 +751,21 @@ header #nav .bottom-nav .right-container ul li:hover {
   margin-right: 5%;
 }
 .image-text-container .image-text-container-left .image-container {
-  width: 50%;
+  position: relative;
 }
 .image-text-container .image-text-container-left .image-container img {
   border-radius: 29px;
+}
+.image-text-container .image-text-container-left .image-container::after {
+  position: absolute;
+  right: -17px;
+  top: 10%;
+  content: "";
+  display: block;
+  width: 34px;
+  height: 80%;
+  background-color: #83C000;
+  border-radius: 10px;
 }
 .image-text-container .image-text-container-right {
   width: 45%;
@@ -797,10 +808,21 @@ header #nav .bottom-nav .right-container ul li:hover {
   margin-left: 5%;
 }
 .text-image-container .text-image-container-right .image-container {
-  width: 50%;
+  position: relative;
 }
 .text-image-container .text-image-container-right .image-container img {
   border-radius: 29px;
+}
+.text-image-container .text-image-container-right .image-container::after {
+  position: absolute;
+  left: -17px;
+  top: 10%;
+  content: "";
+  display: block;
+  width: 34px;
+  height: 80%;
+  background-color: #012E71;
+  border-radius: 10px;
 }
 
 .cart-stages ul {

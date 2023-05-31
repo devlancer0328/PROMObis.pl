@@ -12,9 +12,20 @@
     .image-text-container-left {
         margin-right: 5%;
         .image-container {
-            width: 50%;
+            position: relative;
             img {
                 border-radius: 29px;
+            }
+            &::after {
+                position: absolute;
+                right: -17px;
+                top: 10%;
+                content: '';
+                display: block;
+                width: 34px;
+                height: 80%;
+                background-color: #83C000;
+                border-radius: 10px;
             }
         }
     }
@@ -58,9 +69,20 @@
     .text-image-container-right {
         margin-left: 5%;
         .image-container {
-            width: 50%;
+            position: relative;
             img {
                 border-radius: 29px;
+            }
+            &::after {
+                position: absolute;
+                left: -17px;
+                top: 10%;
+                content: '';
+                display: block;
+                width: 34px;
+                height: 80%;
+                background-color: #012E71;
+                border-radius: 10px;
             }
         }
     }
