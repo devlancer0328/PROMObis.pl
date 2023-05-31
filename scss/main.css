@@ -627,35 +627,44 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 .the_tabs {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  max-width: 75rem;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 .the_tabs input[type=radio] {
   display: none;
 }
 
+.tab-text {
+  border-bottom: 4px solid #FFF;
+}
+
 .the_tabs label {
-  padding: 1rem 2.5rem;
-  border-radius: 0.5rem 0.5rem 0rem 0rem;
-  background: #ffffff;
-  background: linear-gradient(0deg, #ffffff 0%, #d5d5d5 100%);
-  outline: 0.063rem solid #d5d5d5;
-  box-shadow: 0.063rem 0.063rem 0.063rem #555555;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0 24px 0;
+  text-transform: uppercase;
   cursor: pointer;
+}
+.the_tabs label img {
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.the_tabs label p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  max-width: 48px;
 }
 
 .the_tabs .tab {
   width: 100%;
   padding: 1rem;
-  border-radius: 0rem 0rem 0.5rem 0.5rem;
-  background: #ffffff;
-  background: linear-gradient(180deg, #ffffff 0%, #d5d5d5 80%);
-  outline: 0.063rem solid #d5d5d5;
-  box-shadow: 0.063rem 0.125rem 0.125rem #555555;
   order: 1;
   display: none;
 }
@@ -668,14 +677,13 @@ header #nav .bottom-nav .right-container ul li:hover {
   padding-bottom: 1rem;
 }
 
-.the_tabs input[type=radio]:checked + label + .tab {
+.the_tabs input[type=radio]:checked + .tab-text + .tab {
   display: block;
 }
 
-.the_tabs input[type=radio]:checked + label {
-  background: #d5d5d5;
-  background: linear-gradient(0deg, #d5d5d5 0%, #9d9d9d 100%);
-  color: #ffffff;
+.the_tabs input[type=radio]:checked + .tab-text {
+  color: #83C000;
+  border-bottom: 4px solid #012E71;
 }
 
 #our-products {
