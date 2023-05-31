@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 header {
@@ -1343,6 +1344,134 @@ header #nav .bottom-nav .right-container ul li:hover {
 .clients-section .client-image:first-child {
   border-left: 1px solid #012E71;
   padding-left: 16px;
+}
+
+#sale {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.one-big-two-small {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+}
+.one-big-two-small .one-big {
+  width: 60%;
+  height: 600px;
+  border: 1px solid #012E71;
+  border-radius: 29px;
+  margin-right: 1%;
+}
+.one-big-two-small .one-big a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 29px;
+}
+.one-big-two-small .two-small {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.one-big-two-small .two-small .small-one {
+  height: 48%;
+  border: 1px solid #012E71;
+  border-radius: 29px;
+}
+.one-big-two-small .two-small .small-one a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 29px;
+}
+
+#faq {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.accordion-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.accordion {
+  flex: 1;
+}
+.accordion:last-child {
+  margin-left: 1em;
+}
+
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #2c3e50;
+  font-weight: bold;
+  cursor: pointer;
+  /* Icon */
+}
+.tab-label:hover {
+  background: #1a252f;
+}
+.tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.tab-close:hover {
+  background: #1a252f;
+}
+
+input:checked + .tab-label {
+  background: #1a252f;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
 }
 
 #recommend-products {
