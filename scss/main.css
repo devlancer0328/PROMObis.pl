@@ -1407,6 +1407,7 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 
 .accordion {
+  border-radius: 18px;
   flex: 1;
 }
 .accordion:last-child {
@@ -1414,62 +1415,69 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 
 /* Accordion styles */
-.tabs {
-  border-radius: 8px;
+.accordion-tabs {
   overflow: hidden;
-  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
 }
 
-.tab {
-  width: 100%;
-  color: white;
+.accordion-tab {
+  width: 99%;
+  color: #FFFFFF;
   overflow: hidden;
+  border: 1px solid #253D4E;
 }
-.tab-label {
+.accordion-tab:first-of-type {
+  border-radius: 18px 18px 0 0;
+}
+.accordion-tab:last-of-type {
+  border-radius: 0 0 18px 18px;
+}
+.accordion-tab-label {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background: #2c3e50;
-  font-weight: bold;
+  background: #FFFFFF;
+  color: #253D4E;
+  font-weight: 700;
   cursor: pointer;
   /* Icon */
 }
-.tab-label:hover {
-  background: #1a252f;
+.accordion-tab-label:hover {
+  background: #e6e6e6;
 }
-.tab-label::after {
-  content: "❯";
+.accordion-tab-label::after {
+  content: "➕";
   width: 1em;
   height: 1em;
   text-align: center;
   transition: all 0.35s;
 }
-.tab-content {
+.accordion-tab-content {
   max-height: 0;
   padding: 0 1em;
-  color: #2c3e50;
-  background: white;
+  background: #FFFFFF;
   transition: all 0.35s;
+  color: #253D4E;
 }
-.tab-close {
+.accordion-tab-close {
   display: flex;
   justify-content: flex-end;
   padding: 1em;
   font-size: 0.75em;
-  background: #2c3e50;
+  background: #FFFFFF;
   cursor: pointer;
 }
-.tab-close:hover {
-  background: #1a252f;
+.accordion-tab-close:hover {
+  background: #e6e6e6;
 }
 
-input:checked + .tab-label {
-  background: #1a252f;
+input:checked + .accordion-tab-label {
+  background: #e6e6e6;
 }
-input:checked + .tab-label::after {
-  transform: rotate(90deg);
+input:checked + .accordion-tab-label::after {
+  content: "➖";
 }
-input:checked ~ .tab-content {
+input:checked ~ .accordion-tab-content {
   max-height: 100vh;
   padding: 1em;
 }
