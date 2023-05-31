@@ -84,6 +84,23 @@ header #nav .top-nav .search-bar-wrapper #searchQueryInput::placeholder {
   font-size: 14px;
   line-height: 21px;
 }
+header #nav .top-nav .search-bar-wrapper #searchQuerySelect {
+  position: relative;
+  margin-left: -90px;
+  right: 100px;
+  width: 90px;
+  border: 0;
+  height: 24px;
+  top: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #253D4E;
+}
+header #nav .top-nav .search-bar-wrapper #searchQuerySelect option {
+  cursor: pointer;
+}
 header #nav .top-nav .search-bar-wrapper #searchQuerySubmit {
   margin-left: -90px;
   background: none;
@@ -450,6 +467,9 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-logo-container {
     margin-right: 0 !important;
+  }
+  #searchQuerySelect {
+    display: none !important;
   }
 }
 /* mobile menu */
