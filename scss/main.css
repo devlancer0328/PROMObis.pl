@@ -1540,6 +1540,23 @@ input:checked ~ .accordion-tab-content {
   padding: 4px;
   border-radius: 29px;
 }
+.products-container .products-container-slot.discount .slot-image {
+  position: relative;
+  background: #FFAFAF;
+}
+.products-container .products-container-slot.discount .slot-image::after {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  content: "PROMOCJA";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FF0000;
+}
+.products-container .products-container-slot.discount .slot-price span {
+  color: #FF0000;
+}
 .products-container .products-container-slot .slot-description p {
   font-weight: 400;
   font-size: 18px;

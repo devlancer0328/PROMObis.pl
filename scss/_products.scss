@@ -36,6 +36,27 @@
                 border-radius: 29px;
             }
         }
+        &.discount {
+            .slot-image {
+                position: relative;
+                background: #FFAFAF;
+                &::after {
+                    position: absolute;
+                    top: 16px;
+                    left: 24px;
+                    content: "PROMOCJA";
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FF0000; 
+                }
+            } 
+            .slot-price {
+                span {
+                    color: #FF0000;
+                }
+            }
+        }
         .slot-description {
             p {
                 font-weight: 400;
