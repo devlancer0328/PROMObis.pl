@@ -1177,10 +1177,13 @@ header #nav .bottom-nav .right-container ul li:hover {
 #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
 #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a {
+  position: relative;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1189,20 +1192,24 @@ header #nav .bottom-nav .right-container ul li:hover {
   line-height: 24px;
   color: #012E71;
   text-decoration: none;
-  width: 100%;
-  height: 100%;
   text-align: center;
-}
-#cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a svg {
-  position: absolute;
-  left: 30%;
-  top: 16px;
-  display: inline-flex;
-  justify-content: center;
-  margin-right: 4px;
+  padding: 16px 128px;
 }
 #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a:hover {
   text-decoration: underline;
+}
+#cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a::before {
+  position: absolute;
+  top: 18px;
+  left: 100px;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url(./../assets/icons/backcarticon.svg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media (max-width: 1890px) {
