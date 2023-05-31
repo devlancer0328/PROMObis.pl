@@ -1,12 +1,12 @@
 @import 'nav';
 @import 'breadcrumbs';
-@import 'swiper';
-@import 'our-products';
-@import 'how-we-do-it';
+@import './main_page/swiper';
+@import './main_page/our-products';
+@import './main_page/how-we-do-it';
 @import 'cart-section';
-@import 'our-experience';
-@import 'why-us';
-@import 'our-clients';
+@import './main_page/our-experience';
+@import './main_page/why-us';
+@import './main_page/our-clients';
 @import 'products';
 @import 'footer';
 
