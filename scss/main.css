@@ -1578,14 +1578,14 @@ input:checked ~ .accordion-tab-content {
   text-decoration: none;
 }
 
-footer {
+footer .footer-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #83C000;
   height: 54px;
 }
-footer p {
+footer .footer-bottom p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
