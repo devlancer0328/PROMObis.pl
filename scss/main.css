@@ -13,6 +13,9 @@ body {
   html {
     overflow-x: hidden;
   }
+  body {
+    overflow-y: hidden;
+  }
 }
 header {
   position: fixed;
