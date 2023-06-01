@@ -1980,6 +1980,11 @@ input:checked ~ .accordion-tab-content {
     min-width: 206px;
   }
 }
+#category-section {
+  width: 80vw;
+  margin: 0 auto;
+}
+
 footer {
   border-top: 1px solid #012E71;
 }
