@@ -785,6 +785,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   flex-direction: row;
   margin-bottom: 40px;
   justify-content: space-between;
+  align-items: center;
 }
 .image-text-container .image-text-container-left {
   margin-right: 5%;
@@ -827,6 +828,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   flex-direction: row;
   margin-bottom: 40px;
   justify-content: space-between;
+  align-items: center;
 }
 .text-image-container .text-image-container-left {
   width: 45%;
