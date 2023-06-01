@@ -107,3 +107,24 @@
         }
     }
 }
+
+@media (max-width: 1280px) {
+    .products-container {
+        overflow-x: scroll;
+        padding-bottom: 24px;
+        .products-container-slot {
+            width: 296px;
+            min-width: 296px;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .products-container {
+        .products-container-slot {
+            width: 206px;
+            min-width: 206px;
+        }
+    }
+}
+  

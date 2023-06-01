@@ -149,3 +149,333 @@ footer {
     }
 }
 }
+
+@media (max-width: 1280px) {
+    footer {
+        border-top: 1px solid #012E71;
+        .footer-container {
+            width: 80vw;
+            margin: 0 auto;
+            margin-top: 62px;
+        .footer-top {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 72px;
+            .footer-left-container {
+                display: flex;
+                flex-direction: row;
+                height: max-content;
+                .footer-col {
+                    width: 30vw;
+                    margin-right: 40px;
+                    padding-left: 0;
+                    border-left: 0;
+                    padding-bottom: 16px;
+                    .footer-title {
+                        p {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 22px;
+                            text-transform: uppercase;
+                            color: #012E71;
+                        }
+                    }
+                    .footer-link {
+                        a {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: #253D4E;
+                            text-decoration: none;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-right-container {
+                display: flex;
+                flex-direction: column;
+                .footer-col {
+                    position: relative;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    padding-right: 0;
+                    border-right: 0;
+                    padding-bottom: 0;
+                    margin-top: 64px;
+                    .footer-logo {
+                        position: absolute;
+                        top: -48px;
+                        left: 0;
+                        margin-bottom: 32px;
+                    }
+                    .footer-address {
+                        width: 30vw;
+                        position: relative;
+                        padding-right: 0;
+                        padding-left: 24px;
+                        p {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            text-align: left;
+                            color: #253D4E;
+                            margin: 0;
+                            width: max-content;
+                        }
+                        &::after {
+                            position: absolute;
+                            top: 6px;
+                            left: -12px;
+                            background-size: contain;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            background-image: url(./../assets/icons/Location.svg);
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        }
+                    }
+                    .footer-telephone {
+                        width: 30vw;
+                        position: relative;
+                        padding-right: 0;
+                        padding-left: 24px;
+                        p {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            text-align: left;
+                            color: #253D4E;
+                            margin: 0;
+                            width: max-content;
+                        }
+                        &::after {
+                            position: absolute;
+                            top: 6px;
+                            left: -12px;
+                            background-size: contain;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            background-image: url(./../assets/icons/Call.svg);
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        }
+                    }
+                    .footer-hours {
+                        width: 30vw;
+                        position: relative;
+                        padding-right: 60px;
+                        padding-left: 24px;
+                        p {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            text-align: left;
+                            color: #253D4E;
+                            width: max-content;
+                            margin: 0;
+                        }
+                        &::after {
+                            position: absolute;
+                            top: 6px;
+                            left: -12px;
+                            background-size: contain;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            background-image: url(./../assets/icons/Hour.svg);
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+@media (max-width: 780px) {
+    footer {
+        border-top: 1px solid #012E71;
+        .footer-container {
+            width: 90vw;
+            margin: 0 auto;
+            margin-top: 62px;
+        .footer-top {
+            display: inline-flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-bottom: 16px;
+            .footer-left-container {
+                display: inline-flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                height: max-content;
+                .footer-col {
+                    width: 40vw;
+                    margin-right: 5vw;
+                    padding-left: 0;
+                    border-left: 0;
+                    padding-bottom: 16px;
+                    height: auto;
+                    .footer-title {
+                        p {
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 21px;
+                            text-transform: uppercase;
+                            color: #012E71;
+                        }
+                    }
+                    .footer-link {
+                        a {
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 21px;
+                            color: #253D4E;
+                            text-decoration: none;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-right-container {
+                position: absolute;
+                bottom: 120px;
+                right: 40px;
+                display: inline-flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: 40vw;
+                .footer-col {
+                    position: relative;
+                    display: inline-flex;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    padding-right: 0;
+                    border-right: 0;
+                    padding-bottom: 0;
+                    margin-top: 64px;
+                    width: 40vw;
+                    .footer-logo {
+                        width: 40vw;
+                        position: absolute;
+                        top: -32px;
+                        left: 0;
+                        margin-bottom: 32px;
+                        img {
+                            width: 130px;
+                            height: auto;
+                        }
+                    }
+                    .footer-address {
+                        width: 40vw;
+                        position: relative;
+                        padding-right: 0;
+                        padding-left: 24px;
+                        p {
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 21px;
+                            text-align: left;
+                            color: #253D4E;
+                            margin: 0;
+                            width: max-content;
+                        }
+                        &::after {
+                            position: absolute;
+                            top: 6px;
+                            left: -12px;
+                            background-size: contain;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            background-image: url(./../assets/icons/Location.svg);
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        }
+                    }
+                    .footer-telephone {
+                        width: 40vw;
+                        position: relative;
+                        padding-right: 0;
+                        padding-left: 24px;
+                        p {
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 21px;
+                            text-align: left;
+                            color: #253D4E;
+                            margin: 0;
+                            width: max-content;
+                        }
+                        &::after {
+                            position: absolute;
+                            top: 6px;
+                            left: -12px;
+                            background-size: contain;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            background-image: url(./../assets/icons/Call.svg);
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        }
+                    }
+                    .footer-hours {
+                        width: 40vw;
+                        position: relative;
+                        padding-right: 60px;
+                        padding-left: 24px;
+                        p {
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 21px;
+                            text-align: left;
+                            color: #253D4E;
+                            width: max-content;
+                            margin: 0;
+                        }
+                        &::after {
+                            position: absolute;
+                            top: 6px;
+                            left: -12px;
+                            background-size: contain;
+                            width: 24px;
+                            height: 24px;
+                            content: "";
+                            background-image: url(./../assets/icons/Hour.svg);
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer-bottom {
+    height: 44px !important;
+    p {
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+}
+}

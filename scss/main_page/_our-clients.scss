@@ -25,3 +25,14 @@
         }
     }
 }
+
+@media (max-width: 1280px) {
+    .clients-section {
+        overflow-x: scroll;
+        padding-bottom: 24px;
+        img {
+            width: auto;
+            height: 70px;
+        }
+    }
+}

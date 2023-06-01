@@ -24,3 +24,9 @@
         top: 80px;
     }
 }
+
+@media (max-width: 780px) {
+    section {
+        margin-bottom: 24px !important;
+    }
+}

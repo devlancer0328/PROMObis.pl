@@ -1,6 +1,6 @@
 .the_tabs {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     .slot-price {
@@ -14,6 +14,10 @@
 
   .tab-text {
     border-bottom: 4px solid #FFF;
+    margin-bottom: 24px;
+    width: 10%;
+    min-width: 10%;
+    margin-right: 2%;
   }
   
   .the_tabs label {
@@ -33,13 +37,11 @@
       font-weight: 700;
       font-size: 14px;
       line-height: 18px;
-      max-width: 48px;
     }
   }
   
   .the_tabs .tab {
     width: 100%;
-    padding: 1rem;
     order: 1;
     display: none;
   }
@@ -61,3 +63,26 @@
     border-bottom: 4px solid #012E71;
   }
   
+@media (max-width: 1280px) {
+    .tab-text {
+      width: 18%;
+      min-width: 18%;
+      margin-right: 2%;
+    }
+}
+
+@media (max-width: 760px) {
+  .tab-text {
+    width: 20%;
+    min-width: 20%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 600px) {
+  .tab-text {
+    width: 28%;
+    min-width: 28%;
+    margin-right: 4%;
+  }
+}
