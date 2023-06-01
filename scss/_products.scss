@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 30px;
     .products-container-slot {
         display: flex;
         flex-direction: column;
@@ -54,6 +55,27 @@
             .slot-price {
                 span {
                     color: #FF0000;
+                }
+            }
+        }
+        &.new {
+            .slot-image {
+                position: relative;
+                background: #9DFF9B;
+                &::after {
+                    position: absolute;
+                    top: 16px;
+                    left: 24px;
+                    content: "NOWOŚĆ";
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #2ABE27; 
+                }
+            } 
+            .slot-price {
+                span {
+                    color: #2ABE27;
                 }
             }
         }
