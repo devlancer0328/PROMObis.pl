@@ -1752,6 +1752,9 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
 }
 @media (max-width: 600px) {
+  .one-big-two-small {
+    padding-bottom: 16px;
+  }
   .one-big-two-small .one-big {
     width: 100vw;
     height: 236px;
@@ -2278,7 +2281,7 @@ footer .footer-bottom p {
   footer .footer-container {
     width: 90vw;
     margin: 0 auto;
-    margin-top: 62px;
+    margin-top: 24px;
   }
   footer .footer-container .footer-top {
     display: inline-flex;
