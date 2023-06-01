@@ -752,6 +752,7 @@ header #nav .bottom-nav .right-container ul li:hover {
     width: 40%;
     min-width: 40%;
     margin-right: 10%;
+    margin-bottom: 4px;
   }
 }
 #our-products {
