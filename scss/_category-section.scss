@@ -428,7 +428,13 @@
         .category-filters {
             margin-bottom: 30px;
             .filters-center {
+                flex-direction: column;
+                .filter-select-container {
+                    width: unset;
+                    margin-right: 0;
+                }
                 .filter-color-container {
+                    margin-top: 16px;
                     span {
                         text-align: center;
                     }
