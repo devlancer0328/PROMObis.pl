@@ -4,6 +4,18 @@
     margin-bottom: 120px;
 }
 
+body.category {
+    .products-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+        .products-container-slot {
+            width: 18%;
+            margin-bottom: 24px;
+        }
+    }
+}
+
 .products-container {
     display: flex;
     flex-direction: row;
@@ -131,21 +143,247 @@
 }
 
 @media (max-width: 1280px) {
-    .products-container {
-        overflow-x: scroll;
-        padding-bottom: 24px;
-        .products-container-slot {
-            width: 296px;
-            min-width: 296px;
+    body:not(.category) {
+        .products-container {
+            overflow-x: scroll;
+            padding-bottom: 16px;
+            .products-container-slot {
+                width: 296px;
+                min-width: 296px;
+            }
+            &.discount {
+                .slot-image {
+                    &::after {
+                        top: 8px;
+                        left: 16px;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 17px;
+                    }
+                } 
+            }
+            &.new {
+                .slot-image {
+                    &::after {
+                        top: 8px;
+                        left: 16px;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 17px;
+                    }
+                } 
+            }
+            .slot-description {
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+            .slot-colors {
+                p {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    margin-bottom: 5px;
+                }
+            }
+            .slot-price {
+                border-radius: 14px;
+                height: 32px;
+                width: 90%;
+                margin-bottom: 5%;
+                p {
+                    font-weight: 700;
+                    font-size: 11px;
+                    line-height: 13px;
+                    span {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin: 0 4px;
+                    }
+                }
+            }
+        }
+    }
+    body.category {
+        .products-container {
+            .products-container-slot {
+                width: 30%;
+                margin-bottom: 16px;
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+                &.discount {
+                    .slot-image {
+                        &::after {
+                            top: 8px;
+                            left: 16px;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 17px;
+                        }
+                    } 
+                }
+                &.new {
+                    .slot-image {
+                        &::after {
+                            top: 8px;
+                            left: 16px;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 17px;
+                        }
+                    } 
+                }
+            }
+            .slot-description {
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+            .slot-colors {
+                p {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    margin-bottom: 5px;
+                }
+            }
+            .slot-price {
+                border-radius: 14px;
+                height: 32px;
+                width: 90%;
+                margin-bottom: 5%;
+                p {
+                    font-weight: 700;
+                    font-size: 11px;
+                    line-height: 13px;
+                    span {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin: 0 4px;
+                    }
+                }
+            }
         }
     }
 }
 
 @media (max-width: 760px) {
-    .products-container {
-        .products-container-slot {
-            width: 206px;
-            min-width: 206px;
+    body:not(.category) {
+        .products-container {
+            .products-container-slot {
+                width: 206px;
+                min-width: 206px;
+                &.discount {
+                    .slot-image {
+                        &::after {
+                            font-size: 10px;
+                            line-height: 12px; 
+                        }
+                    } 
+                }
+                &.new {
+                    .slot-image {
+                        &::after {
+                            font-size: 10px;
+                            line-height: 12px;
+                        }
+                    } 
+                }
+            }
+            .slot-description {
+                p {
+                    font-size: 13px;
+                    line-height: 17px;
+                }
+            }
+            .slot-colors {
+                p {
+                    font-size: 10px;
+                    line-height: 12px;
+                    margin-bottom: 3px;
+                }
+            }
+            .slot-price {
+                border-radius: 11px;
+                height: 26px;
+                width: 90%;
+                margin-bottom: 5%;
+                p {
+                    font-size: 9px;
+                    line-height: 10px;
+                    span {
+                        font-size: 17px;
+                        line-height: 21px;
+                        margin: 0 4px;
+                    }
+                }
+            }
+        }
+    }
+    body.category {
+        .products-container {
+            justify-content: space-between;
+            .products-container-slot {
+                width: 43%;
+                margin-bottom: 16px;
+                &:nth-child(2n) {
+                    margin-right: 0;
+                }
+                &:nth-child(3n) {
+                    margin-right: 16px;
+                }
+                &.discount {
+                    .slot-image {
+                        &::after {
+                            font-size: 10px;
+                            line-height: 12px; 
+                        }
+                    } 
+                }
+                &.new {
+                    .slot-image {
+                        &::after {
+                            font-size: 10px;
+                            line-height: 12px;
+                        }
+                    } 
+                }
+            }
+            .slot-description {
+                p {
+                    font-size: 13px;
+                    line-height: 17px;
+                }
+            }
+            .slot-colors {
+                p {
+                    font-size: 10px;
+                    line-height: 12px;
+                    margin-bottom: 3px;
+                }
+            }
+            .slot-price {
+                border-radius: 11px;
+                height: 26px;
+                width: 90%;
+                margin-bottom: 5%;
+                p {
+                    font-size: 9px;
+                    line-height: 10px;
+                    span {
+                        font-size: 17px;
+                        line-height: 21px;
+                        margin: 0 4px;
+                    }
+                }
+            }
         }
     }
 }
