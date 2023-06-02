@@ -38,47 +38,50 @@
     }
 }
 
-@media (max-width: 1560px) {
+@media (max-width: 1280px) {
     .cart-stages {
         ul {
             li {
+                margin-right: 24px;
                 a {
-                    font-size: 28px !important;
+                    font-size: 14px !important;
+                    line-height: 21px;
+                }
+                &::after {
+                    position: absolute;
+                    margin-right: 6px;
+                    top: 5px;
+                    left: -16px;
+                    width: 12px;
+                    height: 12px;
                 }
             }
         }
     }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1530px) {
+    .cart-stages {
+        ul {
+            li {
+                a {
+                    font-size: 32px;
+                    line-height: 40px;
+                    white-space: pre;
+                }
+                &::after {
+                    top: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
     .cart-stages {
         ul {
             flex-wrap: wrap;
             justify-content: flex-start;
-            margin-left: 40px;
-            li {
-                a {
-                    font-size: 18px !important;
-                    line-height: 26px !important;
-                }
-                &::after {
-                    top: 6px !important;
-                    left: -40px !important;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 672px) {
-    .cart-stages {
-        ul {
-            li {
-                &::after {
-                    top: 6px !important;
-                    left: -22px !important;
-                }
-            }
         }
     }
 }

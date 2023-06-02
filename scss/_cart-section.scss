@@ -150,7 +150,7 @@
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: flex-start;
             width: calc(40% - 12px);
             height: auto;
@@ -328,11 +328,15 @@
     #cart-section {
         .cart-container-top {
             flex-direction: column;
+            align-items: flex-start;
             .cart-number {
+                width: max-content;
+                padding: 0 24px;
                 position: relative;
                 left: unset;
                 p {
-                    font-size: 16px;
+                    font-size: 14px;
+                    line-height: 21px;
                 }
             }
         }
@@ -366,8 +370,40 @@
     }
 }
 
+
 @media (max-width: 480px) {
     #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a svg {
         left: 10% !important;
+    }
+    #cart-section .cart-container-bottom .left-cart-container .text-cart-container h2,
+    #cart-section .cart-container-bottom .right-cart-container .text-cart-container h2,
+    #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+    #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container,
+    #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a {
+        width: max-content !important;
+    }
+    #cart-section .cart-container-bottom .right-cart-container .buttons-container .without-signup-btn a,
+    #cart-section .cart-container-bottom .right-cart-container .buttons-container .create-account-btn a,
+    #cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn a,
+    #cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn a,
+    #cart-section .cart-container-back .back-to-cart-btn .back-cart-btn-container a {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+    #cart-section .cart-container-bottom .left-cart-container input {
+        width: calc(100% - 16px) !important;
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    #cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn {
+        margin-top: 16px !important;
+    }
+    #cart-section .cart-container-bottom .left-cart-container .text-cart-container p,
+    #cart-section .cart-container-bottom .right-cart-container .text-cart-container p {
+        font-size: 14px !important;
+        line-height: 21px !important;
     }
 }
