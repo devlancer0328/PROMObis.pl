@@ -1534,6 +1534,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   #cart-section .cart-container-back .back-to-cart-btn {
     width: 100%;
+    white-space: pre;
   }
 }
 @media (max-width: 680px) {
