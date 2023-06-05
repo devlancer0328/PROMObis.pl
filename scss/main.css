@@ -589,6 +589,7 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 .breadcrumbs ul {
   display: inline-flex;
+  flex-wrap: wrap;
   padding-left: 0;
 }
 .breadcrumbs ul li.breadcrumb-item {
@@ -2741,6 +2742,11 @@ body.category .products-container .products-container-slot {
     line-height: 21px;
   }
 }
+#product-section {
+  width: 80vw;
+  margin: 0 auto;
+}
+
 footer {
   border-top: 1px solid #012E71;
 }

@@ -1,6 +1,7 @@
 .breadcrumbs {
     ul {
         display: inline-flex;
+        flex-wrap: wrap;
         padding-left: 0;
         li.breadcrumb-item {
             position: relative;
