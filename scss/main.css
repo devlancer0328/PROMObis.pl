@@ -2746,22 +2746,22 @@ body.category .products-container .products-container-slot {
   width: 80vw;
   margin: 0 auto;
 }
-#product-section .product-main-top-left {
+#product-section .product-main-top-cantainer {
+  display: flex;
+  flex-direction: row;
+}
+#product-section .product-main-top-cantainer .product-main-top-left {
   width: 50%;
   overflow: hidden;
 }
-#product-section .product-main-top-right {
-  width: 50%;
-}
-
-.product-swiper {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper {
   position: relative;
   display: flex;
   z-index: 0;
   width: 100%;
   height: 610px;
 }
-.product-swiper .product-swiper-thumbs {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs {
   display: flex;
   order: 1;
   width: auto;
@@ -2769,7 +2769,7 @@ body.category .products-container .products-container-slot {
   margin-right: 0;
   margin-top: 48px !important;
 }
-.product-swiper .product-swiper-thumbs .swiper-slide {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2778,7 +2778,7 @@ body.category .products-container .products-container-slot {
   width: 120px !important;
   height: 120px !important;
 }
-.product-swiper .product-swiper-thumbs .swiper-slide img {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide img {
   width: 80%;
   height: 80%;
   padding: 10px;
@@ -2787,22 +2787,22 @@ body.category .products-container .products-container-slot {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.product-swiper .product-swiper-thumbs .swiper-slide img:hover {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide img:hover {
   border: 1px solid #83C000;
 }
-.product-swiper .product-swiper-slider {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider {
   display: flex;
   order: 2;
   height: 610px;
   overflow: hidden;
 }
-.product-swiper .product-swiper-slider .swiper-slide {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
 }
-.product-swiper .product-swiper-slider .swiper-slide img {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-slide img {
   width: 610px;
   height: 610px;
   padding: 10px;
@@ -2816,21 +2816,21 @@ body.category .products-container .products-container-slot {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.product-swiper .product-swiper-slider .swiper-button-prev {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-prev {
   position: absolute;
   top: 40px;
   left: 40px;
   width: 44px;
   height: 16px;
 }
-.product-swiper .product-swiper-slider .swiper-button-prev::after {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-prev::after {
   background: url("./../../assets/product-page/product-prev-btn.svg") no-repeat !important;
   font-size: 0 !important;
   width: 44px;
   height: 16px;
   background-size: contain !important;
 }
-.product-swiper .product-swiper-slider .swiper-button-next {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-next {
   position: absolute;
   top: unset;
   bottom: 24px;
@@ -2839,12 +2839,15 @@ body.category .products-container .products-container-slot {
   height: 16px;
   transform: rotate(180deg);
 }
-.product-swiper .product-swiper-slider .swiper-button-next::after {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-next::after {
   background: url("./../../assets/product-page/product-prev-btn.svg") no-repeat !important;
   font-size: 0 !important;
   width: 44px;
   height: 16px;
   background-size: contain !important;
+}
+#product-section .product-main-top-cantainer .product-main-top-right {
+  width: 50%;
 }
 
 footer {
