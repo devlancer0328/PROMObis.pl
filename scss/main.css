@@ -2786,6 +2786,9 @@ body.category .products-container .products-container-slot {
   border-radius: 8px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide img:hover {
   border: 1px solid #83C000;
@@ -2816,6 +2819,9 @@ body.category .products-container .products-container-slot {
   border-radius: 8px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-prev {
   position: absolute;
