@@ -3272,6 +3272,12 @@ body.category .products-container .products-container-slot {
 #product-section .prices-table-container table td.underline {
   text-decoration: underline;
 }
+#product-section .calculate-product-container {
+  padding: 40px;
+  border: 1px solid #D9D9D9;
+  border-radius: 30px;
+  margin-bottom: 32px;
+}
 
 footer {
   border-top: 1px solid #012E71;
