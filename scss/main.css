@@ -3356,7 +3356,7 @@ body.category .products-container .products-container-slot {
   padding-left: 16px;
   cursor: pointer;
 }
-#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-add-new p {
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-action p {
   position: relative;
   font-weight: 700;
   font-size: 18px;
@@ -3367,7 +3367,7 @@ body.category .products-container .products-container-slot {
   bottom: -8px;
   left: 0;
 }
-#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-add-new p::before {
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-action p::before {
   position: absolute;
   top: -2px;
   left: -48px;
@@ -3376,7 +3376,7 @@ body.category .products-container .products-container-slot {
   font-size: 48px;
   color: #83C000;
 }
-#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-add-new p:hover {
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-action p:hover {
   color: #83C000;
 }
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-quantity label {
@@ -3385,7 +3385,7 @@ body.category .products-container .products-container-slot {
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-quantity input {
   visibility: hidden;
 }
-#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-add-new p::before {
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-action p::before {
   position: absolute;
   top: 4px;
   left: -38px;
@@ -3396,7 +3396,7 @@ body.category .products-container .products-container-slot {
   background-size: contain;
   font-size: 0;
 }
-#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-add-new p:hover {
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-action p:hover {
   color: #FF0000;
 }
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top.red {
