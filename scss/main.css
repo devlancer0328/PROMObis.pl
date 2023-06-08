@@ -3308,6 +3308,7 @@ body.category .products-container .products-container-slot {
   border: 1px solid #ADADAD;
   border-radius: 18px;
   height: 45px;
+  width: 178px;
   font-size: 18px;
   padding-left: 16px;
   margin-right: 21px;
@@ -3345,6 +3346,7 @@ body.category .products-container .products-container-slot {
   border: 1px solid #ADADAD;
   border-radius: 18px;
   height: 45px;
+  width: 178px;
   font-size: 18px;
   padding-left: 16px;
   cursor: pointer;
