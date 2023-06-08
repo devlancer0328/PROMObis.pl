@@ -652,6 +652,14 @@
                         }
                     }
                     &.another {
+                        .calculate-product-top-slot-quantity {
+                            label {
+                                visibility: hidden;
+                            }
+                            input {
+                                visibility: hidden;
+                            }
+                        }
                         .calculate-product-top-slot-add-new {
                             p {
                                 &::before {

@@ -3379,6 +3379,12 @@ body.category .products-container .products-container-slot {
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-add-new p:hover {
   color: #83C000;
 }
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-quantity label {
+  visibility: hidden;
+}
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-quantity input {
+  visibility: hidden;
+}
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-add-new p::before {
   position: absolute;
   top: -2px;
