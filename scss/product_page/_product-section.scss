@@ -698,6 +698,7 @@
             .calculate-product-middle-left {
                 display: flex;
                 .middle-left-image {
+                    margin-right: 40px;
                     img {
                         object-fit: contain;
                     }

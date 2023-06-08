@@ -3415,6 +3415,9 @@ body.category .products-container .products-container-slot {
 #product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-left {
   display: flex;
 }
+#product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-left .middle-left-image {
+  margin-right: 40px;
+}
 #product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-left .middle-left-image img {
   -o-object-fit: contain;
      object-fit: contain;
