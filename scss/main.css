@@ -3385,7 +3385,7 @@ body.category .products-container .products-container-slot {
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-quantity input {
   visibility: hidden;
 }
-#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-action p::before {
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-action.delete p::before {
   position: absolute;
   top: 4px;
   left: -38px;
@@ -3396,7 +3396,7 @@ body.category .products-container .products-container-slot {
   background-size: contain;
   font-size: 0;
 }
-#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-action p:hover {
+#product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-action.delete p:hover {
   color: #FF0000;
 }
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top.red {
