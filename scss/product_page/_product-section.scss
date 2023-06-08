@@ -664,12 +664,14 @@
                             p {
                                 &::before {
                                     position: absolute;
-                                    top: -2px;
+                                    top: 4px;
                                     left: -38px;
-                                    content: "X";
-                                    font-weight: 400;
-                                    font-size: 36px;
-                                    color: #FF0000;
+                                    background: url('./../../assets/product-page/icons/red-x-icon.svg');
+                                    width: 24px;
+                                    height: 24px;
+                                    background-repeat: no-repeat;
+                                    background-size: contain;
+                                    font-size: 0;
                                 }
                                 &:hover {
                                     color: #FF0000;

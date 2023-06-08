@@ -3387,12 +3387,14 @@ body.category .products-container .products-container-slot {
 }
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-add-new p::before {
   position: absolute;
-  top: -2px;
+  top: 4px;
   left: -38px;
-  content: "X";
-  font-weight: 400;
-  font-size: 36px;
-  color: #FF0000;
+  background: url("./../../assets/product-page/icons/red-x-icon.svg");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
 }
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-add-new p:hover {
   color: #FF0000;
