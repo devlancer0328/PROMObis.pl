@@ -14,17 +14,13 @@ Used technologies:
 * SCSS
 
 ## Live :star2:
-* Maipage   
-https://goldipl.github.io/PROMObis.pl/    
+* Maipage :arrow_right: https://goldipl.github.io/PROMObis.pl/    
 
-* Category    
-https://goldipl.github.io/PROMObis.pl/category   
+* Category :arrow_right: https://goldipl.github.io/PROMObis.pl/category   
 
-* Product page    
-https://goldipl.github.io/PROMObis.pl/product   
+* Product page :arrow_right: https://goldipl.github.io/PROMObis.pl/product   
 
-* Cart page    
-https://goldipl.github.io/PROMObis.pl/cart    
+* Cart page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart    
 
 ## Screenshots
 * Desktop version :desktop_computer:   
