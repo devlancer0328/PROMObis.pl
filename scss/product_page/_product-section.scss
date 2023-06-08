@@ -671,6 +671,26 @@
                         font-size: 32px;
                         line-height: 39px;
                         color: #253D4E;
+                        margin: 0;
+                    }
+                    .product-color-code {
+                        display: inline-flex;
+                        .product-color {
+                            margin-right: 16px; 
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: #253D4E;
+                           span {
+                            font-weight: 700;
+                           }
+                        }
+                        .product-code {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 30px;
+                            color: #253D4E;
+                        }
                     }
                 }
             }
