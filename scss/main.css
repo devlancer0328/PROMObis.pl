@@ -3564,6 +3564,21 @@ body.category .products-container .products-container-slot {
   font-weight: 700;
 }
 
+#offertory-section {
+  width: 80vw;
+  margin: 0 auto;
+}
+#offertory-section .category-title {
+  font-size: 36px;
+  line-height: 43px;
+  color: #253D4E;
+}
+#offertory-section .category-title span {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
 footer {
   border-top: 1px solid #012E71;
 }
