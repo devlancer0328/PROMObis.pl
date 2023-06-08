@@ -5,7 +5,7 @@
 * [Live](#live-star2)
 
 ## General info
-PROMObis.pl e-commerce shop website
+PROMObis.pl e-commerce shopwebsite
 
 ## Technologies   
 Used technologies:
@@ -14,7 +14,7 @@ Used technologies:
 * SCSS
 
 ## Screenshots
-* Desktop version :computer:   
+* Desktop version :desktop_computer:   
 
 ![Screenshot](./screenshots/Desktop_strona_glowna.jpg)  
 
@@ -22,7 +22,7 @@ Used technologies:
 
 ![Screenshot](./screenshots/Desktop_strona_produktu.jpg)   
 
-* Tablet version :tablet:   
+* Tablet version :computer:   
 
 ![Screenshot](./screenshots/Tablet_strona_glowna.jpg)  
 
