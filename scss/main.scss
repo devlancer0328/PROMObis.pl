@@ -4,7 +4,7 @@
 @import './main_page/swiper';
 @import './main_page/our-products';
 @import './main_page/how-we-do-it';
-@import 'cart-section';
+@import './cart_page/cart-section';
 @import './main_page/our-experience';
 @import './main_page/why-us';
 @import './main_page/our-clients';
@@ -14,12 +14,30 @@
 @import 'products';
 @import 'category-section';
 @import './product_page/product-section';
+@import './cart_page/cart';
+@import './cart_page/cart-your-data';
+@import './cart_page/cart-summary';
 @import 'offerts';
 @import 'footer';
 
 #main-wrapper {
     position: relative;
     top: 181px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    .col-8-container {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .col-4-container {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
 }
 
 @media (max-width: 1280px) {
