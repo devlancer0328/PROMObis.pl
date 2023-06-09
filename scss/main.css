@@ -4393,7 +4393,7 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   display: block;
   width: 50px;
   height: 50px;
-  background: url("./../../assets/product-page/icons/delivery_time_icon.svg");
+  background: url("./../assets/cart-page/delivery-time.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
