@@ -1,0 +1,81 @@
+.cart-your-data-container {
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+    padding: 40px; 
+    margin-top: 48px;
+    margin-bottom: 24px;
+    .buyer-title {
+        h1.title {
+            width: 100%;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #253D4E
+        }
+    }
+    .buyer-data {
+        display: inline-flex;
+        flex-direction: column;
+        width: 45%;
+        margin-right: 2%;
+        .buyer-data-row {
+            display: flex;
+            flex-direction: column;
+        }
+        .buyer-data-col {
+            display: flex;
+            flex-direction: column;
+            .buyer-data-slot {
+                display: flex;
+                flex-direction: column;
+                label {
+                    margin: 8px 0;
+                }
+                input {
+                    height: 45px;
+                    border: 1px solid #ADADAD;
+                    border-radius: 18px;
+                    padding: 0 16px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 31px;
+                    color: #253D4E;
+                }
+            }
+        }
+    }
+    .buyer-address {
+        display:  inline-flex;
+        flex-direction: column;
+        width: 45%;
+        .buyer-address-row {
+            display: flex;
+            flex-direction: column;
+        }
+        .buyer-address-col {
+            display: flex;
+            flex-direction: column;
+            .buyer-data-slot {
+                display: flex;
+                flex-direction: column;
+                label {
+                    margin: 8px 0;
+                }
+                input {
+                    height: 45px;
+                    border: 1px solid #ADADAD;
+                    border-radius: 18px;
+                    padding: 0 16px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 31px;
+                    color: #253D4E;
+                }
+            }
+        }
+    }
+}
+
+body.cart-data .cart-right-container {
+    margin-top: 48px;
+}
