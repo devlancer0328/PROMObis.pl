@@ -7,7 +7,7 @@
     <title>Promobis - testowa strona</title>
     <link rel="stylesheet" href="./scss/main.css">
 </head>
-<body class="cart">
+<body class="cart summary">
     <header>
         <nav id="nav">
             <div class="top-nav">
@@ -238,12 +238,80 @@
                 </ul>
             </div>
 
-            <div class="cart-description">
-                <ol>
-                    <li>1. Pliki graficzne i wytyczne możesz załączyć teraz lub przesłać nam je mailem w odpowiedzi na naszą wiadomość z potwierdzeniem otrzymania zamówienia</li>
-                    <li>2. Po otrzymaniu Twojego zamówienia sprawdzimy pliki graficzne i prześlemy Ci do opłacenia Fakturę Pro Forma</li>
-                    <li>3. Następnie przygotujemy projekt i dopiero po jego akceptacji przystąpimy do znakowania zamówionych produktów.</li>
-                </ol>
+            <div class="cart-container-top">
+                <div class="cart-number">
+                    <p>Nr koszyka: <span>2620643</span></p>
+                </div>
+                <div class="cart-stages">
+                    <ul>
+                        <li class="cart-stage">
+                            <a href="#">Koszyk</a>
+                        </li>
+                        <li class="cart-data">
+                            <a href="#">Twoje dane</a>
+                        </li>
+                        <li class="cart-summary">
+                            <a class="active" href="#">Podsumowanie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12-container">
+                    <div class="cart-col-3-container">
+                        <div class="cart-col-3-container-top">
+                            <h1 class="title">Dane osoby zamawiającej</h1>
+                            <div class="cart-col-3-info">
+                                <p>Jan Kowalski</p>
+                                <p>Dębicka 22</p>
+                                <p>21-477 Warszawa</p>
+                                <p>info@email.com</p>
+                                <p>tel 888 888 888</p>
+                            </div>
+                        </div>
+                        <div class="cart-col-3-container-bottom">
+                            <div class="change-cart-btn">
+                                <a href="#">zmień</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-col-3-container">
+                        <div class="cart-col-3-container-top">
+                            <h1 class="title">Dane do faktury</h1>
+                            <div class="cart-col-3-info">
+                                <p>PROMOBIS</p>
+                                <p>NIP: 558115787</p>
+                                <p>Dębicka 22</p>
+                                <p>21-477 Warszawa</p>
+                            </div>
+                        </div>
+                        <div class="cart-col-3-container-bottom company">
+                            <div class="company-info">
+                                <p>Kupujesz na firmę</p>
+                            </div>
+                            <div class="change-cart-btn">
+                                <a href="#">zmień</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-col-3-container">
+                        <div class="cart-col-3-container-top">
+                            <h1 class="title">Adres dostawy</h1>
+                            <div class="cart-col-3-info">
+                                <p>VIDEODRUK Piotr Pronobisul</p>
+                                <p>Zabrodzka 2/2</p>
+                                <p>52-336 Wrocław</p>
+                                <p>NIP: 8981550803</p>
+                                <p>Iwona Zuber</p>
+                                <p>tel. 500 500 500</p>
+                            </div>
+                        </div>
+                        <div class="cart-col-3-container-bottom">
+                            <div class="change-cart-btn">
+                                <a href="#">zmień</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
 
             <div class="row-container">
@@ -277,24 +345,14 @@
                             <div class="offerts-product-bottom-extra">
                                 <div class="offerts-product-bottom-extra-left">
                                     <div class="offerts-product-bottom-extra-left-text">
-                                        <p>Opisz nam gdzie mamy umieścić logo, podaj numery kolorów wg. Pantone jeśli posiadasz. 1</p>
-                                        <p>1. Według Twoich wytycznych przygotujemy projekt.</p>
-                                        <p>2. Dopiero po jego akceptacji przystąpimy do realizacji zamówienia</p>
-                                    </div>
-                                    <div class="offerts-product-bottom-extra-left-btn">
-                                        <div class="extra-left-btn">
-                                            <a href="#">Chcę podać wytyczne</a>
-                                        </div>
+                                       <p><strong>Twoje wytyczne:</strong> Nadruk na korpusie, logo w 2 kolorach, Pantone 349C i 8225C. Naskuwce grawer, strona www.dlugopis.pl</p>
                                     </div>
                                 </div>
                                 <div class="offerts-product-bottom-extra-right">
-                                    <div class="offerts-product-bottom-extra-right-btn">
-                                        <div class="extra-right-btn">
-                                            <a href="#">Wgraj pliki</a>
-                                        </div>
-                                    </div>
                                     <div class="offerts-product-bottom-extra-right-text">
-                                        <p>Plik powinien być w wersji wektorowej, w formacie: .cdr, .pdf, .svg, .ai, .eps<span>?</span></p>
+                                        <strong>Wgrano plik:</strong>
+                                        <br>
+                                        <p>logo kolor dlugopis.cdr</p>
                                     </div>
                                 </div>
                             </div>
@@ -345,24 +403,14 @@
                             <div class="offerts-product-bottom-extra">
                                 <div class="offerts-product-bottom-extra-left">
                                     <div class="offerts-product-bottom-extra-left-text">
-                                        <p>Opisz nam gdzie mamy umieścić logo, podaj numery kolorów wg. Pantone jeśli posiadasz. 1</p>
-                                        <p>1. Według Twoich wytycznych przygotujemy projekt.</p>
-                                        <p>2. Dopiero po jego akceptacji przystąpimy do realizacji zamówienia</p>
-                                    </div>
-                                    <div class="offerts-product-bottom-extra-left-btn">
-                                        <div class="extra-left-btn">
-                                            <a href="#">Chcę podać wytyczne</a>
-                                        </div>
+                                        <p><strong>Twoje wytyczne:</strong> Nadruk na korpusie, logo w 2 kolorach, Pantone 349C i 8225C. Naskuwce grawer, strona www.dlugopis.pl</p>
                                     </div>
                                 </div>
                                 <div class="offerts-product-bottom-extra-right">
-                                    <div class="offerts-product-bottom-extra-right-btn">
-                                        <div class="extra-right-btn">
-                                            <a href="#">Wgraj pliki</a>
-                                        </div>
-                                    </div>
                                     <div class="offerts-product-bottom-extra-right-text">
-                                        <p>Plik powinien być w wersji wektorowej, w formacie: .cdr, .pdf, .svg, .ai, .eps<span>?</span></p>
+                                        <strong>Wgrano plik:</strong>
+                                        <br>
+                                        <p>logo kolor dlugopis.cdr</p>
                                     </div>
                                 </div>
                             </div>
@@ -417,6 +465,19 @@
                             <div class="cart-summary-btn">
                                 <div class="summary-btn">
                                     <a href="#">Dalej</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-consents-and-regulations-container">
+                            <div class="cart-consents-and-regulations">
+                                <h1 class="title">Zgody i regulaminy</h1>
+                                <div class="regulations-checbox">
+                                    <input type="checkbox" id="regulation_first" name="regulation_first" value="Akceptuję regulamin sklepu internetowego">
+                                    <label for="regulation_first">Akceptuję regulamin sklepu internetowego</label>
+                                </div>
+                                <div class="regulations-checbox">
+                                    <input type="checkbox" id="regulation_second" name="regulation_second" value="Chcę zapisać się do newslettera, a co za tym idzie wyrażam zgodę na otrzymywanie na mój adres e-mail informacji o nowościach, promocjach i produktach w sklepie. Wiem, że w każdej chwili będę mógł wycofać zgodę">
+                                    <label for="regulation_second">Chcę zapisać się do newslettera, a co za tym idzie wyrażam zgodę na otrzymywanie na mój adres e-mail informacji o nowościach, promocjach i produktach w sklepie. Wiem, że w każdej chwili będę mógł wycofać zgodę</label>
                                 </div>
                             </div>
                         </div>

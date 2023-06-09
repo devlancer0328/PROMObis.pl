@@ -226,7 +226,7 @@
         </nav>
     </header>
     <div id="main-wrapper">
-        <section id="cart-section" class="cart">
+        <section id="cart-section">
             <div class="breadcrumbs">
                 <ul>
                     <li class="breadcrumb-item">
@@ -237,216 +237,71 @@
                     </li>
                 </ul>
             </div>
-
-            <div class="cart-description">
-                <ol>
-                    <li>1. Pliki graficzne i wytyczne możesz załączyć teraz lub przesłać nam je mailem w odpowiedzi na naszą wiadomość z potwierdzeniem otrzymania zamówienia</li>
-                    <li>2. Po otrzymaniu Twojego zamówienia sprawdzimy pliki graficzne i prześlemy Ci do opłacenia Fakturę Pro Forma</li>
-                    <li>3. Następnie przygotujemy projekt i dopiero po jego akceptacji przystąpimy do znakowania zamówionych produktów.</li>
-                </ol>
+            <div class="cart-container-top">
+                <div class="cart-number">
+                    <p>Nr koszyka: <span>2620643</span></p>
+                </div>
+                <div class="cart-stages">
+                    <ul>
+                        <li class="cart-stage">
+                            <a href="#">Koszyk</a>
+                        </li>
+                        <li class="cart-data">
+                            <a class="active" href="#">Twoje dane</a>
+                        </li>
+                        <li class="cart-summary">
+                            <a href="#">Podsumowanie</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="row-container">
-                <div class="col-8-container">
-                    <div class="offerts-product-container">
-                        <div class="offerts-product-slot">
-                            <div class="offerts-product-top">
-                                <p>Usuń</p>
-                            </div>
-                            <div class="offerts-product-middle">
-                                <div class="offerts-product-middle-left">
-                                    <div class="middle-left-image">
-                                        <img src="./assets/product-page/main_pen.jpg" alt="pen" width="158" height="158">
-                                    </div>
-                                    <div class="middle-left-description">
-                                        <h1 class="product-title">Długopis reklamowy plastikowy</h1>
-                                        <div class="product-color-code">
-                                            <p class="product-color">Kolor: <span>czarny</span></p>
-                                            <p class="product-code">Kod: <span>1168103</span></p>
-                                        </div>
-                                        <div class="product-additional">
-                                            <span>wraz ze znakowaniem</span>
-                                            <ul>
-                                                <li>tampodruk - 1 kolor (0,25 zł/szt. netto)</li>
-                                                <li>tampodruk - 1 kolor (0,25 zł/szt. netto)</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="offerts-product-bottom-extra">
-                                <div class="offerts-product-bottom-extra-left">
-                                    <div class="offerts-product-bottom-extra-left-text">
-                                        <p>Opisz nam gdzie mamy umieścić logo, podaj numery kolorów wg. Pantone jeśli posiadasz. 1</p>
-                                        <p>1. Według Twoich wytycznych przygotujemy projekt.</p>
-                                        <p>2. Dopiero po jego akceptacji przystąpimy do realizacji zamówienia</p>
-                                    </div>
-                                    <div class="offerts-product-bottom-extra-left-btn">
-                                        <div class="extra-left-btn">
-                                            <a href="#">Chcę podać wytyczne</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="offerts-product-bottom-extra-right">
-                                    <div class="offerts-product-bottom-extra-right-btn">
-                                        <div class="extra-right-btn">
-                                            <a href="#">Wgraj pliki</a>
-                                        </div>
-                                    </div>
-                                    <div class="offerts-product-bottom-extra-right-text">
-                                        <p>Plik powinien być w wersji wektorowej, w formacie: .cdr, .pdf, .svg, .ai, .eps<span>?</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="offerts-product-bottom">
-                                <div class="offerts-product-bottom-first">
-                                    <div class="delivery-price">
-                                        <p>Koszt dostawy: <span>20,00</span> zł netto</p>
-                                    </div>
-                                    <div class="product-quantity-container">
-                                        <p><span class="product-quantity">250</span> szt. x <span class="product-each-quantity">0,99</span> zł</p>
-                                    </div>
-                                </div>
-                                <div class="offerts-product-bottom-second">
-                                    <div class="realization-time">
-                                        <p>Czas realizacji 8-10 dni roboczych</p>
-                                    </div>
-                                    <div class="summary-netto">
-                                        <p>razem netto: <span>247,50</span><strong> zł</strong></p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="cart-container-bottom">
+                <div class="left-cart-container">
+                    <div class="text-cart-container">
+                        <h2>Mam już konto</h2>
+                        <p>Wpisz swoje dane</p>
+                    </div>
+                    <div class="mail-container">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" pattern=".+@globex\.com" required>
+                    </div>
+                    <div class="password-container">
+                        <label for="password">Hasło:</label>
+                        <input type="password" id="password" pattern=".+@globex\.com" required>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="login-btn">
+                            <a href="#">Zaloguj się</a>
                         </div>
-                        <div class="offerts-product-slot">
-                            <div class="offerts-product-top">
-                                <p>Usuń</p>
-                            </div>
-                            <div class="offerts-product-middle">
-                                <div class="offerts-product-middle-left">
-                                    <div class="middle-left-image">
-                                        <img src="./assets/product-page/main_pen.jpg" alt="pen" width="158" height="158">
-                                    </div>
-                                    <div class="middle-left-description">
-                                        <h1 class="product-title">Długopis reklamowy plastikowy</h1>
-                                        <div class="product-color-code">
-                                            <p class="product-color">Kolor: <span>czarny</span></p>
-                                            <p class="product-code">Kod: <span>1168103</span></p>
-                                        </div>
-                                        <div class="product-additional">
-                                            <span>wraz ze znakowaniem</span>
-                                            <ul>
-                                                <li>tampodruk - 1 kolor (0,25 zł/szt. netto)</li>
-                                                <li>tampodruk - 1 kolor (0,25 zł/szt. netto)</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="offerts-product-bottom-extra">
-                                <div class="offerts-product-bottom-extra-left">
-                                    <div class="offerts-product-bottom-extra-left-text">
-                                        <p>Opisz nam gdzie mamy umieścić logo, podaj numery kolorów wg. Pantone jeśli posiadasz. 1</p>
-                                        <p>1. Według Twoich wytycznych przygotujemy projekt.</p>
-                                        <p>2. Dopiero po jego akceptacji przystąpimy do realizacji zamówienia</p>
-                                    </div>
-                                    <div class="offerts-product-bottom-extra-left-btn">
-                                        <div class="extra-left-btn">
-                                            <a href="#">Chcę podać wytyczne</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="offerts-product-bottom-extra-right">
-                                    <div class="offerts-product-bottom-extra-right-btn">
-                                        <div class="extra-right-btn">
-                                            <a href="#">Wgraj pliki</a>
-                                        </div>
-                                    </div>
-                                    <div class="offerts-product-bottom-extra-right-text">
-                                        <p>Plik powinien być w wersji wektorowej, w formacie: .cdr, .pdf, .svg, .ai, .eps<span>?</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="offerts-product-bottom">
-                                <div class="offerts-product-bottom-first">
-                                    <div class="delivery-price">
-                                        <p>Koszt dostawy: <span>20,00</span> zł netto</p>
-                                    </div>
-                                    <div class="product-quantity-container">
-                                        <p><span class="product-quantity">250</span> szt. x <span class="product-each-quantity">0,99</span> zł</p>
-                                    </div>
-                                </div>
-                                <div class="offerts-product-bottom-second">
-                                    <div class="realization-time">
-                                        <p>Czas realizacji 8-10 dni roboczych</p>
-                                    </div>
-                                    <div class="summary-netto">
-                                        <p>razem netto: <span>247,50</span><strong> zł</strong></p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="remind-pass-btn">
+                            <a href="#">Przypomnij hasło</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-4-container">
-                    <div class="cart-right-container">
-                        <div class="cart-summary-container">
-                            <div class="cart-summary">
-                                <h1 class="title">Łącznie</h1>
-                            </div>
-                            <div class="cart-summary-value">
-                                <p class="value-text">Wartość produktów</p>
-                                <p class="value-price">247,50 zł</p>
-                            </div>
-                            <div class="cart-summary-delivery">
-                                <p class="delivery-text">Dostawa</p>
-                                <p class="delivery-price">20,50 zł</p>
-                            </div>
-                            <hr>
-                            <div class="cart-summary-netto">
-                                <p class="value-text">Razem netto:</p>
-                                <p class="value-price">247,50 zł</p>
-                            </div>
-                            <div class="cart-summary-vat">
-                                <p class="delivery-text">+23 % VAT</p>
-                                <p class="delivery-price">299,50 zł</p>
-                            </div>
-                            <div class="cart-summary-summary">
-                                <p class="summary-text">Do zapłaty:</p>
-                                <p class="summary-price">320,00 zł</p>
-                            </div>
-                            <div class="cart-summary-btn">
-                                <div class="summary-btn">
-                                    <a href="#">Dalej</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cart-bank-transfer-container">
-                            <div class="cart-bank-transfer">
-                                <h1 class="title">100% Przedpłata przelew tradycyjny</h1>
-                                <p>Otrzymasz Fakturę Pro Forma. Gdy otrzymamy płatność, przystąpimy do realizacji zamówienia</p>
-                            </div>
-                        </div>
-                        <div class="delivery-car-container">
-                            <div class="delivery-car">
-                                <h1 class="title">Dostawa kurierem</h1>
-                                <p>Zamówienie prześlemy za pośrednictwem firmy kurierskiej bezpośrednio na wskazany adres.</p>
-                            </div>
+                <div class="right-cart-container">
+                    <div class="text-cart-container">
+                        <h2>Kontynuuj bez logowania</h2>
+                        <p>Zrealizuj zamówienie jako gość</p>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="without-signup-btn">
+                            <a href="#">Kontynuuj bez rejestracji</a>
+                        </div>    
+                        <span>lub</span>
+                        <div class="create-account-btn">
+                            <a href="#">Załóż konto</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <hr>
-        
-        <section id="back-to-shop">
-            <div class="back-top-shop-btn-container">
-                <div class="back-top-shop-btn">
-                    <a href="#">Wróć do sklepu</a>
+            <div class="cart-container-back">
+                <div class="back-to-cart-btn">
+                    <div class="back-cart-btn-container">
+                        <a href="#">Wróć do koszyka</a>
+                    </div>
                 </div>
             </div>
         </section>
-
         <footer>
             <div class="footer-container">
             <div class="footer-top">
@@ -563,7 +418,7 @@
         <div class="footer-bottom">
             <p>© <span></span> PROMObis. Wszystkie prawa zastrzeżone</p>
         </div>
-    </footer>
+        </footer>
     </div>
     <script src="./js/script.js"></script>
 </body>
