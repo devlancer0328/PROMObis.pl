@@ -2840,7 +2840,7 @@ body.category .products-container .products-container-slot {
   height: 16px;
 }
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-prev::after {
-  background: url("./../../assets/product-page/icons/product-prev-btn.svg") no-repeat !important;
+  background: url("./../../assets/product-page/product-prev-btn.svg") no-repeat !important;
   font-size: 0 !important;
   width: 44px;
   height: 16px;
@@ -2856,7 +2856,7 @@ body.category .products-container .products-container-slot {
   transform: rotate(180deg);
 }
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-next::after {
-  background: url("./../../assets/product-page/icons/product-prev-btn.svg") no-repeat !important;
+  background: url("./../../assets/product-page/product-prev-btn.svg") no-repeat !important;
   font-size: 0 !important;
   width: 44px;
   height: 16px;
@@ -3064,27 +3064,27 @@ body.category .products-container .products-container-slot {
   display: block;
   width: 64px;
   height: 64px;
-  background: url("./../../assets/product-page/icons/description_icon.svg");
+  background: url("./../../assets/product-page/description_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #product-section .product-main-title .left-product-text-container .h1-title.others::before {
-  background: url("./../../assets/product-page/icons/others_icon.svg");
+  background: url("./../../assets/product-page/others_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #product-section .product-main-title .left-product-text-container .h1-title.store::before {
-  background: url("./../../assets/product-page/icons/store_icon.svg");
+  background: url("./../../assets/product-page/store_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #product-section .product-main-title .left-product-text-container .h1-title.price::before {
-  background: url("./../../assets/product-page/icons/prices_icon.svg");
+  background: url("./../../assets/product-page/prices_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #product-section .product-main-title .left-product-text-container .h1-title.calculate::before {
-  background: url("./../../assets/product-page/icons/calculate_icon.svg");
+  background: url("./../../assets/product-page/calculate_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -3200,7 +3200,7 @@ body.category .products-container .products-container-slot {
   left: -32px;
   display: block;
   content: "";
-  background: url("./../../assets/product-page/icons/PLflag.svg") no-repeat;
+  background: url("./../../assets/product-page/PLflag.svg") no-repeat;
   background-size: contain;
   width: 28px;
   height: 18px;
@@ -3220,7 +3220,7 @@ body.category .products-container .products-container-slot {
   left: -32px;
   display: block;
   content: "";
-  background: url("./../../assets/product-page/icons/EUflag.svg") no-repeat;
+  background: url("./../../assets/product-page/EUflag.svg") no-repeat;
   background-size: contain;
   width: 28px;
   height: 18px;
@@ -3241,7 +3241,7 @@ body.category .products-container .products-container-slot {
   left: 0;
   display: block;
   content: "";
-  background: url("./../../assets/product-page/icons/delivery-car.svg") no-repeat;
+  background: url("./../../assets/product-page/delivery-car.svg") no-repeat;
   background-size: contain;
   width: 66px;
   height: 34px;
@@ -3389,7 +3389,7 @@ body.category .products-container .products-container-slot {
   position: absolute;
   top: 4px;
   left: -38px;
-  background: url("./../../assets/product-page/icons/red-x-icon.svg");
+  background: url("./../../assets/product-page/red-x-icon.svg");
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
@@ -3550,7 +3550,7 @@ body.category .products-container .products-container-slot {
   display: block;
   width: 50px;
   height: 50px;
-  background: url("./../../assets/product-page/icons/delivery_time_icon.svg");
+  background: url("./../../assets/product-page/delivery_time_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
