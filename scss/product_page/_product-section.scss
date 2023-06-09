@@ -84,7 +84,7 @@
                         width: 44px;
                         height: 16px;
                         &::after {
-                            background: url('./../../assets/product-page/product-prev-btn.svg') no-repeat !important;
+                            background: url('./../assets/product-page/product-prev-btn.svg') no-repeat !important;
                             font-size: 0 !important;
                             width: 44px;
                             height: 16px;
@@ -100,7 +100,7 @@
                         height: 16px;
                         transform: rotate(180deg);
                         &::after {
-                            background: url('./../../assets/product-page/product-prev-btn.svg') no-repeat !important;
+                            background: url('./../assets/product-page/product-prev-btn.svg') no-repeat !important;
                             font-size: 0 !important;
                             width: 44px;
                             height: 16px;
@@ -321,27 +321,27 @@
                     display: block;
                     width: 64px;
                     height: 64px;
-                    background: url('./../../assets/product-page/description_icon.svg');
+                    background: url('./../assets/product-page/description_icon.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
                 &.others::before {
-                    background: url('./../../assets/product-page/others_icon.svg');
+                    background: url('./../assets/product-page/others_icon.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
                 &.store::before {
-                    background: url('./../../assets/product-page/store_icon.svg');
+                    background: url('./../assets/product-page/store_icon.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
                 &.price::before {
-                    background: url('./../../assets/product-page/prices_icon.svg');
+                    background: url('./../assets/product-page/prices_icon.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
                 &.calculate::before {
-                    background: url('./../../assets/product-page/calculate_icon.svg');
+                    background: url('./../assets/product-page/calculate_icon.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
@@ -469,7 +469,7 @@
                             left: -32px;
                             display: block;
                             content: '';
-                            background: url('./../../assets/product-page/PLflag.svg') no-repeat;
+                            background: url('./../assets/product-page/PLflag.svg') no-repeat;
                             background-size: contain;
                             width: 28px;
                             height: 18px;
@@ -491,7 +491,7 @@
                             left: -32px;
                             display: block;
                             content: '';
-                            background: url('./../../assets/product-page/EUflag.svg') no-repeat;
+                            background: url('./../assets/product-page/EUflag.svg') no-repeat;
                             background-size: contain;
                             width: 28px;
                             height: 18px;
@@ -516,7 +516,7 @@
             left: 0;
             display: block;
             content: '';
-            background: url('./../../assets/product-page/delivery-car.svg') no-repeat;
+            background: url('./../assets/product-page/delivery-car.svg') no-repeat;
             background-size: contain;
             width: 66px;
             height: 34px;
@@ -666,7 +666,7 @@
                                     position: absolute;
                                     top: 4px;
                                     left: -38px;
-                                    background: url('./../../assets/product-page/red-x-icon.svg');
+                                    background: url('./../assets/product-page/red-x-icon.svg');
                                     width: 24px;
                                     height: 24px;
                                     background-repeat: no-repeat;
@@ -845,7 +845,7 @@
                             display: block;
                             width: 50px;
                             height: 50px;
-                            background: url('./../../assets/product-page/delivery_time_icon.svg');
+                            background: url('./../assets/product-page/delivery_time_icon.svg');
                             background-size: contain;
                             background-repeat: no-repeat;
                         }
