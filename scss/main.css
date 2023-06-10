@@ -2879,26 +2879,28 @@ body.category .products-container .products-container-slot {
   color: #253D4E;
   margin: 16px 0;
 }
-#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-color {
+#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-color p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   margin: 0;
 }
-#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-color span {
+#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-color p span {
   font-weight: 700;
 }
-#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-code {
+#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-code p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  margin: 0;
 }
-#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-status {
+#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-status p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  margin: 0;
 }
-#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-status span {
+#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-status p span {
   color: #2ABE27;
   font-weight: 700;
 }

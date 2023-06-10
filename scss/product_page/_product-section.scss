@@ -129,26 +129,34 @@
                     margin: 16px 0;
                 }
                 .product-main-top-color {
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 30px;
-                    margin: 0;
-                    span {
-                        font-weight: 700;
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin: 0;
+                        span {
+                            font-weight: 700;
+                        }
                     }
                 }
                 .product-main-top-code {
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 30px;
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin: 0;
+                    }
                 }
                 .product-main-top-status {
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 30px;
-                    span {
-                        color: #2ABE27;
-                        font-weight: 700;
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin: 0;
+                        span {
+                            color: #2ABE27;
+                            font-weight: 700;
+                        }
                     }
                 }
                 .product-main-top-price {
