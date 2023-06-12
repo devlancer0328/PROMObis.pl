@@ -4545,6 +4545,29 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-position: center center;
 }
 
+#account-section {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+#account-section h1.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #253D4E;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+#account-section h1.title .page-description {
+  margin-bottom: 24px;
+}
+#account-section h1.title .page-description p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #253D4E;
+}
+
 footer {
   border-top: 1px solid #012E71;
 }

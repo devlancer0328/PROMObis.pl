@@ -1,0 +1,22 @@
+#account-section {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    h1.title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #253D4E;
+        margin-top: 0;
+        margin-bottom: 16px;
+        .page-description {
+            margin-bottom: 24px;
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #253D4E;
+            }
+        }
+    }
+}
