@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promobis - testowa strona</title>
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body class="contact">
+    <header>
+        <nav id="nav">
+            <div class="top-nav">
+                <div class="hamburger">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </div>
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./assets/img/logo.svg" alt="promobis-logo" width="274" height="60">
+                    </a>
+                </div>
+                <div class="search-bar-wrapper">
+                    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="|   Czego szukasz?" value="" />
+                    <select id="searchQuerySelect">
+                        <option>Wszędzie</option>
+                        <option>Kategoria</option>
+                        <option>Kategoria2</option>
+                    </select>
+                    <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 4C7.13401 4 4 7.13401 4 11C4 14.866 7.13401 18 11 18C14.866 18 18 14.866 18 11C18 7.13401 14.866 4 11 4ZM2 11C2 6.02944 6.02944 2 11 2C15.9706 2 20 6.02944 20 11C20 15.9706 15.9706 20 11 20C6.02944 20 2 15.9706 2 11Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9433 15.9428C16.3338 15.5523 16.967 15.5523 17.3575 15.9428L21.7075 20.2928C22.098 20.6833 22.098 21.3165 21.7075 21.707C21.317 22.0975 20.6838 22.0975 20.2933 21.707L15.9433 17.357C15.5528 16.9665 15.5528 16.3333 15.9433 15.9428Z" fill="white"/>
+                        </svg>  
+                    </button>
+                </div>
+                <div class="account-cart-container">
+                    <div class="account-container">
+                        <div class="logo-container">
+                            <a href="#">
+                                <img class="account-image" src="./assets/icons/account.svg" alt="account image" width="27" height="33">
+                            </a>
+                        </div>
+                        <div class="account-text-container">
+                            <a class="login" href="#">
+                                <p>Zaloguj się</p>
+                            </a>
+                            <a class="create-account" href="#">
+                                Utwórz konto
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <a class="cart-link" href="./cart.html">
+                            <div class="cart-logo-container">
+                                <img class="cart-image" src="./assets/icons/cart.svg" alt="cart image" width="31" height="31">
+                                <span class="cart-quantity">0</span>
+                            </div>
+                            <div class="cart-total-price">
+                                <p>0,00 zł</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="left-container">
+                    <ul>
+                        <li class="bottom-nav-links">Oferta gadżetów
+                            <div class="bottom-nav-sublist">
+                                <ul>
+                                    <li>Koszulki 1
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Koszulki 2
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Koszulki 3
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Koszulki 4
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="bottom-nav-links">Oferta tematyczna
+                            <div class="bottom-nav-sublist">
+                                <ul>
+                                    <li>Buty 1
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Buty 2
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Buty 3
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Buty 4
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-container">
+                    <ul>
+                        <a href="#">
+                            <li>Promocje</li>
+                        </a>
+                        <a href="#">
+                            <li>Znakowanie</li>
+                        </a>
+                        <a href="#">
+                            <li>E-katalogi</li>
+                        </a>
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                        <a href="#">
+                            <li>Kontakt</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="main-wrapper">
+        <section id="contact-section">
+            <div class="breadcrumbs">
+                <ul>
+                    <li class="breadcrumb-item">
+                        <a href="#">Strona główna</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+
+            <h1 class="title">Kontakt</h1>
+            <div class="page-description">
+                <p>
+                    Przyjmujemy zamówienia przez naszą stronę internetową. W razie wątpliwości lub pytań dotyczących oferty możesz zadzwonić lub napisać do nas maila! Postaramy się udzielić Ci wyczerpującej odpowiedzi. Zapraszamy do współpracy!
+                </p>
+            </div>
+
+            <div class="row-container">
+                <div class="col-4-container">
+                    <div class="contact-form">
+                        <form>
+                            <h1 class="title">Formularz kontaktowy</h1>
+                            <div class="contact-form-slot">
+                                <label for="namesurname">Imię i Nazwisko:</label>
+                                <input type="text" id="namesurname" required>
+                            </div>
+                            <div class="contact-form-slot">
+                                <label for="company">Nazwa firmy:</label>
+                                <input type="text" id="company">
+                            </div>
+                            <div class="contact-form-slot">
+                                <label for="phone">Telefon:</label>
+                                <input type="number" id="phone" required>
+                            </div>
+                            <div class="contact-form-slot">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" pattern=".+@globex\.com" required>
+                            </div>
+                            <div class="contact-form-slot">
+                                <label for="textarea">Wiadomość:</label>
+                                <textarea name="textarea" id="textarea" rows="6" required></textarea>
+                            </div>
+                            <div class="recaptcha" id="g-recaptcha3">reCAPTCHA</div>
+                            <div class="send-btn">
+                                <a href="#">Wyślij</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-8-container">
+                    <div class="contact-2-rows">
+                        <div class="contact-row">
+                            <h1 class="title">Zadzwoń</h1>
+                            <div class="contact-description telephone">
+                                <p><a href="tel:+71 336 96 90">tel. 71 336 96 90</a></p>
+                                <p><a href="tel:+71 367 23 65">tel. 71 367 23 65</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <h1 class="title">Napisz</h1>
+                            <div class="contact-description mail">
+                                <a href="mailto:info@promobis.pl">info@promobis.pl</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-1-row">
+                        <div class="contact-address">
+                            <div class="contact-address-container">
+                                <h1 class="title">Adres</h1>
+                                <div class="contact-description location">
+                                    <p><strong>PROMOBIS gadżety reklamowe</strong></p>
+                                    <p>ul. Zabrodzka 2</p>
+                                    <p> 52-336 Wrocław</p>
+                                </div>
+                                <div class="contact-description hours">
+                                    <p>8:00 - 16:00</p>
+                                </div>
+                            </div>
+                            <div class="contact-address-map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.423330824365!2d16.9763409!3d51.063735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc36dab87eb11%3A0x315e3c58080aadc!2sZabrodzka%202%2C%2052-336%20Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1686594511011!5m2!1spl!2spl" width="425" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-left-container">
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            <p>Zamówienia</p>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Zaloguj się / Zarejestruj się</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Jak zamawiać?</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Formy płatności</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Zwroty i reklamacje</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Najczęściej zadawane pytania</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Regulamin</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Polityka prywatności</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Polityka cookies</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            <p>Informacje</p>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Kontakt</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">O nas</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Katalogi do pobrania</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Mapa strony</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Blog</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Nasze realizacje</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Facebook</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">YouTube</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            <p>Oferta</p>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Kubki reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Koszulki reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Torby bawełniane</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Plecaki na sznurkach</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Długopisy reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Czapki reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Parasole</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Pendrive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right-container">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <img src="./assets/img/logo.svg" alt="footer-logo" width="187" height="45">
+                        </div>
+                        <div class="footer-address">
+                            <p>ul. Zabrodzka 2</p>
+                            <p>52-336 Wrocław</p>
+                        </div>
+                        <div class="footer-telephone">
+                            <p>tel. 71 336 96 90</p>
+                            <p>tel. 71 367 23 65</p>
+                        </div>
+                        <div class="footer-hours">
+                            <p>Czynne w dni robocze</p>
+                            <p>od godz. 8:00 do 16:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span></span> PROMObis. Wszystkie prawa zastrzeżone</p>
+        </div>
+    </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
