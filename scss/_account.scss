@@ -1,4 +1,5 @@
 #account-section {
+    position: relative;
     width: 80vw;
     margin: 0 auto;
     margin-bottom: 120px;
@@ -18,6 +19,75 @@
             line-height: 30px;
             color: #253D4E;
             margin: 0;
+        }
+    }
+    .account-add-a-new-address-container {
+        display: none;
+        position: absolute;
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 30px;
+        z-index: 99999999999999999999999999999999999999999;
+        padding: 60px 108px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 40vw;
+        &.active {
+            display: block;
+        }
+        .x-close-icon {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+            content: '';
+            background: url('./../assets/icons/account-x-icon.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .title {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #253D4E;
+        }
+        .address-cont-big-slot {
+            display: flex;
+            flex-direction: row;
+            .address-cont-left-slot {
+                display: flex;
+                flex-direction: column;
+            }
+            .address-cont-right-slot {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .address-slot-btn {
+            .save-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #012E71;
+                color: #FFFFFF;
+                text-decoration: none;
+                border: 1px solid #012E71;
+                margin: 0 auto;
+                font-weight: 700;
+                border-radius: 39px;
+                width: 60%;
+                height: 56px;
+                margin-top: 22px;
+                transition: 0.6s;
+                margin-top: 64px;
+                &:hover {
+                    background: #FFFFFF;
+                    color: #012E71;
+                }
+            }
         }
     }
 }
@@ -122,7 +192,262 @@
 
 .col-10-container {
     width: 85%;
-    border: 1px solid #D9D9D9;
-    border-radius: 30px;
-    padding: 40px;
+    height: max-content;
+    .account-password-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid #D9D9D9;
+        border-radius: 30px;
+        padding: 40px;
+        .account-pass-cont-left {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            .account-data-cont,
+            .account-tel-number-cont,
+            .account-mail-cont {
+                padding-left: 40px;
+                position: relative;
+                .account-title {
+                    margin: 12px 0;
+                }
+                .account-desc {
+                    margin: 12px 0;
+                }
+            }
+            .account-data-cont::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: 0;
+                background: url('./../assets/icons/account.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .account-tel-number-cont::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: 0;
+                background: url('./../assets/icons/Call.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .account-mail-cont::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: 0;
+                background: url('./../assets/icons/envelope.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+        .account-pass-cont-right {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            border-left: 1px solid #000000;
+            padding-left: 5%;
+            .account-pass-container {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                padding-left: 40px;
+                &::before {
+                    position: absolute;
+                    content: '';
+                    top: 8px;
+                    left: 4px;
+                    background: url('./../assets/icons/password.svg');
+                    width: 20px;
+                    height: 20px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                label {
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 36px;
+                    color: #253D4E;
+                }
+                input {
+                    border: 1px solid #ADADAD;
+                    border-radius: 18px;
+                    height: 40px;
+                    padding-left: 16px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin-top: 8px;
+                    margin-left: -40px;
+                }
+            }
+        }
+    }
+    .account-address-container,
+    .account-invoice-container {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #D9D9D9;
+        border-radius: 30px;
+        padding: 40px;
+        width: calc(42% - 24px);
+        margin-top: 24px;
+        margin-right: 24px;
+        min-height: 280px;
+        &.account-add-address-container {
+            min-height: auto;
+        }
+        &:nth-child(odd) {
+            margin-right: 0;
+        }
+        .account-data-cont {
+            position: relative;
+            padding-left: 40px;
+            .account-title {
+                margin: 12px 0;
+            }
+            .account-desc {
+                margin: 12px 0;
+                &.default {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 36px;
+                    color: #2ABE27;
+                }
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: 0;
+                background: url('./../assets/icons/Location.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &.invoice::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: 0;
+                background: url('./../assets/icons/account-data.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &.address::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: -8px;
+                background: url('./../assets/icons/blue-car.svg');
+                width: 40px;
+                height: 40px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+    .account-change-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #012E71;
+        border-radius: 39px;
+        height: 56px;
+        width: 70%;
+        margin-top: 24px;
+        a.change-btn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: relative;
+            margin: 0;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: #253D4E;
+            &:hover {
+                text-decoration: none;
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: calc(50% - 56px);
+                background: url('./../assets/cart-page/cart-change-icon.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &.add-address::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: calc(50% - 56px);
+                background: url('./../assets/icons/add.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+        &.double {
+            width: 45%;
+            margin-right: 8px;
+        }
+    }
+    .account-delete-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #012E71;
+        border-radius: 39px;
+        height: 56px;
+        width: 45%;
+        margin-top: 24px;
+        a.delete-btn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            position: relative;
+            margin: 0;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: #253D4E;
+            &:hover {
+                text-decoration: none;
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                top: 18px;
+                left: calc(50% - 56px);
+                background: url('./../assets/icons/Trashcan.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
 }
