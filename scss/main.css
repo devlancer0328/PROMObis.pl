@@ -4573,8 +4573,92 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   width: 15%;
   border: 1px solid #D9D9D9;
   border-radius: 30px;
-  padding: 40px;
+  padding: 40px 40px 40px 64px;
   margin-right: 24px;
+  min-height: 900px;
+}
+.col-2-container .account-link-slot .account-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #253D4E;
+  width: -moz-max-content;
+  width: max-content;
+  padding-left: 16px;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.col-2-container .account-link-slot .account-link:hover, .col-2-container .account-link-slot .account-link.active {
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+  color: #00B2FF;
+}
+.col-2-container .account-link-slot .account-link:hover.account::before, .col-2-container .account-link-slot .account-link.active.account::before {
+  background: url("./../assets/icons/account-account-active.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link:hover.orders::before, .col-2-container .account-link-slot .account-link.active.orders::before {
+  background: url("./../assets/icons/account-cart-active.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link:hover.prices::before, .col-2-container .account-link-slot .account-link.active.prices::before {
+  background: url("./../assets/icons/account-calc-active.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link:hover.files::before, .col-2-container .account-link-slot .account-link.active.files::before {
+  background: url("./../assets/icons/account-files-active.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link.account::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -16px;
+  background: url("./../assets/icons/account-account.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link.orders::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -16px;
+  background: url("./../assets/icons/account-cart.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link.prices::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -16px;
+  background: url("./../assets/icons/account-calc.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link.files::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -16px;
+  background: url("./../assets/icons/account-files.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .col-10-container {
