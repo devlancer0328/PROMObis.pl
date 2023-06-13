@@ -300,6 +300,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li {
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a {
   text-decoration: none;
+  color: #012e71;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a:hover {
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
