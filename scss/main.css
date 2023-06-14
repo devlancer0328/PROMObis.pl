@@ -4570,7 +4570,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   color: #253D4E;
   margin: 0;
 }
-#account-section .account-add-a-new-address-container {
+#account-section .account-add-a-new-address-container,
+#account-section .account-change-address-container,
+#account-section .account-change-personal-data-container,
+#account-section .account-change-delivery-address-container,
+#account-section .account-change-invoice-data-container,
+#account-section .account-change-password-container {
   display: none;
   position: absolute;
   background: #FFFFFF;
@@ -4583,10 +4588,20 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   transform: translate(-50%, -50%);
   width: 60vw;
 }
-#account-section .account-add-a-new-address-container.active {
+#account-section .account-add-a-new-address-container.active,
+#account-section .account-change-address-container.active,
+#account-section .account-change-personal-data-container.active,
+#account-section .account-change-delivery-address-container.active,
+#account-section .account-change-invoice-data-container.active,
+#account-section .account-change-password-container.active {
   display: block;
 }
-#account-section .account-add-a-new-address-container .x-close-icon {
+#account-section .account-add-a-new-address-container .x-close-icon,
+#account-section .account-change-address-container .x-close-icon,
+#account-section .account-change-personal-data-container .x-close-icon,
+#account-section .account-change-delivery-address-container .x-close-icon,
+#account-section .account-change-invoice-data-container .x-close-icon,
+#account-section .account-change-password-container .x-close-icon {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -4598,46 +4613,91 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-repeat: no-repeat;
   background-size: contain;
 }
-#account-section .account-add-a-new-address-container .title {
+#account-section .account-add-a-new-address-container .title,
+#account-section .account-change-address-container .title,
+#account-section .account-change-personal-data-container .title,
+#account-section .account-change-delivery-address-container .title,
+#account-section .account-change-invoice-data-container .title,
+#account-section .account-change-password-container .title {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #253D4E;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot {
+#account-section .account-add-a-new-address-container .address-cont-big-slot,
+#account-section .account-change-address-container .address-cont-big-slot,
+#account-section .account-change-personal-data-container .address-cont-big-slot,
+#account-section .account-change-delivery-address-container .address-cont-big-slot,
+#account-section .account-change-invoice-data-container .address-cont-big-slot,
+#account-section .account-change-password-container .address-cont-big-slot {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 45%;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label {
   margin-left: 16px;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label::before {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label::before,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label::before,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label::before,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label::before,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label::before,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox label::before {
   display: none;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox input {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox input,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox input,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox input,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox input,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox input,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot.checkbox input {
   width: 20px;
   height: 20px;
   margin-left: 0;
   padding: 0;
   margin-top: 12px;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label {
   position: relative;
   font-weight: 700;
   font-size: 18px;
@@ -4646,7 +4706,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   margin-left: 32px;
   margin-top: 8px;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label::before {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label::before,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label::before,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label::before,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label::before,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label::before,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label::before {
   position: absolute;
   content: "";
   top: 4px;
@@ -4657,7 +4722,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-repeat: no-repeat;
   background-size: contain;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label.name::before {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label.name::before,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label.name::before,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label.name::before,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label.name::before,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label.name::before,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot label.name::before {
   position: absolute;
   content: "";
   top: 4px;
@@ -4668,7 +4738,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-repeat: no-repeat;
   background-size: contain;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot input {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot input,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot input,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot input,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot input,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot input,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot .add-a-new-address-slot input {
   border: 1px solid #ADADAD;
   border-radius: 18px;
   height: 45px;
@@ -4678,18 +4753,33 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   line-height: 30px;
   margin-top: 8px;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-right-slot,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-right-slot,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-right-slot,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-right-slot,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-right-slot {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 45%;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label {
   position: relative;
   font-weight: 700;
   font-size: 18px;
@@ -4698,7 +4788,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   margin-left: 32px;
   margin-top: 8px;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label::before {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label::before,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label::before,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label::before,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label::before,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label::before,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label::before {
   position: absolute;
   content: "";
   top: 4px;
@@ -4709,7 +4804,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-repeat: no-repeat;
   background-size: contain;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label.surname::before {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label.surname::before,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label.surname::before,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label.surname::before,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label.surname::before,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label.surname::before,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot label.surname::before {
   position: absolute;
   content: "";
   top: 4px;
@@ -4720,7 +4820,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-repeat: no-repeat;
   background-size: contain;
 }
-#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot input {
+#account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot input,
+#account-section .account-change-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot input,
+#account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot input,
+#account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot input,
+#account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot input,
+#account-section .account-change-password-container .address-cont-big-slot .address-cont-right-slot .add-a-new-address-slot input {
   border: 1px solid #ADADAD;
   border-radius: 18px;
   height: 45px;
@@ -4730,7 +4835,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   line-height: 30px;
   margin-top: 8px;
 }
-#account-section .account-add-a-new-address-container .address-slot-btn .save-btn {
+#account-section .account-add-a-new-address-container .address-slot-btn .save-btn,
+#account-section .account-change-address-container .address-slot-btn .save-btn,
+#account-section .account-change-personal-data-container .address-slot-btn .save-btn,
+#account-section .account-change-delivery-address-container .address-slot-btn .save-btn,
+#account-section .account-change-invoice-data-container .address-slot-btn .save-btn,
+#account-section .account-change-password-container .address-slot-btn .save-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4747,7 +4857,12 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   transition: 0.6s;
   margin-top: 64px;
 }
-#account-section .account-add-a-new-address-container .address-slot-btn .save-btn:hover {
+#account-section .account-add-a-new-address-container .address-slot-btn .save-btn:hover,
+#account-section .account-change-address-container .address-slot-btn .save-btn:hover,
+#account-section .account-change-personal-data-container .address-slot-btn .save-btn:hover,
+#account-section .account-change-delivery-address-container .address-slot-btn .save-btn:hover,
+#account-section .account-change-invoice-data-container .address-slot-btn .save-btn:hover,
+#account-section .account-change-password-container .address-slot-btn .save-btn:hover {
   background: #FFFFFF;
   color: #012E71;
 }
@@ -4994,17 +5109,17 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   line-height: 36px;
   color: #2ABE27;
 }
-.col-10-container .account-address-container .account-data-cont::before,
-.col-10-container .account-invoice-container .account-data-cont::before {
+.col-10-container .account-address-container .account-data-cont.location::before,
+.col-10-container .account-invoice-container .account-data-cont.location::before {
   position: absolute;
   content: "";
   top: 18px;
   left: 0;
-  background: url("./../assets/icons/Location.svg");
-  width: 20px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: url("./../assets/icons/Location.svg") !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
 }
 .col-10-container .account-address-container .account-data-cont.invoice::before,
 .col-10-container .account-invoice-container .account-data-cont.invoice::before {

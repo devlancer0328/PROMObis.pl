@@ -21,7 +21,12 @@
             margin: 0;
         }
     }
-    .account-add-a-new-address-container {
+    .account-add-a-new-address-container,
+    .account-change-address-container,
+    .account-change-personal-data-container,
+    .account-change-delivery-address-container,
+    .account-change-invoice-data-container, 
+    .account-change-password-container {
         display: none;
         position: absolute;
         background: #FFFFFF;
@@ -440,16 +445,16 @@
                     color: #2ABE27;
                 }
             }
-            &::before {
+            &.location::before {
                 position: absolute;
                 content: '';
                 top: 18px;
                 left: 0;
-                background: url('./../assets/icons/Location.svg');
-                width: 20px;
-                height: 20px;
-                background-repeat: no-repeat;
-                background-size: contain;
+                background: url('./../assets/icons/Location.svg') !important;
+                width: 20px !important;
+                height: 20px !important;
+                background-repeat: no-repeat !important;
+                background-size: contain !important;
             }
             &.invoice::before {
                 position: absolute;

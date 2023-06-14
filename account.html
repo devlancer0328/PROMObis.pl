@@ -292,23 +292,26 @@
                         </div>
                     </div>
                   </div>
-                  <div class="account-address-container">
-                    <div class="account-data-cont">
+                  <div class="account-address-container location">
+                    <div class="account-data-cont address location">
                         <h2 class="account-title">Adres</h2>
                         <p class="account-desc">Jan Kowalski</p>
                         <p class="account-desc">Dębicka 22</p>
                         <p class="account-desc">21-477 Warszawa</p>
                     </div>
-                    <div class="account-change-btn">
-                        <a class="change-btn" href="#">
-                            <p>Zmień</p>
-                        </a>
+                    <div class="account-double-btn-container">
+                        <div class="account-change-btn">
+                            <a class="change-btn" href="#">
+                                <p>Zmień</p>
+                            </a>
+                        </div>
                     </div>
                   </div>
                   <div class="account-invoice-container">
                     <div class="account-data-cont invoice">
                         <h2 class="account-title">Dane do faktury</h2>
                         <p class="account-desc">PROMOBIS</p>
+                        <p class="account-desc">NIP 558115787</p>
                         <p class="account-desc">Dębicka 22</p>
                         <p class="account-desc">21-477 Warszawa</p>
                     </div>
@@ -339,7 +342,7 @@
                         </div>
                     </div>
                   </div>
-                  <div class="account-address-container">
+                  <div class="account-address-container change">
                     <div class="account-data-cont address">
                         <h2 class="account-title">Adres dostawy</h2>
                         <p class="account-desc">Jan Kowalski</p>
@@ -370,6 +373,8 @@
                     </div>
                   </div>
                 </div>
+
+                <!-- Modal add a new address -->
                 <div class="account-add-a-new-address-container">
                     <span class="x-close-icon"></span>
                     <h1 class="title">Dodaj adres dostawy</h1>
@@ -380,7 +385,7 @@
                                 <input type="text" id="imie" name="imie" placeholder="Wpisz imię"/>
                             </div>
                             <div class="add-a-new-address-slot">
-                                <label class="street" for="street">Ulica, nr domu, nr mieszakania</label>
+                                <label class="street" for="street">Ulica, nr domu, nr mieszkania</label>
                                 <input type="text" id="street" name="street" placeholder="Wpisz ulicę i numer"/>
                             </div>
                             <div class="add-a-new-address-slot">
@@ -413,6 +418,193 @@
                         </a>
                     </div>
                 </div>
+
+                <!-- Modal change delivery address -->
+                <div class="account-change-delivery-address-container">
+                    <span class="x-close-icon"></span>
+                    <h1 class="title">Zmień adres dostawy</h1>
+                    <div class="address-cont-big-slot">
+                        <div class="address-cont-left-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="name" for="imie">Imię</label>
+                                <input type="text" id="imie" name="imie" placeholder="Wpisz imię"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="street" for="street">Ulica, nr domu, nr mieszkania</label>
+                                <input type="text" id="street" name="street" placeholder="Wpisz ulicę i numer"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="zip" for="zip">Kod pocztowy</label>
+                                <input type="number" id="zip" name="zip" placeholder="Wpisz kod pocztowy"/>
+                            </div>
+                            <div class="add-a-new-address-slot checkbox">
+                                <label class="checkbox" for="checkbox">Domyślny adres dostawy</label>
+                                <input type="checkbox" id="checkbox" name="checkbox"/>
+                            </div>
+                        </div>
+                        <div class="address-cont-right-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="surname" for="imie">Nazwisko</label>
+                                <input type="text" id="surname" name="surname" placeholder="Wpisz nazwisko"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="additional" for="imie">Dodatkowe informacje</label>
+                                <input type="text" id="additional" name="additional" placeholder="Wpisz dodatkowe info"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="city" for="imie">Miejscowość</label>
+                                <input type="text" id="city" name="city" placeholder="Wpisz miejscowość"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-slot-btn">
+                        <a class="save-btn" href="#">
+                            <p>Zapisz</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal change invoice data -->
+                <div class="account-change-invoice-data-container">
+                    <span class="x-close-icon"></span>
+                    <h1 class="title">Zmień dane do faktury</h1>
+                    <div class="address-cont-big-slot">
+                        <div class="address-cont-left-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="company name" for="company">Nazwa firmy</label>
+                                <input type="text" id="company" name="company" placeholder="Wpisz nazwę firmy"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="street" for="street">Ulica i numer</label>
+                                <input type="text" id="street" name="street" placeholder="Wpisz ulicę i numer"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="zip" for="zip">Kod pocztowy</label>
+                                <input type="number" id="zip" name="zip" placeholder="Wpisz kod pocztowy"/>
+                            </div>
+                        </div>
+                        <div class="address-cont-right-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="nip surname" for="nip">NIP</label>
+                                <input type="number" id="nip" name="nip" placeholder="Wpisz NIP"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="additional" for="imie">Dodatkowe informacje</label>
+                                <input type="text" id="additional" name="additional" placeholder="Wpisz dodatkowe info"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="city" for="imie">Miejscowość</label>
+                                <input type="text" id="city" name="city" placeholder="Wpisz miejscowość"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-slot-btn">
+                        <a class="save-btn" href="#">
+                            <p>Zapisz</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal change password -->
+                <div class="account-change-password-container">
+                    <span class="x-close-icon"></span>
+                    <h1 class="title">Zmień hasło</h1>
+                    <div class="address-cont-big-slot">
+                        <div class="address-cont-left-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="password" for="password">Podaj nowe hasło</label>
+                                <input type="password" id="password" name="password" placeholder="Wpisz nowe hasło"/>
+                            </div>
+                        </div>
+                        <div class="address-cont-right-slot">
+                        </div>
+                    </div>
+                    <div class="address-slot-btn">
+                        <a class="save-btn" href="#">
+                            <p>Zapisz</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Modal change address -->
+                <div class="account-change-address-container">
+                    <span class="x-close-icon"></span>
+                    <h1 class="title">Zmień adres</h1>
+                    <div class="address-cont-big-slot">
+                        <div class="address-cont-left-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="name" for="imie">Imię</label>
+                                <input type="text" id="imie" name="imie" placeholder="Wpisz imię"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="street" for="street">Ulica, nr domu, nr mieszkania</label>
+                                <input type="text" id="street" name="street" placeholder="Wpisz ulicę i numer"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="zip" for="zip">Kod pocztowy</label>
+                                <input type="number" id="zip" name="zip" placeholder="Wpisz kod pocztowy"/>
+                            </div>
+                            <div class="add-a-new-address-slot checkbox">
+                                <label class="checkbox" for="checkbox">Domyślny adres dostawy</label>
+                                <input type="checkbox" id="checkbox" name="checkbox"/>
+                            </div>
+                        </div>
+                        <div class="address-cont-right-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="surname" for="imie">Nazwisko</label>
+                                <input type="text" id="surname" name="surname" placeholder="Wpisz nazwisko"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="additional" for="imie">Dodatkowe informacje</label>
+                                <input type="text" id="additional" name="additional" placeholder="Wpisz dodatkowe info"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="city" for="imie">Miejscowość</label>
+                                <input type="text" id="city" name="city" placeholder="Wpisz miejscowość"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-slot-btn">
+                        <a class="save-btn" href="#">
+                            <p>Zapisz</p>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Modal change your personal data -->
+                <div class="account-change-personal-data-container">
+                    <span class="x-close-icon"></span>
+                    <h1 class="title">Edytuj swoje dane osobowe</h1>
+                    <div class="address-cont-big-slot">
+                        <div class="address-cont-left-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="name" for="imie">Imię</label>
+                                <input type="text" id="imie" name="imie" placeholder="Wpisz imię"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="phone" for="phone">Numer telefonu</label>
+                                <input type="number" id="phone" name="phone" placeholder="Wpisz nr telefonu"/>
+                            </div>
+                        </div>
+                        <div class="address-cont-right-slot">
+                            <div class="add-a-new-address-slot">
+                                <label class="surname" for="imie">Nazwisko</label>
+                                <input type="text" id="surname" name="surname" placeholder="Wpisz nazwisko"/>
+                            </div>
+                            <div class="add-a-new-address-slot">
+                                <label class="email" for="imie">Adres E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="Wpisz E-mail"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-slot-btn">
+                        <a class="save-btn" href="#">
+                            <p>Zapisz</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
