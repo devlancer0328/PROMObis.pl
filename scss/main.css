@@ -5540,6 +5540,203 @@ body.cart-pricing-details .account-long-slot-info-container p .long-slot-not-val
   text-decoration: none;
 }
 
+.send-btn-offerts,
+.save-btn-offerts {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #012E71;
+  border-radius: 39px;
+  width: 30%;
+  height: 56px;
+  margin-top: 0;
+  margin-right: 12px;
+  transition: 0.6s;
+}
+.send-btn-offerts:hover,
+.save-btn-offerts:hover {
+  background: #012E71;
+}
+.send-btn-offerts:hover a,
+.save-btn-offerts:hover a {
+  color: #FFFFFF;
+}
+.send-btn-offerts.active,
+.save-btn-offerts.active {
+  background: #012E71;
+}
+.send-btn-offerts.active a,
+.save-btn-offerts.active a {
+  color: #FFFFFF;
+}
+.send-btn-offerts.active:hover,
+.save-btn-offerts.active:hover {
+  background: #FFFFFF;
+}
+.send-btn-offerts.active:hover a,
+.save-btn-offerts.active:hover a {
+  color: #012E71;
+}
+.send-btn-offerts a,
+.save-btn-offerts a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #012E71;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.offerts-table-container table {
+  margin: 24px 0;
+}
+.offerts-table-container table th {
+  text-align: left;
+}
+.offerts-table-container table td {
+  width: 20%;
+  padding: 8px;
+  border-bottom: 1px solid gray;
+}
+.offerts-table-container table td p {
+  margin: 4px 0;
+}
+
+.pagination-center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.pagination-center p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #29235C;
+}
+.pagination-center .page {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  background: #00B2FF;
+  border: 0.5px solid #4D77FF;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+  margin-left: 12px;
+}
+.pagination-center .page p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.pagination-center .page:hover {
+  background: #253D4E;
+}
+.pagination-center .arrow-next {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border: 0.5px solid #253D4E;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  margin-left: 12px;
+}
+.pagination-center .arrow-next p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #253D4E;
+}
+.pagination-center .arrow-next:hover {
+  background: #253D4E;
+}
+.pagination-center .arrow-next:hover p {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1280px) {
+  .pagination-center {
+    margin-bottom: 40px;
+  }
+  .pagination-center::after {
+    top: 68px;
+  }
+  .pagination-center p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .pagination-center .page {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+  }
+  .pagination-center .page p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .pagination-center .arrow-next {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+  }
+  .pagination-center .arrow-next p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .seo-text-info {
+    margin-bottom: 24px;
+  }
+  .seo-text-info p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 820px) {
+  .pagination-center {
+    margin-bottom: 40px;
+  }
+  .pagination-center p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .pagination-center .page {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+  }
+  .pagination-center .page p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .pagination-center .arrow-next {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+  }
+  .pagination-center .arrow-next p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .seo-text-info {
+    margin-bottom: 24px;
+  }
+  .seo-text-info p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
 footer {
   border-top: 1px solid #012E71;
 }
