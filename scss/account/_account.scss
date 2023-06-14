@@ -261,6 +261,12 @@
                 background-repeat: no-repeat;
                 background-size: contain;
             }
+            &:hover.offerts::before,
+            &.active.offerts::before {
+                background: url('./../assets/icons/account_offerts_active.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
             &.account::before {
                 position: absolute;
                 content: '';
@@ -300,6 +306,17 @@
                 top: 4px;
                 left: -16px;
                 background: url('./../assets/icons/account-files.svg');
+                width: 20px;
+                height: 20px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &.offerts::before {
+                position: absolute;
+                content: '';
+                top: 4px;
+                left: -16px;
+                background: url('./../assets/icons/account_offerts.svg');
                 width: 20px;
                 height: 20px;
                 background-repeat: no-repeat;

@@ -4914,6 +4914,11 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-repeat: no-repeat;
   background-size: contain;
 }
+.col-2-container .account-link-slot .account-link:hover.offerts::before, .col-2-container .account-link-slot .account-link.active.offerts::before {
+  background: url("./../assets/icons/account_offerts_active.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .col-2-container .account-link-slot .account-link.account::before {
   position: absolute;
   content: "";
@@ -4953,6 +4958,17 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   top: 4px;
   left: -16px;
   background: url("./../assets/icons/account-files.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.col-2-container .account-link-slot .account-link.offerts::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -16px;
+  background: url("./../assets/icons/account_offerts.svg");
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
