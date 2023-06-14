@@ -1,0 +1,79 @@
+.account-orders-long-container {
+    border: 1px solid #D9D9D9;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    .account-orders-text-container {
+        display: flex;
+        flex-direction: column;
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #253D4E;
+            margin: 6px 0;
+            &.order-status span {
+                color: #2ABE27;
+                font-weight: 700;
+            }
+            &.order-value span {
+                font-weight: 700;
+                font-size: 32px;
+                color: #012E71;
+            }
+        }
+    }
+    .order-container-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        .order-image {
+            margin-right: 16px;
+        }
+        .order-title-and-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .order-name {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                color: #253D4E;
+            }
+            .order-btn-container {
+                display: flex;
+                justify-content: flex-end;
+                .order-btn {
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #012E71;
+                    border-radius: 39px;
+                    background: #FFFFFF;
+                    height: 56px;
+                    width: 60%;
+                    transition: 0.8s;
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        position: relative;
+                        margin: 0;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-decoration: underline;
+                        color: #012E71;
+                    }
+                    &:hover a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
