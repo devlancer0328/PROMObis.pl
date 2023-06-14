@@ -5234,7 +5234,8 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-repeat: no-repeat;
   background-size: contain;
 }
-.col-10-container .account-long-container {
+
+.account-long-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -5243,16 +5244,16 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   padding: 40px;
   margin-bottom: 24px;
 }
-.col-10-container .account-long-container.not-valid .long-slot-prices-top p {
+.account-long-container.not-valid .long-slot-prices-top p {
   color: #ADADAD !important;
 }
-.col-10-container .account-long-container.not-valid .long-slot-prices-bottom p {
+.account-long-container.not-valid .long-slot-prices-bottom p {
   color: #ADADAD !important;
 }
-.col-10-container .account-long-container.not-valid .long-slot-prices-bottom p .netto-summary-price {
+.account-long-container.not-valid .long-slot-prices-bottom p .netto-summary-price {
   color: #ADADAD !important;
 }
-.col-10-container .account-long-container .account-long-container-slot {
+.account-long-container .account-long-container-slot {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -5261,55 +5262,55 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   margin-bottom: 24px;
   border-bottom: 1px solid #253D4E;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-left .account-long-slot-img {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-left .account-long-slot-img {
   width: 123px;
   height: 123px;
   margin-right: 32px;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-left .account-long-slot-img img {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-left .account-long-slot-img img {
   width: 123px;
   height: 123px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-title h1 {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-title h1 {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #253D4E;
   margin: 0;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p {
   display: flex;
   flex-direction: row;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-color p {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-color p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #253D4E;
   margin-right: 16px;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-color p span {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-color p span {
   font-weight: 700;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-code p {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-code p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #253D4E;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-top p {
+.account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-top p {
   text-align: right;
   font-weight: 700;
   font-size: 26px;
@@ -5317,7 +5318,7 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   color: #253D4E;
   margin: 0;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-bottom p {
+.account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-bottom p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -5325,19 +5326,19 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   white-space: pre;
   margin: 0;
 }
-.col-10-container .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-bottom p .netto-summary-price {
+.account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-bottom p .netto-summary-price {
   font-weight: 700;
   font-size: 32px;
   line-height: 52px;
   color: #012E71;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container {
+.account-long-container .account-long-slot-info-btn-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container {
   display: flex;
   justify-content: flex-start;
   padding-left: 16px;
@@ -5346,24 +5347,24 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   border-radius: 30px;
   width: 55%;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container p {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #012E71;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container p .long-slot-valid {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container p .long-slot-valid {
   color: #2ABE27;
   font-weight: 700;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container p .long-slot-not-valid {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container p .long-slot-not-valid {
   color: #FF0000;
   font-weight: 700;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container {
   width: 30%;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -5374,7 +5375,7 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   width: 100%;
   transition: 0.8s;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn a {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn a {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -5386,10 +5387,10 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   text-decoration: none;
   color: #FFFFFF;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn:hover {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn:hover {
   background-color: #FFFFFF;
 }
-.col-10-container .account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn:hover a {
+.account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn:hover a {
   color: #012E71;
 }
 
