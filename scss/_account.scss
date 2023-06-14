@@ -28,11 +28,11 @@
         border: 1px solid #D9D9D9;
         border-radius: 30px;
         z-index: 99999999999999999999999999999999999999999;
-        padding: 60px 108px;
+        padding: 60px 80px;
         top: 10%;
         left: 50%;
         transform: translate(-50%,-50%);
-        width: 40vw;
+        width: 60vw;
         &.active {
             display: block;
         }
@@ -57,13 +57,127 @@
         .address-cont-big-slot {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
             .address-cont-left-slot {
                 display: flex;
                 flex-direction: column;
+                align-items: flex-start;
+                width: 45%;
+                .add-a-new-address-slot {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    &.checkbox {
+                        flex-direction: row-reverse;
+                        justify-content: flex-end;
+                        label {
+                            margin-left: 16px;
+                            &::before {
+                                display: none;
+                            }
+                        }
+                        input {
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 0;
+                            padding: 0;
+                            margin-top: 12px;
+                        }
+                    }
+                    label {
+                        position: relative;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #253D4E;
+                        margin-left: 32px;
+                        margin-top: 8px;
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            top: 4px;
+                            left: -32px;
+                            background: url('./../assets/icons/Location.svg');
+                            width: 20px;
+                            height: 20px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                        &.name::before {
+                            position: absolute;
+                            content: '';
+                            top: 4px;
+                            left: -32px;
+                            background: url('./../assets/icons/account-account.svg');
+                            width: 20px;
+                            height: 20px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                    }
+                    input {
+                        border: 1px solid #ADADAD;
+                        border-radius: 18px;
+                        height: 45px;
+                        padding-left: 16px;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-top: 8px;
+                    }
+                }
             }
             .address-cont-right-slot {
                 display: flex;
                 flex-direction: column;
+                align-items: flex-start;
+                width: 45%;
+                .add-a-new-address-slot {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    label {
+                        position: relative;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #253D4E;
+                        margin-left: 32px;
+                        margin-top: 8px;
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            top: 4px;
+                            left: -32px;
+                            background: url('./../assets/icons/Location.svg');
+                            width: 20px;
+                            height: 20px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                        &.surname::before {
+                            position: absolute;
+                            content: '';
+                            top: 4px;
+                            left: -32px;
+                            background: url('./../assets/icons/account-account.svg');
+                            width: 20px;
+                            height: 20px;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                    }
+                    input {
+                        border: 1px solid #ADADAD;
+                        border-radius: 18px;
+                        height: 45px;
+                        padding-left: 16px;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-top: 8px;
+                    }
+                }
             }
         }
         .address-slot-btn {
