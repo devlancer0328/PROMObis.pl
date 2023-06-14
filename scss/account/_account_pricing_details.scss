@@ -1,0 +1,54 @@
+body.cart-pricing-details {
+    .col-10-container {
+        .cart-add-icon {
+            margin-top: 32px;
+            p {
+                font-size: 0;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 4px;
+                    left: -38px;
+                    background: url('./../../assets/icons/account-cart-add.svg');
+                    width: 32px;
+                    height: 32px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    font-size: 0;
+                }
+            }
+        }
+        
+    }
+    .back-to-offerts {
+        width: auto !important;
+        .back-top-shop-btn-container {
+            margin: 0 0 24px 0 !important;
+        }
+    }
+    .account-long-slot-info-container {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        align-items: center;
+        border: 1px solid #D9D9D9;
+        border-radius: 30px;
+        height: 57px;
+        width: 100%;
+        margin-right: 24px;
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #012E71;
+            .long-slot-valid {
+                color: #2ABE27;
+                font-weight: 700;
+            }
+            .long-slot-not-valid {
+                color: #FF0000;
+                font-weight: 700;
+            }
+        }
+    }
+}
