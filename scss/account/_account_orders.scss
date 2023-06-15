@@ -69,8 +69,7 @@
                         text-decoration: underline;
                         color: #012E71;
                         &::after {
-                            content: "\2039";
-                            transform: scaleX(-1);
+                            content: "\203A";
                             margin-left: 8px;
                             text-decoration: none;
                             font-size: 24px;

@@ -5544,8 +5544,7 @@ body.cart-pricing-details .account-long-slot-info-container p .long-slot-not-val
   color: #012E71;
 }
 .account-orders-long-container .order-container-right .order-title-and-btn .order-btn-container .order-btn a::after {
-  content: "‹";
-  transform: scaleX(-1);
+  content: "›";
   margin-left: 8px;
   text-decoration: none;
   font-size: 24px;
