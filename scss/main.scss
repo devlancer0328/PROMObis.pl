@@ -68,10 +68,28 @@ body.open-modal {
 }
 
 @media (max-width: 1280px) {
+    .row-container {
+        flex-direction: column !important;
+        .col-8-container {
+            width: 100%;
+            .category-title {
+                font-size: 20px;
+                line-height: 24px;
+                span {
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+        }
+        .col-4-container {
+            width: 100%;
+        }
+    }
     #main-wrapper {
-        top: 80px;
+        top: 80px !important;
     }
 }
+
 
 @media (max-width: 780px) {
     section {

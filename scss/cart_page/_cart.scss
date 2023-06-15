@@ -255,3 +255,46 @@
         }
     }
 }
+
+
+@media (max-width: 760px) {
+    #cart-section.cart {
+        width: 90vw !important;
+    }
+    .cart-description {
+        display: none !important;
+    }
+    #cart-section.cart .cart-description ol {
+        padding-left: 0 !important;
+        li {
+            font-size: 14px !important;
+            line-height: 21px !important;
+        }
+    }
+    #cart-section.cart .offerts-product-middle-left {
+        width: 90% !important;
+    }
+    .offerts-product-bottom-extra {
+        flex-direction: column !important;
+        .offerts-product-bottom-extra-left,
+        .offerts-product-bottom-extra-right {
+            width: 90% !important;
+            margin-right: 0 !important;
+            margin-bottom: 24px !important;
+        }
+    }
+    .cart-right-container .cart-summary-container .cart-summary h1.title,
+    .cart-right-container .cart-bank-transfer-container h1.title,
+    .cart-right-container .delivery-car-container h1.title,
+    .cart-right-container .cart-summary-container .cart-summary-summary .summary-price {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+    .offerts-product-container .offerts-product-bottom-extra .offerts-product-bottom-extra-left .offerts-product-bottom-extra-left-text p,
+    .offerts-product-container .offerts-product-bottom-extra .offerts-product-bottom-extra-right .offerts-product-bottom-extra-right-text p,
+    .cart-right-container .cart-bank-transfer-container p,
+    .cart-right-container .delivery-car-container p {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+}

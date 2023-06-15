@@ -574,32 +574,6 @@
     }
 }
 
-/* =================================== 1280 px ========================== */
-
-
-@media (max-width: 1280px) {
-    #offerts-section {
-        .row-container {
-            flex-direction: column !important;
-            .col-8-container {
-                width: 100%;
-                .category-title {
-                    font-size: 20px;
-                    line-height: 24px;
-                    span {
-                        font-size: 14px;
-                        line-height: 21px;
-                    }
-                }
-            }
-            .col-4-container {
-                width: 100%;
-            }
-        }
-    }
-}
-
-
 /* =================================== 760 px ========================== */
 
 @media (max-width: 760px) {

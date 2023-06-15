@@ -100,3 +100,32 @@ body.cart.summary {
         display: none !important;
     }
 }
+
+/* =================================== 1280 px ========================== */
+
+@media (max-width: 1280px) {
+    body.cart.summary .col-12-container {
+        flex-direction: column !important;
+        margin-top: 24px !important;
+    }
+    body.cart.summary .col-12-container .cart-col-3-container {
+        width: 100% !important;
+    }
+}
+
+/* =================================== 760 px ========================== */
+
+@media (max-width: 760px) {
+    body.cart.summary .col-12-container .cart-col-3-container {
+        width: 90% !important;
+        padding: 16px !important;
+    }
+    body.cart.summary .col-12-container .cart-col-3-container .cart-col-3-container-top h1.title {
+        font-size: 20px !important;
+	    line-height: 24px !important;
+    }
+    body.cart.summary .col-12-container .cart-col-3-container .cart-col-3-container-top .cart-col-3-info p {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+}
