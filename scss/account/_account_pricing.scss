@@ -50,6 +50,9 @@
                 flex-direction: column;
                 justify-content: flex-start;
                 .long-slot-desc-title {
+                    a {
+                        text-decoration: none;
+                        cursor: pointer;
                         h1 {
                             font-weight: 700;
                             font-size: 32px;
@@ -57,6 +60,12 @@
                             color: #253D4E;
                             margin: 0;
                         }
+                    }
+                    &:hover {
+                        h1 {
+                            color: #00B2FF;
+                        }
+                    }
                 }
                 .long-slot-desc-p {
                         display: flex;

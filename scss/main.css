@@ -5299,12 +5299,19 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   flex-direction: column;
   justify-content: flex-start;
 }
-.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-title h1 {
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-title a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-title a h1 {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #253D4E;
   margin: 0;
+}
+.account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-title:hover h1 {
+  color: #00B2FF;
 }
 .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p {
   display: flex;
