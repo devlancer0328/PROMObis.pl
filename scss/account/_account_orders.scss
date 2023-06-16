@@ -84,3 +84,38 @@
         }
     }
 }
+
+/* =================================== 1280 px ========================== */
+
+@media (max-width: 1280px) {
+    #account-section h1.title,
+    .account-orders-long-container .account-orders-text-container p.order-value span,
+    .account-orders-long-container .order-container-right .order-title-and-btn .order-name {
+        font-size: 20px !important;
+	    line-height: 24px !important;
+    }
+    .account-orders-long-container .order-container-right .order-title-and-btn .order-btn-container .order-btn a {
+        font-size: 16px !important;
+    }
+}
+
+/* =================================== 760 px ========================== */
+
+@media (max-width: 760px) {
+    .row-container .col-10-container {
+        width: 90% !important;
+    }
+    .account-orders-long-container {
+        flex-direction: column !important;
+    }
+    .account-orders-long-container .account-orders-text-container p,
+    .account-orders-long-container .order-container-right .order-title-and-btn .order-btn-container .order-btn a,
+    .account-orders-long-container .order-container-right .order-title-and-btn .order-btn-container .order-btn a::after {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .account-orders-long-container .order-container-right .order-title-and-btn .order-btn-container .order-btn {
+        width: 100% !important;
+        height: 36px !important;
+    }
+}
