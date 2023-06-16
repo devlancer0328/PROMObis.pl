@@ -6324,6 +6324,34 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   color: #012E71;
 }
 
+/* =================================== 760 px ========================== */
+@media (max-width: 760px) {
+  .account-long-container .account-long-slot-info-btn-container {
+    flex-direction: column !important;
+  }
+  .account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container .open-btn {
+    margin-top: 16px !important;
+    height: 36px !important;
+    width: 100% !important;
+  }
+  .account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container,
+  .account-long-container .account-long-slot-info-btn-container .account-long-slot-btn-container {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  .account-long-container .account-long-slot-info-btn-container .account-long-slot-info-container p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+  }
+  .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-color p,
+  .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-p .long-slot-desc-p-code p,
+  .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-top p,
+  .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-bottom p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+}
 body.cart-pricing-details .col-10-container .cart-add-icon {
   margin-top: 32px;
 }
