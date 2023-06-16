@@ -84,6 +84,15 @@ body.open-modal {
         .col-4-container {
             width: 100%;
         }
+        .col-2-container {
+            width: calc(100% - 10vw);
+            min-height: unset;
+            margin-bottom: 24px;
+        }
+        .col-10-container {
+            width: 100%;
+            margin-bottom: 24px;
+        }
     }
     #main-wrapper {
         top: 80px !important;

@@ -6036,6 +6036,72 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background-size: contain;
 }
 
+/* =================================== 1280 px ========================== */
+@media (max-width: 1280px) {
+  .col-10-container .account-address-container,
+  .col-10-container .account-invoice-container:nth-child(odd) {
+    width: calc(100% - 10vw) !important;
+  }
+  .col-10-container .account-change-btn,
+  .col-10-container .account-delete-btn {
+    width: 100% !important;
+  }
+}
+/* =================================== 760 px ========================== */
+@media (max-width: 760px) {
+  .row-container .col-2-container {
+    width: 80% !important;
+    padding: 16px 16px 16px 40px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-10-container .account-password-container {
+    flex-direction: column !important;
+  }
+  .col-10-container .account-password-container .account-pass-cont-right {
+    border-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .col-10-container .account-password-container .account-pass-cont-left,
+  .col-10-container .account-password-container .account-pass-cont-right,
+  .col-10-container .account-change-btn,
+  .col-10-container .account-delete-btn {
+    width: 100% !important;
+  }
+  .col-10-container .account-password-container .account-pass-cont-right .account-pass-container {
+    margin-top: 24px !important;
+  }
+  .col-10-container .account-address-container,
+  .col-10-container .account-invoice-container:nth-child(odd) {
+    width: 80% !important;
+  }
+  #account-section h1.title,
+  .col-10-container .account-password-container .account-pass-cont-left .account-data-cont .account-title,
+  .col-10-container .account-password-container .account-pass-cont-left .account-tel-number-cont .account-title,
+  .col-10-container .account-password-container .account-pass-cont-left .account-mail-cont .account-title,
+  .col-10-container .account-password-container .account-pass-cont-right .account-pass-container label,
+  .col-10-container .account-address-container .account-data-cont .account-title,
+  .col-10-container .account-invoice-container .account-data-cont .account-title,
+  .col-10-container .account-address-container .account-data-cont .account-desc.default,
+  .col-10-container .account-invoice-container .account-data-cont .account-desc.default {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+  .col-10-container .account-address-container .account-data-cont .account-desc,
+  .col-10-container .account-invoice-container .account-data-cont .account-desc,
+  #account-section .page-description p,
+  .col-10-container .account-password-container .account-pass-cont-left .account-data-cont .account-desc,
+  .col-10-container .account-password-container .account-pass-cont-left .account-tel-number-cont .account-desc,
+  .col-10-container .account-password-container .account-pass-cont-left .account-mail-cont .account-desc {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+  .col-10-container .account-password-container .account-pass-cont-right .account-pass-container::before {
+    top: 4px !important;
+  }
+}
 .account-long-container {
   display: flex;
   flex-direction: column;
@@ -7494,6 +7560,15 @@ body.open-modal #account-section {
   }
   .row-container .col-4-container {
     width: 100%;
+  }
+  .row-container .col-2-container {
+    width: calc(100% - 10vw);
+    min-height: unset;
+    margin-bottom: 24px;
+  }
+  .row-container .col-10-container {
+    width: 100%;
+    margin-bottom: 24px;
   }
   #main-wrapper {
     top: 80px !important;
