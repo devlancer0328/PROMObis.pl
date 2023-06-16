@@ -63,3 +63,41 @@
         }
     }
 }
+
+/* =================================== 1280 px ========================== */
+
+@media (max-width: 1280px) {
+    .files-container {
+        width: 95% !important;
+        min-height: unset;
+        padding-bottom: 24px;
+    }
+    .files-container .files-title {
+        font-size: 20px !important;
+        line-height: 24px !important; 
+    }
+}
+
+/* =================================== 760 px ========================== */
+
+@media (max-width: 760px) {
+    .files-container {
+        width: 90% !important;
+    }
+    .files-container .files-title {
+        font-size: 20px !important;
+        line-height: 24px !important; 
+    }
+    .files-container .upload-files-container {
+        flex-direction: column !important;
+    }
+    .files-container .upload-files-container .upload-files-btn-container {
+        margin-left: 0 !important;
+    }
+    .files-container .upload-files-container .upload-files-btn-container .upload-files-btn,
+    .files-container .file-name,
+    .files-container .file-size {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+}
