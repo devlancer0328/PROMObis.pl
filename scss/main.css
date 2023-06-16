@@ -6877,6 +6877,29 @@ section.back-to-shop .back-top-shop-btn-container {
     line-height: 21px;
   }
 }
+/* =================================== 1280 px ========================== */
+@media (max-width: 1280px) {
+  body.account .send-btn-offerts,
+  body.account .save-btn-offerts {
+    width: 48% !important;
+  }
+}
+/* =================================== 760 px ========================== */
+@media (max-width: 760px) {
+  body.account .send-btn-offerts,
+  body.account .save-btn-offerts {
+    width: 100% !important;
+  }
+  body.account .save-btn-offerts {
+    margin-top: 24px !important;
+  }
+  body.account .offerts-table-container {
+    overflow-x: scroll;
+  }
+  body.account .offerts-table-container table td {
+    font-size: 14px !important;
+  }
+}
 .files-container {
   border: 1px solid #D9D9D9;
   border-radius: 30px;
