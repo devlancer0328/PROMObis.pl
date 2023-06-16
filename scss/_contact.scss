@@ -228,3 +228,54 @@
         }
     }
 }
+
+/* =================================== 1280 px ========================== */
+
+@media (max-width: 1280px) {
+    #contact-section h1.title,
+    #contact-section .contact-form h1.title,
+    #contact-section .col-8-container .contact-2-rows .contact-row h1.title,
+    #contact-section .col-8-container .contact-1-row .contact-address .contact-address-container h1.title {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+    #contact-section .col-8-container {
+        margin-top: 24px !important;
+        margin-left: -24px !important;
+    }
+}
+
+/* =================================== 760 px ========================== */
+
+@media (max-width: 760px) {
+    #contact-section .col-8-container .contact-2-rows,
+    #contact-section .col-8-container .contact-1-row .contact-address {
+        flex-direction: column !important;
+    }
+    #contact-section .col-8-container .contact-2-rows .contact-row,
+    #contact-section .col-8-container .contact-1-row .contact-address {
+        margin-left: 0 !important;
+        margin-top: 24px !important;
+        width: 80% !important;
+    }
+    #contact-section .col-8-container .contact-1-row .contact-address .contact-address-container,
+    #contact-section .col-8-container .contact-1-row .contact-address .contact-address-map-container {
+        width: 100% !important;
+    }
+    #contact-section .col-8-container .contact-1-row .contact-address .contact-address-map-container iframe {
+        margin-top: 24px !important;
+        height: 320px !important;
+    }
+    #contact-section .contact-form .contact-form-slot label,
+    #contact-section .contact-form .contact-form-slot input, 
+    #contact-section .contact-form .contact-form-slot textarea,
+    #contact-section .col-8-container .contact-2-rows .contact-row .contact-description.telephone p,
+    #contact-section .col-8-container .contact-2-rows .contact-row .contact-description a,
+    #contact-section .col-8-container .contact-1-row .contact-address .contact-address-container .contact-description p {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    #contact-section .contact-form .recaptcha {
+        width: 100% !important;
+    }
+}
