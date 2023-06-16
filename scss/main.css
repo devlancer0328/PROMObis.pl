@@ -6046,6 +6046,15 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   .col-10-container .account-delete-btn {
     width: 100% !important;
   }
+  #account-section .account-add-a-new-address-container,
+  #account-section .account-change-address-container,
+  #account-section .account-change-personal-data-container,
+  #account-section .account-change-delivery-address-container,
+  #account-section .account-change-invoice-data-container,
+  #account-section .account-change-password-container {
+    padding: 40px;
+    width: 80vw;
+  }
 }
 /* =================================== 760 px ========================== */
 @media (max-width: 760px) {
@@ -6085,7 +6094,13 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   .col-10-container .account-address-container .account-data-cont .account-title,
   .col-10-container .account-invoice-container .account-data-cont .account-title,
   .col-10-container .account-address-container .account-data-cont .account-desc.default,
-  .col-10-container .account-invoice-container .account-data-cont .account-desc.default {
+  .col-10-container .account-invoice-container .account-data-cont .account-desc.default,
+  #account-section .account-add-a-new-address-container .title,
+  #account-section .account-change-address-container .title,
+  #account-section .account-change-personal-data-container .title,
+  #account-section .account-change-delivery-address-container .title,
+  #account-section .account-change-invoice-data-container .title,
+  #account-section .account-change-password-container .title {
     font-size: 20px !important;
     line-height: 24px !important;
   }
@@ -6100,6 +6115,47 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   }
   .col-10-container .account-password-container .account-pass-cont-right .account-pass-container::before {
     top: 4px !important;
+  }
+  #account-section .account-add-a-new-address-container,
+  #account-section .account-change-address-container,
+  #account-section .account-change-personal-data-container,
+  #account-section .account-change-delivery-address-container,
+  #account-section .account-change-invoice-data-container,
+  #account-section .account-change-password-container {
+    padding: 24px;
+    width: 80vw;
+    height: auto;
+    margin-top: 24px;
+  }
+  #account-section .account-add-a-new-address-container .address-cont-big-slot,
+  #account-section .account-change-address-container .address-cont-big-slot,
+  #account-section .account-change-personal-data-container .address-cont-big-slot,
+  #account-section .account-change-delivery-address-container .address-cont-big-slot,
+  #account-section .account-change-invoice-data-container .address-cont-big-slot,
+  #account-section .account-change-password-container .address-cont-big-slot {
+    flex-direction: column !important;
+  }
+  #account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-left-slot,
+  #account-section .account-change-address-container .address-cont-big-slot .address-cont-left-slot,
+  #account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-left-slot,
+  #account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-left-slot,
+  #account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-left-slot,
+  #account-section .account-change-password-container .address-cont-big-slot .address-cont-left-slot,
+  #account-section .account-add-a-new-address-container .address-cont-big-slot .address-cont-right-slot,
+  #account-section .account-change-address-container .address-cont-big-slot .address-cont-right-slot,
+  #account-section .account-change-personal-data-container .address-cont-big-slot .address-cont-right-slot,
+  #account-section .account-change-delivery-address-container .address-cont-big-slot .address-cont-right-slot,
+  #account-section .account-change-invoice-data-container .address-cont-big-slot .address-cont-right-slot,
+  #account-section .account-change-password-container .address-cont-big-slot .address-cont-right-slot {
+    width: 100% !important;
+  }
+  #account-section .account-add-a-new-address-container .address-slot-btn .save-btn,
+  #account-section .account-change-address-container .address-slot-btn .save-btn,
+  #account-section .account-change-personal-data-container .address-slot-btn .save-btn,
+  #account-section .account-change-delivery-address-container .address-slot-btn .save-btn,
+  #account-section .account-change-invoice-data-container .address-slot-btn .save-btn,
+  #account-section .account-change-password-container .address-slot-btn .save-btn {
+    margin-top: 16px !important;
   }
 }
 .account-long-container {
