@@ -246,7 +246,7 @@ header {
                             left: 0;
                             width: 100%;
                             ul {
-                                width: 100%;
+                                width: max-content;
                                 flex-direction: column;
                                 position: absolute;
                                 top: 0;
@@ -261,12 +261,13 @@ header {
                                 li {
                                     position: relative;
                                     display: flex;
-                                    justify-content: center;
+                                    justify-content: flex-start;
                                     align-items: center;
                                     background: #ffffff;
                                     border-bottom: 1px solid #83c000;
                                     min-height: 50px;
-                                    padding-right: 32px;
+                                    padding-right: 40px;
+                                    padding-left: 16px;
                                     text-transform: none;
                                     a {
                                         text-decoration: none;
@@ -313,28 +314,30 @@ header {
                                     width: 100%;
                                     ul {
                                         padding-top: 0;
-                                        width: 100%;
+                                        width: max-content;
                                         flex-direction: column;
                                         position: absolute;
                                         top: 0;
                                         left: 0;
                                         z-index: 9999;
                                         background: #FFFFFF;
-                                        border-radius: 18px !important;
+                                        border-radius: 0 18px 18px 0 !important;
                                         border: 2px solid #012E71;
                                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
                                         a {
                                             text-decoration: none;
                                             li {
                                                 display: flex;
-                                                justify-content: center;
+                                                justify-content: flex-start;
                                                 align-items: center;
                                                 background: #ffffff;
                                                 border-bottom: 1px solid #83c000;
                                                 border-radius: 0;
                                                 min-height: 50px;
-                                                padding-right: 0;
+                                                padding-left: 16px;
+                                                padding-right: 24px;
                                                 text-transform: none;
+                                                white-space: pre;
                                                 &::after {
                                                     display: none;
                                                     margin-right: 0;
@@ -345,7 +348,7 @@ header {
                                             }
                                             &:last-child li {
                                                 border-color: none;
-                                                border-radius: 0px 0px 18px 18px;
+                                                border-radius: 0 0 18px 0;
                                             }
                                         }
                                     }
@@ -503,6 +506,7 @@ header {
                 width: 100vw;  
                 li {
                     margin-left: 0 !important;
+                    padding-right: 0;
                     margin-top: 8px;
                 }      
                 .bottom-nav-sublist {
@@ -512,8 +516,10 @@ header {
                         margin: 0;
                         border: 0;
                         border-radius: 0;
+                        width: 100%;
                         li {
                             padding: 0;
+                            padding-left: 16px;
                             &:last-child {
                                 border-radius: 0;
                             }
@@ -579,5 +585,9 @@ header {
     
     .hamburger.active .hamburger-line:nth-child(3) {
         transform: rotate(-45deg) translate(3px, -5px);
+    }
+
+    header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul {
+        width: 100% !important;
     }
 }
