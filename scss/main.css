@@ -6402,6 +6402,34 @@ body.cart-pricing-details .account-long-slot-info-container p .long-slot-not-val
   font-weight: 700;
 }
 
+/* =================================== 760 px ========================== */
+@media (max-width: 760px) {
+  body.cart-pricing-details .back-to-offerts {
+    flex-direction: column !important;
+  }
+  #back-to-shop .back-top-shop-btn-container {
+    margin-top: 24px !important;
+    width: 100% !important;
+  }
+  body.cart-pricing-details .account-long-slot-info-container p {
+    padding: 16px !important;
+  }
+  body.cart-pricing-details .account-long-slot-info-container {
+    width: 100% !important;
+  }
+  .offerts-product-container .offerts-product-middle .offerts-product-middle-left .middle-left-description .product-color-code .product-color,
+  .offerts-product-container .offerts-product-middle .offerts-product-middle-left .middle-left-description .product-color-code .product-code,
+  .offerts-product-container .offerts-product-middle .offerts-product-middle-left .middle-left-description .product-additional ul li,
+  .offerts-product-container .offerts-product-middle .offerts-product-middle-left .middle-left-description .product-additional span,
+  .offerts-product-container .offerts-product-bottom .offerts-product-bottom-first .product-quantity-container p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
+  body.cart-pricing-details .col-10-container .cart-add-icon p::before {
+    left: -16px !important;
+    top: -8px !important;
+  }
+}
 .account-orders-long-container {
   border: 1px solid #D9D9D9;
   border-radius: 30px;
