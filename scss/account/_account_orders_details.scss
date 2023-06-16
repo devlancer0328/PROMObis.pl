@@ -99,3 +99,52 @@ section.back-to-shop {
         width: 34% !important;
     }
 }
+
+/* =================================== 1280 px ========================== */
+
+@media (max-width: 1280px) {
+    .account-long-container .account-long-container-slot .account-long-slot-desc-start .middle-right .long-slot-desc-title a h1,
+    .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-bottom p .netto-summary-price,
+    .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-top p {
+        font-size: 20px !important;
+	    line-height: 24px !important;
+    }
+    .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-top p {
+        margin-top: 16px !important;
+        padding: 8px 0 !important;
+    }
+    .account-orders-long-container .order-container-right .order-title-and-btn .order-btn-container .order-btn a {
+        font-size: 16px !important;
+    }
+}
+
+/* =================================== 760 px ========================== */
+
+@media (max-width: 760px) {
+    .account-long-container .account-long-container-slot,
+    .account-long-container .account-long-container-slot .account-long-slot-desc-start,
+    #account-section .order-details-container {
+        flex-direction: column !important;
+    }
+    .account-long-container .account-long-container-slot .account-long-slot-desc-end .long-slot-prices .long-slot-prices-bottom p {
+        text-align: right !important;
+    }
+    .order-details-container .order-details-container-right .order-details-price-top,
+    .order-details-container .order-details-container-right .order-details-price-middle,
+    .order-details-container .order-details-container-right .order-details-price-bottom {
+        width: 50vw !important;
+    }
+    .order-details-container .order-details-container-right .order-details-price-top .price-top-left p,
+    .order-details-container .order-details-container-right .order-details-price-top .price-top-right p,
+    .order-details-container .order-details-container-left .order-details-p,
+    .order-details-container .order-details-container-right .order-details-price-middle .price-middle-left p,
+    .order-details-container .order-details-container-right .order-details-price-middle .price-middle-right p,
+    .order-details-container .order-details-container-right .order-details-price-bottom .price-bottom-left p,
+    .order-details-container .order-details-container-right .order-details-price-bottom .price-bottom-right p {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    #account-section .row-container .col-10-container {
+        width: 95% !important;
+    }
+}
