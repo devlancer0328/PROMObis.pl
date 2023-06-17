@@ -14,7 +14,7 @@ Used technologies:
 * SCSS
 
 ## Live :star2:
-* Maipage :arrow_right: https://goldipl.github.io/PROMObis.pl/    
+* Main page :arrow_right: https://goldipl.github.io/PROMObis.pl/    
 
 * Category :arrow_right: https://goldipl.github.io/PROMObis.pl/category   
 
