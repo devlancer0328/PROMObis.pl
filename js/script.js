@@ -8,6 +8,7 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     menu.classList.toggle('active');
     header.classList.toggle('menu-open');
+    window.scrollTo(0,0);
 });
 
 menu_li.forEach(e => e.addEventListener('click', () => {
