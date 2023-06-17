@@ -5,7 +5,7 @@
 * [Screenshots](#screenshots)
 
 ## General info
-PROMObis.pl e-commerce shopwebsite
+PROMObis.pl e-commerce shop website
 
 ## Technologies   
 Used technologies:
