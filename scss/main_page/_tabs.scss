@@ -15,9 +15,8 @@
   .tab-text {
     border-bottom: 4px solid #FFF;
     margin-bottom: 24px;
-    width: 10%;
+    width: 12.5%;
     min-width: 10%;
-    margin-right: 2%;
   }
   
   .the_tabs label {
@@ -34,9 +33,14 @@
       object-fit: contain;
     }
     p {
-      font-weight: 700;
+      font-family: 'Tahoma', sans-serif;
+      font-weight: 400;
       font-size: 14px;
       line-height: 18px;
+    }
+    &:hover p {
+      color: #83C000;
+      text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
     }
   }
   
@@ -61,6 +65,7 @@
   .the_tabs input[type="radio"]:checked + .tab-text {
     color: #83C000;
     border-bottom: 4px solid #012E71;
+    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   }
   
 @media (max-width: 1280px) {
@@ -88,5 +93,9 @@
     min-width: 40%;
     margin-right: 10%;
     margin-bottom: 4px;
+    &.second {
+      margin-right: 0;
+      margin-left: 10%;
+    }
   }
 }

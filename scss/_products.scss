@@ -45,8 +45,11 @@ body.category {
                 align-items: center;
                 width: calc(100% - 8px);
                 height: auto;
-                padding: 4px;
+                padding: 16px;
                 border-radius: 29px;
+                background: #FFFFFF;
+                margin: 4px;
+                box-sizing: border-box;
             }
         }
         &.discount {
