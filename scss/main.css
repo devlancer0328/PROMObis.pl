@@ -26,6 +26,9 @@ header {
   width: 100vw;
   z-index: 1;
 }
+header.menu-open {
+  position: static;
+}
 header #nav {
   display: flex;
   flex-direction: column;

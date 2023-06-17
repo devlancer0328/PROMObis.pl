@@ -8,6 +8,9 @@ header {
     background-color: #ffffff;
     width: 100vw;
     z-index: 1;
+    &.menu-open {
+        position: static;
+    }
     #nav {
         display: flex;
         flex-direction: column;
