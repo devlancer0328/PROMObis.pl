@@ -251,6 +251,9 @@ header #nav .bottom-nav .left-container ul li {
   line-height: 22px;
   z-index: 99;
 }
+header #nav .bottom-nav .left-container ul li.bottom-nav-links {
+  padding: 28px 0;
+}
 header #nav .bottom-nav .left-container ul li::after {
   position: absolute;
   content: "";
@@ -259,7 +262,7 @@ header #nav .bottom-nav .left-container ul li::after {
   background-size: contain;
   width: 15px;
   height: 7.5px;
-  top: 8px;
+  top: 34px;
   right: -24px;
 }
 header #nav .bottom-nav .left-container ul li:hover::after {
@@ -272,13 +275,14 @@ header #nav .bottom-nav .left-container ul li:hover .bottom-nav-sublist {
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist {
   position: relative;
   display: none;
-  top: 0;
+  top: 28px;
   left: 0;
   width: 100%;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul {
   width: -moz-max-content;
   width: max-content;
+  min-width: 200px;
   flex-direction: column;
   position: absolute;
   top: 0;
@@ -337,6 +341,9 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover::after {
   transition: 0.6s;
   transform: rotate(180deg) translateY(50%);
+  background: url("./../assets/icons/breadcrumb-chevron-green.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist {
   position: absolute;
@@ -600,6 +607,13 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul {
     width: 100% !important;
+  }
+  header #nav .bottom-nav .left-container ul li.bottom-nav-links {
+    padding: 16px 0px !important;
+  }
+  header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
+    justify-content: flex-start !important;
+    align-items: center !important;
   }
 }
 .breadcrumbs ul {

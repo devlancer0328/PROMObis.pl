@@ -223,6 +223,9 @@ header {
                         font-size: 18px;
                         line-height: 22px;
                         z-index: 99;
+                        &.bottom-nav-links {
+                            padding: 28px 0;
+                        }
                         &::after {
                             position: absolute;
                             content: "";
@@ -232,7 +235,7 @@ header {
                             background-size: contain;
                             width: 15px;
                             height: 7.5px;
-                            top: 8px;
+                            top: 34px;
                             right: -24px;
                         }
                         &:hover::after {
@@ -245,11 +248,12 @@ header {
                         .bottom-nav-sublist {
                             position: relative;
                             display: none;
-                            top: 0;
+                            top: 28px;
                             left: 0;
                             width: 100%;
                             ul {
                                 width: max-content;
+                                min-width: 200px;
                                 flex-direction: column;
                                 position: absolute;
                                 top: 0;
@@ -307,6 +311,10 @@ header {
                                     &:hover::after {
                                         transition: 0.6s;
                                         transform: rotate(180deg) translateY(50%);
+                                        background: url("./../assets/icons/breadcrumb-chevron-green.svg")
+                                        no-repeat;
+                                        background-position: center;
+                                        background-size: contain;
                                     }
                                 }
                                 .bottom-nav-sub-sublist {
@@ -511,7 +519,7 @@ header {
                     margin-left: 0 !important;
                     padding-right: 0;
                     margin-top: 8px;
-                }      
+                }     
                 .bottom-nav-sublist {
                     display: flex;
                     ul {
@@ -592,5 +600,12 @@ header {
 
     header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul {
         width: 100% !important;
+    }
+    header #nav .bottom-nav .left-container ul li.bottom-nav-links {
+        padding: 16px 0px !important;
+    }
+    header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
+        justify-content: flex-start !important;
+        align-items: center !important;
     }
 }
