@@ -765,8 +765,8 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 .the_tabs label img {
   margin-right: 8px;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -820,6 +820,10 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   .the_tabs label {
     padding: 0px 0 8px 0;
+  }
+  .the_tabs label img {
+    width: 40px;
+    height: 40px;
   }
 }
 @media (max-width: 600px) {
