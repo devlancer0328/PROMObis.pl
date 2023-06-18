@@ -679,8 +679,10 @@
     #account-section .account-change-password-container {
         padding: 24px;
         width: 80vw;
-        height: auto;
+        height: 80vh;
+        top: 35vh;
         margin-top: 24px;
+        overflow-y: scroll;
     }
     #account-section .account-add-a-new-address-container .address-cont-big-slot, 
     #account-section .account-change-address-container .address-cont-big-slot, 
