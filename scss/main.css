@@ -753,13 +753,13 @@ header #nav .bottom-nav .right-container ul li:hover {
   margin-bottom: 24px;
   width: 12.5%;
   min-width: 10%;
+  height: 72px;
 }
 
 .the_tabs label {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 0 24px 0;
   text-transform: uppercase;
   cursor: pointer;
 }
