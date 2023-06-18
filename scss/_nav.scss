@@ -10,6 +10,10 @@ header {
     z-index: 1;
     &.menu-open {
         position: static;
+        #nav {
+            border-bottom: 1px solid #D9D9D9;
+            box-shadow: 0px 2px 14px 0px rgba(131, 192, 0, 1);
+        }
     }
     #nav {
         display: flex;
