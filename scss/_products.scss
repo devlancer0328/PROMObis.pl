@@ -8,7 +8,7 @@ body.category {
     .products-container {
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 100%;
+        width: 105%;
         .products-container-slot {
             width: 18%;
             margin-bottom: 24px;
@@ -43,12 +43,12 @@ body.category {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: calc(100% - 8px);
+                width: calc(100% - 16px);
                 height: auto;
                 padding: 16px;
                 border-radius: 29px;
                 background: #FFFFFF;
-                margin: 4px;
+                margin: 8px;
                 box-sizing: border-box;
             }
         }
@@ -232,8 +232,6 @@ body.category {
                 &.discount {
                     .slot-image {
                         &::after {
-                            top: 8px;
-                            left: 16px;
                             font-weight: 700;
                             font-size: 14px;
                             line-height: 17px;
@@ -243,8 +241,6 @@ body.category {
                 &.new {
                     .slot-image {
                         &::after {
-                            top: 8px;
-                            left: 16px;
                             font-weight: 700;
                             font-size: 14px;
                             line-height: 17px;

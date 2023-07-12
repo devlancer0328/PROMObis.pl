@@ -117,6 +117,7 @@ header #nav .top-nav .search-bar-wrapper #searchQuerySelect {
   font-size: 14px;
   line-height: 21px;
   color: #253D4E;
+  background-color: rgba(255, 255, 255, 0);
 }
 header #nav .top-nav .search-bar-wrapper #searchQuerySelect option {
   cursor: pointer;
@@ -2060,7 +2061,7 @@ input:checked ~ .accordion-tab-content {
 body.category .products-container {
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 100%;
+  width: 105%;
 }
 body.category .products-container .products-container-slot {
   width: 18%;
@@ -2097,12 +2098,12 @@ body.category .products-container .products-container-slot {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(100% - 8px);
+  width: calc(100% - 16px);
   height: auto;
   padding: 16px;
   border-radius: 29px;
   background: #FFFFFF;
-  margin: 4px;
+  margin: 8px;
   box-sizing: border-box;
 }
 .products-container .products-container-slot.discount .slot-image {
@@ -2254,15 +2255,11 @@ body.category .products-container .products-container-slot {
     margin-right: 0;
   }
   body.category .products-container .products-container-slot.discount .slot-image::after {
-    top: 8px;
-    left: 16px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
   }
   body.category .products-container .products-container-slot.new .slot-image::after {
-    top: 8px;
-    left: 16px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -2476,10 +2473,13 @@ body.category .products-container .products-container-slot {
   color: #29235C;
 }
 #category-section .category-filters .filters-center .filter-select-container .filter-select {
+  position: relative;
   border: 0 !important;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
 }
 #category-section .category-filters .filters-center .filter-color-container {
   display: flex;
