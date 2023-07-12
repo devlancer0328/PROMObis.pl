@@ -14,29 +14,31 @@
 
   .tab-text {
     border-bottom: 4px solid #FFF;
-    margin-bottom: 40px;
-    width: 12.5%;
-    min-width: 10%;
-    height: 72px;
+    padding-bottom: 40px;
+    margin-bottom: 48px;
+    width: 16.5%;
+    min-width: 15%;
+    height: 84px;
   }
   
   .the_tabs label {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
     cursor: pointer;
     img {
-      margin-right: 8px;
-      width: 48px;
-      height: 48px;
+      width: 72px;
+      height: 72px;
       object-fit: contain;
     }
     p {
       font-family: 'Tahoma', sans-serif;
       font-weight: 400;
-      font-size: 14px;
-      line-height: 18px;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
     }
     &:hover p {
       color: #83C000;
@@ -76,20 +78,37 @@
     }
 }
 
+@media (max-width: 1120px) {
+  .the_tabs label {
+    p {
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+}
+
 @media (max-width: 760px) {
+  .the_tabs {
+    justify-content: center;
+  }
   .tab-text {
     width: 20%;
     min-width: 20%;
     margin-right: 2%;
     margin-bottom: 24px;
+    height: 64px;
   }
   .the_tabs label {
     padding: 0px 0 8px 0;
       img {
         width: 40px;
         height: 40px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
     }
-  }
 }
 
 @media (max-width: 600px) {
@@ -97,7 +116,9 @@
     width: 40%;
     min-width: 40%;
     margin-right: 10%;
-    margin-bottom: 4px;
+    margin-bottom: 24px;
+    padding-bottom: 32px;
+    height: 48px;
     &.second {
       margin-right: 0;
       margin-left: 10%;
