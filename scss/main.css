@@ -2924,6 +2924,9 @@ body.category .products-container .products-container-slot {
   width: 120px !important;
   height: 120px !important;
 }
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide.active img {
+  border: 1px solid #83C000;
+}
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide img {
   width: 80%;
   height: 80%;
@@ -3162,6 +3165,9 @@ body.category .products-container .products-container-slot {
   cursor: pointer;
   margin-right: 6px;
 }
+#product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-colors .avali-colors-slots .avali-colors-slot.active {
+  border: 1px solid #83C000;
+}
 #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-colors .avali-colors-slots .avali-colors-slot img {
   width: 80%;
   height: 80%;
@@ -3396,6 +3402,7 @@ body.category .products-container .products-container-slot {
   width: 100%;
 }
 #product-section .prices-table-container table td {
+  font-size: 24px;
   width: 14%;
   padding: 16px;
   text-align: center;
@@ -3478,6 +3485,7 @@ body.category .products-container .products-container-slot {
   padding-left: 16px;
   cursor: pointer;
   margin-right: 21px;
+  background-color: #FFFFFF;
 }
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-colors-quantity {
   display: flex;
@@ -3494,6 +3502,7 @@ body.category .products-container .products-container-slot {
   font-size: 18px;
   padding-left: 16px;
   cursor: pointer;
+  background-color: #FFFFFF;
 }
 #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-action p {
   position: relative;
@@ -3636,13 +3645,18 @@ body.category .products-container .products-container-slot {
 #product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn:hover a {
   color: #83C000;
 }
+#product-section .calculate-product-container .calculate-product-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
 #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
   border-bottom: 1px solid #83C000;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first .delivery-price p {
@@ -3669,7 +3683,7 @@ body.category .products-container .products-container-slot {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-second .realization-time p {
@@ -4330,6 +4344,7 @@ body.category .products-container .products-container-slot {
   #product-section .calculate-product-container .calculate-product-bottom {
     margin-left: 16px;
     margin-right: 16px;
+    padding: 0 24px;
   }
   #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first .netto-price {
     text-align: right;

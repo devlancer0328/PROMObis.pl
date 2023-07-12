@@ -37,6 +37,9 @@
                         cursor: pointer;
                         width: 120px !important;
                         height: 120px !important;
+                        &.active img {
+                            border: 1px solid #83C000;
+                        }
                         img {
                             width: 80%;
                             height: 80%;
@@ -281,6 +284,9 @@
                             border-radius: 10px;
                             cursor: pointer;
                             margin-right: 6px;
+                            &.active {
+                                border: 1px solid #83C000;
+                            }
                             img {
                                 width: 80%;
                                 height: 80%;
@@ -539,6 +545,7 @@
             border-left: 1px solid #D9D9D9;
             width: 100%;
             td {
+                font-size: 24px;
                 width: 14%;
                 padding: 16px;
                 text-align: center;
@@ -616,6 +623,7 @@
                             padding-left: 16px;
                             cursor: pointer;
                             margin-right: 21px;
+                            background-color: #FFFFFF;
                         }
                     }
                     .calculate-product-top-slot-colors-quantity {
@@ -632,6 +640,7 @@
                             font-size: 18px;
                             padding-left: 16px;
                             cursor: pointer;
+                            background-color: #FFFFFF;
                         }
                     }
                     .calculate-product-top-slot-action {
@@ -799,13 +808,16 @@
             }
         }
         .calculate-product-bottom {
+            display: flex;
+            flex-direction: column;
+            padding: 0 40px;
             .calculate-product-bottom-first {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: flex-end;
                 border-bottom: 1px solid #83C000;
-                width: 90%;
+                width: 100%;
                 margin: 0 auto;
                 .delivery-price {
                     p {
@@ -834,7 +846,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: flex-start;
-                width: 90%;
+                width: 100%;
                 margin: 0 auto;
                 .realization-time {
                     p {
@@ -1620,6 +1632,7 @@
             .calculate-product-bottom {
                 margin-left: 16px;
                 margin-right: 16px;
+                padding: 0 24px;
                 .calculate-product-bottom-first {
                     .netto-price {
                         text-align: right;
