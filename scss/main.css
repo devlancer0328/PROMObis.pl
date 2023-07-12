@@ -320,6 +320,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a:hover 
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:last-child {
   border-color: none;
   border-radius: 0px 0px 18px 18px;
+  border-bottom: 0;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li::after {
   position: absolute;
@@ -336,7 +337,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li::after {
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
   display: flex;
 }
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover a, header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   color: #00B2FF;
 }
@@ -394,6 +395,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a:last-child li {
   border-color: none;
   border-radius: 0 0 18px 18px;
+  border-bottom: 0;
 }
 header #nav .bottom-nav .right-container {
   display: flex;

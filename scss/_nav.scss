@@ -292,6 +292,7 @@ header {
                                     &:last-child {
                                         border-color: none;
                                         border-radius: 0px 0px 18px 18px;
+                                        border-bottom: 0;
                                     }
                                     &::after {
                                         position: absolute;
@@ -309,6 +310,7 @@ header {
                                     &:hover .bottom-nav-sub-sublist {
                                         display: flex;
                                     }
+                                    &:hover a,
                                     &:hover {
                                         text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
                                         color: #00B2FF;
@@ -365,6 +367,7 @@ header {
                                             &:last-child li {
                                                 border-color: none;
                                                 border-radius: 0 0 18px 18px;
+                                                border-bottom: 0;
                                             }
                                         }
                                     }
