@@ -94,25 +94,35 @@ body.category {
                 }
             }
         }
-        .slot-description {
-            p {
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 122.5%;
-                color: #253D4E;
-                text-align: center;
-                text-decoration: none;
+        .slot-desc-colors {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .slot-description {
+                p {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 122.5%;
+                    color: #253D4E;
+                    text-align: center;
+                    text-decoration: none;
+                    min-height: 44px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
             }
-        }
-        .slot-colors {
-            p {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 122.5%;
-                color: #ADADAD;
-                margin-bottom: 5px;
-                text-align: center;
-                text-decoration: none;
+            .slot-colors {
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 122.5%;
+                    color: #ADADAD;
+                    margin-bottom: 5px;
+                    text-align: center;
+                    text-decoration: none;
+                }
             }
         }
         .slot-price {
