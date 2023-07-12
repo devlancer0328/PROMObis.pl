@@ -15,7 +15,7 @@ body {
   }
 }
 header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -855,7 +855,6 @@ header #nav .bottom-nav .right-container ul li:hover {
     margin-right: 10%;
     margin-bottom: 24px;
     padding-bottom: 32px;
-    height: 48px;
   }
   .tab-text.second {
     margin-right: 0;
@@ -7924,7 +7923,7 @@ body.open-modal #account-section {
 
 #main-wrapper {
   position: relative;
-  top: 181px;
+  top: 0;
 }
 
 .row-container {
