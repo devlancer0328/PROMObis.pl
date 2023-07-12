@@ -2154,6 +2154,7 @@ body.category .products-container .products-container-slot {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  padding: 0 8px;
 }
 .products-container .products-container-slot .slot-desc-colors .slot-colors p {
   font-weight: 400;
