@@ -29,6 +29,7 @@
             border: 1px solid #ADADAD;
             border-radius: 30px;
             padding: 0 16px;
+            box-sizing: border-box;
             a {
                 display: flex;
                 justify-content: center;
@@ -77,6 +78,7 @@
                 height: 41px;
                 background: #FFFFFF;
                 margin-right: 16px;
+                box-sizing: border-box;
                 .filter-option {
                     text-decoration: none;
                     width: 100%;
@@ -85,6 +87,12 @@
                     font-size: 18px;
                     line-height: 29px;
                     color: #29235C;
+                }
+                .filter-select {
+                    border: 0 !important;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 29px;
                 }
             }
             .filter-color-container {
@@ -97,11 +105,13 @@
                 border-radius: 30px;
                 height: 41px;
                 background: #FFFFFF;
+                box-sizing: border-box;
                 span {
                     font-weight: 400;
                     font-size: 18px;
                     line-height: 29px;
                     color: #29235C;
+                    margin-right: 8px;
                 }
                 .color-circle {
                     display: inline-flex;
@@ -339,6 +349,10 @@
                     border-radius: 22px;
                     height: 30px;
                     .filter-option {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                    .filter-select {
                         font-size: 14px;
                         line-height: 21px;
                     }

@@ -2413,6 +2413,7 @@ body.category .products-container .products-container-slot {
   border: 1px solid #ADADAD;
   border-radius: 30px;
   padding: 0 16px;
+  box-sizing: border-box;
 }
 #category-section .category-filter-buttons .filter-button a {
   display: flex;
@@ -2463,6 +2464,7 @@ body.category .products-container .products-container-slot {
   height: 41px;
   background: #FFFFFF;
   margin-right: 16px;
+  box-sizing: border-box;
 }
 #category-section .category-filters .filters-center .filter-select-container .filter-option {
   text-decoration: none;
@@ -2472,6 +2474,12 @@ body.category .products-container .products-container-slot {
   font-size: 18px;
   line-height: 29px;
   color: #29235C;
+}
+#category-section .category-filters .filters-center .filter-select-container .filter-select {
+  border: 0 !important;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
 }
 #category-section .category-filters .filters-center .filter-color-container {
   display: flex;
@@ -2484,12 +2492,14 @@ body.category .products-container .products-container-slot {
   border-radius: 30px;
   height: 41px;
   background: #FFFFFF;
+  box-sizing: border-box;
 }
 #category-section .category-filters .filters-center .filter-color-container span {
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
   color: #29235C;
+  margin-right: 8px;
 }
 #category-section .category-filters .filters-center .filter-color-container .color-circle {
   display: inline-flex;
@@ -2724,6 +2734,10 @@ body.category .products-container .products-container-slot {
     height: 30px;
   }
   #category-section .category-filters .filters-center .filter-select-container .filter-option {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  #category-section .category-filters .filters-center .filter-select-container .filter-select {
     font-size: 14px;
     line-height: 21px;
   }
