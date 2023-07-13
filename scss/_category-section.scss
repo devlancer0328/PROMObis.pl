@@ -305,14 +305,17 @@
             }
         }
     }
-    .seo-text-info {
-        margin-bottom: 64px;
-        p {
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 30px;
-            color: #253D4E;
-        }
+}
+
+.seo-text-info {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #253D4E;
     }
 }
 

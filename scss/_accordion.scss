@@ -5,8 +5,10 @@
 }
 // Layout
 .accordion {
-    border-radius: 18px;
-    flex:1;
+  position: relative;
+  z-index: 1;
+  border-radius: 18px;
+  flex:1;
     &:last-child {
       margin-left: 1em;
     }
@@ -35,6 +37,7 @@
     background: #FFFFFF;
     color: #253D4E;
     font-weight: 700;
+    background-color: #FAFCFD;
     cursor: pointer;
     /* Icon */
     &:hover {

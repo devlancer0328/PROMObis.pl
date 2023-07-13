@@ -48,6 +48,7 @@
                             border-radius: 8px;
                             object-fit: cover;
                             user-select: none;
+                            background-color: #FFFFFF;
                             &:hover {
                                 border: 1px solid #83C000;
                             }
@@ -66,11 +67,6 @@
                         justify-content: center;
                         box-sizing: border-box;
                         img {
-                            width: 610px;
-                            height: 710px;
-                            padding: 10px;
-                            border: 1px solid #D9D9D9;
-                            border-radius: 30px;
                             width: 80%;
                             height: 80%;
                             padding: 10px;
@@ -78,6 +74,7 @@
                             border-radius: 8px;
                             object-fit: cover;
                             user-select: none;
+                            background-color: #FFFFFF;
                         }
                     }
                     .swiper-button-prev {
@@ -282,6 +279,7 @@
                             height: 12%;
                             border: 1px solid #D9D9D9;
                             border-radius: 10px;
+                            background-color: #FFFFFF;
                             cursor: pointer;
                             margin-right: 6px;
                             &.active {
@@ -393,6 +391,7 @@
         padding: 46px;
         border: 1px solid #D9D9D9;
         border-radius: 30px;
+        background-color: #FFFFFF;
         .product-description-logo {
             display: flex;
             justify-content: center;
@@ -409,6 +408,7 @@
             }
         }
         .product-description-table {
+            background-color: #FAFCFD;
             table {
                 border-top: 1px solid #D9D9D9;
                 border-left: 1px solid #D9D9D9;
@@ -453,6 +453,7 @@
         border: 1px solid #D9D9D9;
         border-radius: 30px;
         margin-bottom: 80px;
+        background-color: #FFFFFF;
         .store-container-products {
             display: flex;
             flex-direction: row;
@@ -540,10 +541,12 @@
         padding: 40px;
         border: 1px solid #D9D9D9;
         border-radius: 30px;
+        background-color: #FFFFFF;
         table {
             border-top: 1px solid #D9D9D9;
             border-left: 1px solid #D9D9D9;
             width: 100%;
+            background-color: #FAFCFD;
             td {
                 font-size: 24px;
                 width: 14%;
@@ -569,6 +572,7 @@
         border-radius: 30px;
         margin-bottom: 100px;
         padding-bottom: 40px;
+        background-color: #FFFFFF;
         .calculate-product-slot {
             display: flex;
             flex-direction: column;

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 footer {
+    background-color: #FAFCFD;
     border-top: 1px solid #012E71;
     .footer-container {
         width: 80vw;
         margin: 0 auto;
         margin-top: 62px;
+        background-color: #FAFCFD;
     .footer-top {
         display: flex;
         flex-direction: row;

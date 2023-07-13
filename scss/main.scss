@@ -101,6 +101,13 @@ body.open-modal {
     // }
 }
 
+body.main #main-wrapper {
+    background-color: #FFFFFF;
+}
+
+body #main-wrapper {
+    background-color: #FAFCFD;
+}
 
 @media (max-width: 780px) {
     section {

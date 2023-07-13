@@ -87,6 +87,7 @@
                             margin-left: 0;
                             padding: 0;
                             margin-top: 12px;
+                            background-color: #FAFCFD;
                         }
                     }
                     label {
@@ -129,6 +130,7 @@
                         font-size: 18px;
                         line-height: 30px;
                         margin-top: 8px;
+                        background-color: #FAFCFD;
                     }
                 }
             }
@@ -181,6 +183,7 @@
                         font-size: 18px;
                         line-height: 30px;
                         margin-top: 8px;
+                        background-color: #FAFCFD;
                     }
                 }
             }
@@ -218,6 +221,7 @@
     padding: 40px 40px 40px 64px;
     margin-right: 24px;
     min-height: 900px;
+    background-color: #FFFFFF;
     .account-link-slot {
         .account-link {
             display: flex;
@@ -336,6 +340,7 @@
         border: 1px solid #D9D9D9;
         border-radius: 30px;
         padding: 40px;
+        background-color: #FFFFFF;
         .account-pass-cont-left {
             display: flex;
             flex-direction: column;
@@ -424,6 +429,8 @@
                     line-height: 30px;
                     margin-top: 8px;
                     margin-left: -40px;
+                    background-color: #FAFCFD;
+                    max-width: 70%;
                 }
             }
         }
@@ -440,6 +447,7 @@
         margin-top: 24px;
         margin-right: 24px;
         min-height: 280px;
+        background-color: #FFFFFF;
         &.account-add-address-container {
             min-height: auto;
         }
@@ -506,6 +514,7 @@
         height: 56px;
         width: 70%;
         margin-top: 24px;
+        background-color: #FAFCFD;
         a.change-btn {
             display: flex;
             justify-content: center;
@@ -558,6 +567,7 @@
         height: 56px;
         width: 45%;
         margin-top: 24px;
+        background-color: #FAFCFD;
         a.delete-btn {
             display: flex;
             justify-content: center;

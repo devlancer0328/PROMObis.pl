@@ -1,10 +1,33 @@
 #how-we-do-it {
+    position: relative;
+    z-index: 0;
     width: 80vw;
     margin: 0 auto;
     margin-bottom: 120px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    &::after {
+        position: absolute;
+        top: 0;
+        left: -10vw;
+        width: 100vw;
+        height: 100%;
+        display: block;
+        content: '';
+        z-index: 0;
+        background-color: #FAFCFD;
+    }
+    .text-container .right-text-container .see-all-btn {
+        background-color: #FFFFFF !important;
+        &:hover {
+            background-color: #253D4E !important;
+        }
+    }
 }
 
 .image-text-container {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
@@ -48,6 +71,8 @@
 }
 
 .text-image-container {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;

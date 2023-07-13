@@ -1,3 +1,27 @@
+body.main #recommend-products {
+    position: relative;
+    z-index: 1;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    &::after {
+        position: absolute;
+        top: 0;
+        left: -10vw;
+        width: 100vw;
+        height: 100%;
+        display: block;
+        content: '';
+        z-index: 0;
+        background-color: #FAFCFD;
+    }
+    .text-container .right-text-container .see-all-btn {
+        background-color: #FFFFFF !important;
+        &:hover {
+            background-color: #253D4E !important;
+        }
+    }
+}
+
 #recommend-products {
     width: 80vw;
     margin: 0 auto;
@@ -17,6 +41,8 @@ body.category {
 }
 
 .products-container {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -339,6 +365,7 @@ body.category {
     }
     body.category {
         .products-container {
+            width: 100%;
             justify-content: space-between;
             .products-container-slot {
                 width: 43%;
