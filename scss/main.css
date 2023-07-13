@@ -715,6 +715,9 @@ header #nav .bottom-nav .right-container ul li:hover {
   -o-object-position: center;
      object-position: center;
 }
+#swiper .swiper .swiper-slide.swiper-slide-active img {
+  border: 1px solid #83C000;
+}
 #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   width: 18px;
