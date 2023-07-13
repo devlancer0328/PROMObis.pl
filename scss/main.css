@@ -7968,9 +7968,6 @@ body.open-modal #account-section {
     width: 100%;
     margin-bottom: 24px;
   }
-  #main-wrapper {
-    top: 80px !important;
-  }
 }
 @media (max-width: 780px) {
   section {
