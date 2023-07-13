@@ -37,8 +37,10 @@
                         cursor: pointer;
                         width: 120px !important;
                         height: 120px !important;
-                        &.active img {
-                            border: 1px solid #83C000;
+                        &.swiper-slide-active {
+                            img {
+                                border: 1px solid #83C000;
+                            }
                         }
                         img {
                             width: 80%;

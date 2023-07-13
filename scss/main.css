@@ -715,9 +715,6 @@ header #nav .bottom-nav .right-container ul li:hover {
   -o-object-position: center;
      object-position: center;
 }
-#swiper .swiper .swiper-slide.swiper-slide-active img {
-  border: 1px solid #83C000;
-}
 #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   width: 18px;
@@ -3030,7 +3027,7 @@ body.category .products-container .products-container-slot {
   width: 120px !important;
   height: 120px !important;
 }
-#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide.active img {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide.swiper-slide-active img {
   border: 1px solid #83C000;
 }
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide img {
