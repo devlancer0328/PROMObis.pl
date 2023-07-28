@@ -28,31 +28,35 @@
                     width: auto;
                     height: 610px;
                     margin-right: 0;
-                    margin-top: 48px !important;
-                    .swiper-slide {
+                    margin-top: -24px !important;
+                    .swiper-wrapper {
                         display: flex;
-                        align-items: center;
                         justify-content: center;
-                        box-sizing: border-box;
-                        cursor: pointer;
-                        width: 120px !important;
-                        height: 120px !important;
-                        &.swiper-slide-active {
-                            img {
-                                border: 1px solid #83C000;
+                        .swiper-slide {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            box-sizing: border-box;
+                            cursor: pointer;
+                            width: 120px !important;
+                            height: 120px !important;
+                            &.swiper-slide-active {
+                                img {
+                                    border: 1px solid #83C000;
+                                }
                             }
-                        }
-                        img {
-                            width: 80%;
-                            height: 80%;
-                            padding: 10px;
-                            border: 1px solid #D9D9D9;
-                            border-radius: 8px;
-                            object-fit: cover;
-                            user-select: none;
-                            background-color: #FFFFFF;
-                            &:hover {
-                                border: 1px solid #83C000;
+                            img {
+                                width: 80%;
+                                height: 80%;
+                                padding: 10px;
+                                border: 1px solid #D9D9D9;
+                                border-radius: 8px;
+                                object-fit: cover;
+                                user-select: none;
+                                background-color: #FFFFFF;
+                                &:hover {
+                                    border: 1px solid #83C000;
+                                }
                             }
                         }
                     }

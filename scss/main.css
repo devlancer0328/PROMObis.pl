@@ -3016,9 +3016,13 @@ body.category .products-container .products-container-slot {
   width: auto;
   height: 610px;
   margin-right: 0;
-  margin-top: 48px !important;
+  margin-top: -24px !important;
 }
-#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-wrapper {
+  display: flex;
+  justify-content: center;
+}
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-wrapper .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3027,10 +3031,10 @@ body.category .products-container .products-container-slot {
   width: 120px !important;
   height: 120px !important;
 }
-#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide.swiper-slide-active img {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-wrapper .swiper-slide.swiper-slide-active img {
   border: 1px solid #83C000;
 }
-#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide img {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-wrapper .swiper-slide img {
   width: 80%;
   height: 80%;
   padding: 10px;
@@ -3043,7 +3047,7 @@ body.category .products-container .products-container-slot {
           user-select: none;
   background-color: #FFFFFF;
 }
-#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-slide img:hover {
+#product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-thumbs .swiper-wrapper .swiper-slide img:hover {
   border: 1px solid #83C000;
 }
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider {
