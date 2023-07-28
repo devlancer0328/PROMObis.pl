@@ -3075,6 +3075,8 @@ body.category .products-container .products-container-slot {
      -moz-user-select: none;
           user-select: none;
   background-color: #FFFFFF;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-button-prev {
   position: absolute;
