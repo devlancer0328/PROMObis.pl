@@ -5,7 +5,7 @@
 * [Screenshots](#screenshots)
 
 ## General info
-PROMObis.pl e-commerce shop website
+PROMObis.pl website ➡️ E-commerce static website written using HTML5, SCSS, Vanilla Javascript with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
 
 ## Technologies   
 Used technologies:
