@@ -5401,6 +5401,9 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   padding-right: 16px;
   background-color: #FAFCFD;
 }
+.offerts-product-container .offerts-product-bottom .offerts-product-bottom-first .product-quantity-container p input::-webkit-inner-spin-button, .offerts-product-container .offerts-product-bottom .offerts-product-bottom-first .product-quantity-container p input::-webkit-outer-spin-button {
+  opacity: 1;
+}
 .offerts-product-container .offerts-product-bottom .offerts-product-bottom-second {
   display: flex;
   flex-direction: row;

@@ -400,6 +400,10 @@
                         padding-left: 16px;
                         padding-right: 16px;
                         background-color: #FAFCFD;
+                        &::-webkit-inner-spin-button,
+                        &::-webkit-outer-spin-button {
+                            opacity: 1;
+                        }
                     }
                 }
             }
