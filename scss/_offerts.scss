@@ -14,16 +14,16 @@
 }
 
 .offerts-product-container {
-    border: 1px solid #D9D9D9;
-    border-radius: 30px;
     margin-bottom: 32px;
     padding-bottom: 0;
-    background-color: #FFFFFF;
     .offerts-product-slot {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
+        border: 1px solid #D9D9D9;
+        background-color: #FFFFFF;
+        border-radius: 30px;
         margin-bottom: 24px;
         .offerts-product-top {
             display: flex;
