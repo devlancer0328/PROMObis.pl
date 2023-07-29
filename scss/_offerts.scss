@@ -25,6 +25,7 @@
         background-color: #FFFFFF;
         border-radius: 30px;
         margin-bottom: 24px;
+        padding: 40px 0;
         .offerts-product-top {
             display: flex;
             justify-content: flex-end;
@@ -633,5 +634,8 @@
     #back-to-shop .back-top-shop-btn-container .back-top-shop-btn a {
         font-size: 14px !important;
         line-height: 21px !important;
+    }
+    .offerts-product-container .offerts-product-slot {
+        padding: 18px 0 !important;
     }
 }
