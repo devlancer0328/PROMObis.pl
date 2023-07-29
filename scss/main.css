@@ -3286,11 +3286,23 @@ body.category .products-container .products-container-slot {
 #product-section .product-main-title {
   position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  left: -10vw;
+  height: 139px;
+  width: 100vw;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  margin: 40px 0;
+  background-color: #FFFFFF;
 }
-#product-section .product-main-title .left-product-text-container .h1-title {
+#product-section .product-main-title .product-main-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  margin-left: 10vw;
+}
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title {
   position: relative;
   font-weight: 700;
   font-size: 32px;
@@ -3298,16 +3310,16 @@ body.category .products-container .products-container-slot {
   color: #253D4E;
   margin-left: 80px;
 }
-#product-section .product-main-title .left-product-text-container .h1-title.with-additional-info ul {
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.with-additional-info ul {
   padding-left: 24px;
   margin: 0;
   margin-top: 8px;
 }
-#product-section .product-main-title .left-product-text-container .h1-title.with-additional-info ul li {
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.with-additional-info ul li {
   font-size: 20px;
   line-height: 24px;
 }
-#product-section .product-main-title .left-product-text-container .h1-title::before {
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -3320,27 +3332,27 @@ body.category .products-container .products-container-slot {
   background-size: contain;
   background-repeat: no-repeat;
 }
-#product-section .product-main-title .left-product-text-container .h1-title.others::before {
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.others::before {
   background: url("./../assets/product-page/others_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
-#product-section .product-main-title .left-product-text-container .h1-title.store::before {
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.store::before {
   background: url("./../assets/product-page/store_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
-#product-section .product-main-title .left-product-text-container .h1-title.price::before {
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.price::before {
   background: url("./../assets/product-page/prices_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
-#product-section .product-main-title .left-product-text-container .h1-title.calculate::before {
+#product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.calculate::before {
   background: url("./../assets/product-page/calculate_icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
-#product-section .product-main-title .right-product-text-container .product-see-all-btn {
+#product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn {
   width: 225px;
   height: 45px;
   background: #FAFCFD;
@@ -3348,7 +3360,7 @@ body.category .products-container .products-container-slot {
   border-radius: 39px;
   transition: 0.6s;
 }
-#product-section .product-main-title .right-product-text-container .product-see-all-btn a {
+#product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3359,10 +3371,10 @@ body.category .products-container .products-container-slot {
   width: 100%;
   height: 100%;
 }
-#product-section .product-main-title .right-product-text-container .product-see-all-btn:hover {
+#product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn:hover {
   background: #012E71;
 }
-#product-section .product-main-title .right-product-text-container .product-see-all-btn:hover a {
+#product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn:hover a {
   color: #FFFFFF;
 }
 #product-section .product-description {
@@ -3940,36 +3952,41 @@ body.category .products-container .products-container-slot {
     height: 80%;
     padding: 6px;
   }
-  #product-section .product-main-title .left-product-text-container .h1-title {
+  #product-section .product-main-title {
+    background-color: rgba(255, 255, 255, 0);
+    height: auto;
+    border: 0;
+  }
+  #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title {
     font-size: 18px;
     line-height: 29px;
     margin-left: 64px;
   }
-  #product-section .product-main-title .left-product-text-container .h1-title.with-additional-info ul {
+  #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.with-additional-info ul {
     margin-top: 4px;
   }
-  #product-section .product-main-title .left-product-text-container .h1-title.with-additional-info ul li {
+  #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.with-additional-info ul li {
     font-size: 12px;
     line-height: 14px;
   }
-  #product-section .product-main-title .left-product-text-container .h1-title::before {
+  #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title::before {
     left: -48px;
     width: 40px;
     height: 40px;
   }
-  #product-section .product-main-title .right-product-text-container .product-see-all-btn {
+  #product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn {
     width: 150px;
     height: 30px;
     border-radius: 26px;
   }
-  #product-section .product-main-title .right-product-text-container .product-see-all-btn a {
+  #product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn a {
     font-size: 14px;
     line-height: 17px;
   }
-  #product-section .product-main-title .right-product-text-container .product-see-all-btn:hover {
+  #product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn:hover {
     background: #012E71;
   }
-  #product-section .product-main-title .right-product-text-container .product-see-all-btn:hover a {
+  #product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn:hover a {
     color: #FFFFFF;
   }
   #product-section .product-description {
@@ -4237,17 +4254,17 @@ body.category .products-container .products-container-slot {
   #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-colors .avali-colors-slots .avali-colors-slot {
     margin-bottom: 8px;
   }
-  #product-section .product-main-title {
+  #product-section .product-main-title .product-main-title-container {
     flex-direction: column;
     align-items: flex-start;
   }
-  #product-section .product-main-title .left-product-text-container .h1-title {
+  #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title {
     width: 80%;
   }
-  #product-section .product-main-title .right-product-text-container {
+  #product-section .product-main-title .product-main-title-container .right-product-text-container {
     width: 100%;
   }
-  #product-section .product-main-title .right-product-text-container .product-see-all-btn {
+  #product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn {
     width: 100%;
   }
   #product-section .product-description {
