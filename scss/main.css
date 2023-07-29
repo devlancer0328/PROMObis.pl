@@ -119,6 +119,9 @@ header #nav .top-nav .search-bar-wrapper #searchQuerySelect {
   color: #253D4E;
   background-color: rgba(255, 255, 255, 0);
 }
+header #nav .top-nav .search-bar-wrapper #searchQuerySelect:focus, header #nav .top-nav .search-bar-wrapper #searchQuerySelect:hover {
+  outline: none;
+}
 header #nav .top-nav .search-bar-wrapper #searchQuerySelect option {
   cursor: pointer;
 }
@@ -2580,6 +2583,9 @@ body.category .products-container .products-container-slot {
   line-height: 29px;
   background-color: rgba(255, 255, 255, 0);
   cursor: pointer;
+}
+#category-section .category-filters .filters-center .filter-select-container .filter-select:focus, #category-section .category-filters .filters-center .filter-select-container .filter-select:hover {
+  outline: none;
 }
 #category-section .category-filters .filters-center .filter-color-container {
   display: flex;
