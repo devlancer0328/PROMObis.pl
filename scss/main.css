@@ -5069,11 +5069,14 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
 }
 .offerts-product-container .offerts-product-slot .offerts-product-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding-right: 40px;
   padding-left: 40px;
   margin-top: 0 !important;
   margin: 0 0 16px 0;
+}
+.offerts-product-container .offerts-product-slot .offerts-product-top.check {
+  justify-content: space-between;
 }
 .offerts-product-container .offerts-product-slot .offerts-product-top .checked_product input,
 .offerts-product-container .offerts-product-slot .offerts-product-top .checked_product label {
