@@ -5067,6 +5067,9 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
 .offerts-product-container .offerts-product-slot .offerts-product-top .checked_product input,
 .offerts-product-container .offerts-product-slot .offerts-product-top .checked_product label {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .offerts-product-container .offerts-product-slot .offerts-product-top p {
   position: relative;
