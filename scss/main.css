@@ -7135,16 +7135,38 @@ section.back-to-shop .back-top-shop-btn-container {
 .offerts-table-container table {
   margin: 24px 0;
 }
+.offerts-table-container table tr:nth-child(2) td {
+  border-top: 0;
+  padding: 0;
+}
 .offerts-table-container table th {
   text-align: left;
 }
 .offerts-table-container table td {
   width: 20%;
   padding: 8px;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+.offerts-table-container table td input {
+  border: 1px solid #d9d9d9;
+  background-color: #eeeeee !important;
+  border-radius: 18px;
+  height: 39px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 8px;
+  background-color: #FAFCFD;
+  margin: 24px 0;
+  box-sizing: border-box;
+  width: 90%;
 }
 .offerts-table-container table td p {
   margin: 4px 0;
+}
+.offerts-table-container table td p.offerts_number {
+  text-decoration: underline;
 }
 
 .pagination-center {
