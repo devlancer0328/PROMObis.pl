@@ -67,6 +67,9 @@
                     height: 710px;
                     margin-top: 16px;
                     overflow: hidden;
+                    .swiper-pagination {
+                        display: none;
+                    }
                     .swiper-slide {
                         display: flex;
                         align-items: flex-start;
@@ -1373,11 +1376,19 @@
                     height: auto;
                     .product-swiper-slider {
                         height: auto;
+                        .swiper-pagination {
+                            display: block;
+                            .swiper-pagination-bullet-active {
+                                background-color: #83C000 !important;
+                            }
+                        }
                         .swiper-slide {
                             overflow: hidden;
                             img {
                                 width: auto;
                                 height: 380px;
+                                background-color: rgba(255,255,255,0);
+                                border: 0;
                             }
                         }
                     }

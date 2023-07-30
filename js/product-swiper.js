@@ -5,6 +5,9 @@ const slider2 = new Swiper ('.product-swiper-slider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  pagination: {
+    el: '.swiper-pagination',
+  },
 });
 
 const thumbs = new Swiper ('.product-swiper-thumbs', {
