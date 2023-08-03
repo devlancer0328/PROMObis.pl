@@ -83,12 +83,12 @@
             .column-text {
                 padding: 0 18px 0 18px;
                 h2 {
-                    font-size: 14px;
-                    line-height: 17px;
+                    font-size: 14px !important;
+                    line-height: 17px !important;
                 }
                 p {
-                    font-size: 12px;
-                    line-height: 17px;
+                    font-size: 12px !important;
+                    line-height: 17px !important;
                 }
             }
             .column-button {
@@ -100,8 +100,8 @@
                 border: 0;
                 margin-bottom: 8px;
                 a {
-                    font-size: 12px;
-                    line-height: 11px;
+                    font-size: 14px !important;
+                    line-height: 17px !important;
                 }
             }
         }
@@ -124,13 +124,9 @@
                 margin-right: 4px;
                 margin-left: auto;
                 width: 99px;
-                height: 30px;
+                height: 30px !important;
                 border: 0;
                 margin-bottom: 8px;
-                a {
-                    font-size: 12px;
-                    line-height: 11px;
-                }
             }
         }
     }
