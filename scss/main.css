@@ -2982,6 +2982,10 @@ body.category .products-container .products-container-slot {
     margin-right: 0;
     padding: 4px 16px;
   }
+  #category-section .category-filters .filters-center .filter-select-container .filter-option {
+    font-size: 12px;
+    line-height: 16px;
+  }
   #category-section .category-filters .filters-center .filter-color-container {
     order: 0;
     padding: 4px 16px;
