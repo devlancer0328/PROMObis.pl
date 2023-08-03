@@ -2851,6 +2851,11 @@ body.category .products-container .products-container-slot {
   color: #253D4E;
 }
 
+@media (max-width: 1660px) {
+  #category-section .category-filters .filters-right {
+    top: 48px;
+  }
+}
 @media (max-width: 1280px) {
   #category-section .category-title {
     font-size: 20px;

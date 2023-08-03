@@ -323,6 +323,16 @@
     }
 }
 
+@media (max-width: 1660px) {
+    #category-section {
+        .category-filters {
+            .filters-right {
+                top: 48px;
+            }
+        }
+    } 
+}
+
 @media(max-width: 1280px) {
     #category-section {
         .category-title {
