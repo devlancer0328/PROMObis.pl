@@ -476,7 +476,7 @@ header #nav .bottom-nav .right-container ul li:hover {
 }
 @media (max-width: 760px) {
   header #nav.show-mobile-search-bar {
-    margin-bottom: 48px;
+    margin-bottom: 56px;
   }
   header #nav .top-nav {
     width: 90vw !important;
@@ -490,6 +490,9 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   header #nav .bottom-nav .right-container ul li {
     margin-left: 20px !important;
+  }
+  header #nav .top-nav .search-bar-wrapper.z-index {
+    z-index: -1;
   }
   header #nav .top-nav .search-bar-wrapper #searchQueryInput {
     display: none !important;
