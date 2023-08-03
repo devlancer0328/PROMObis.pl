@@ -26,7 +26,7 @@
             width: max-content;
             height: 41px;
             background: #FFFFFF;
-            border: 1px solid #ADADAD;
+            border: 1px solid lightgray;
             border-radius: 30px;
             padding: 0 16px;
             box-sizing: border-box;
@@ -436,6 +436,7 @@
         .category-filter-buttons {
             display: flex;
             flex-wrap: wrap;
+            margin-bottom: 0;
             .filter-button {
                 width: max-content;
                 height: 30px;
@@ -452,22 +453,34 @@
         .category-filters {
             margin-bottom: 30px;
             .filters-center {
-                flex-direction: column;
                 .filter-select-container {
+                    order: 1;
                     width: unset;
+                    margin-left: 12px;
                     margin-right: 0;
+                    padding: 4px 16px;
                 }
                 .filter-color-container {
-                    margin-top: 16px;
+                    order: 0;
+                    padding: 4px 16px;
                     span {
                         text-align: center;
+                        margin: 0;
                     }
                     display: flex;
                     flex-wrap: wrap;
                     width: unset;
                     height: auto;
-                    .color-circle {
-                        margin: 4px;
+                    .circle_colors_container {
+                        display: none;
+                        &.active {
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 30vw;
+                        }
+                        .color-circle {
+                            margin: 4px;
+                        }
                     }
                 }
             }

@@ -2489,7 +2489,7 @@ body.category .products-container .products-container-slot {
     margin-right: 0;
   }
   body.category .products-container .products-container-slot:nth-child(3n) {
-    margin-right: 16px;
+    margin-right: 0;
   }
   body.category .products-container .products-container-slot.discount .slot-image::after {
     font-size: 10px;
@@ -2555,7 +2555,7 @@ body.category .products-container .products-container-slot {
   width: max-content;
   height: 41px;
   background: #FFFFFF;
-  border: 1px solid #ADADAD;
+  border: 1px solid lightgray;
   border-radius: 30px;
   padding: 0 16px;
   box-sizing: border-box;
@@ -2957,6 +2957,7 @@ body.category .products-container .products-container-slot {
   #category-section .category-filter-buttons {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 0;
   }
   #category-section .category-filter-buttons .filter-button {
     width: -moz-max-content;
@@ -2974,15 +2975,16 @@ body.category .products-container .products-container-slot {
   #category-section .category-filters {
     margin-bottom: 30px;
   }
-  #category-section .category-filters .filters-center {
-    flex-direction: column;
-  }
   #category-section .category-filters .filters-center .filter-select-container {
+    order: 1;
     width: unset;
+    margin-left: 12px;
     margin-right: 0;
+    padding: 4px 16px;
   }
   #category-section .category-filters .filters-center .filter-color-container {
-    margin-top: 16px;
+    order: 0;
+    padding: 4px 16px;
     display: flex;
     flex-wrap: wrap;
     width: unset;
@@ -2990,8 +2992,17 @@ body.category .products-container .products-container-slot {
   }
   #category-section .category-filters .filters-center .filter-color-container span {
     text-align: center;
+    margin: 0;
   }
-  #category-section .category-filters .filters-center .filter-color-container .color-circle {
+  #category-section .category-filters .filters-center .filter-color-container .circle_colors_container {
+    display: none;
+  }
+  #category-section .category-filters .filters-center .filter-color-container .circle_colors_container.active {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+  }
+  #category-section .category-filters .filters-center .filter-color-container .circle_colors_container .color-circle {
     margin: 4px;
   }
   #category-section .category-filters .filters-right .pagination-right {
