@@ -301,4 +301,13 @@
         font-size: 14px !important;
         line-height: 21px !important;
     }
+    .cart-right-container {
+        margin-left: 0 !important;
+    }
+    .cart-right-container .cart-summary-container .cart-summary-btn .summary-btn {
+        height: 40px !important;
+        a {
+            font-size: 18px !important;
+        }
+    }
 }
