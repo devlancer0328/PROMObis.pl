@@ -116,6 +116,9 @@ header {
                         transition: 0.6s;
                     }
                 }
+                .mobile_search-btn {
+                    display: none;
+                }
             }
             .account-cart-container {
                 display: flex;
@@ -466,10 +469,15 @@ header {
 }
 
 @media (max-width: 760px) {
-    header #nav .top-nav {
-        width: 90vw !important;
-        &::after {
-            left: -5vw !important;
+    header #nav {
+        &.show-mobile-search-bar {
+            margin-bottom: 48px;
+        }
+        .top-nav {
+            width: 90vw !important;
+            &::after {
+                left: -5vw !important;
+            }
         }
     }
     header #nav .top-nav .logo img {
@@ -481,19 +489,49 @@ header {
     }
     header #nav .top-nav .search-bar-wrapper #searchQueryInput {
         display: none !important;
+        position: absolute;
+        top: 92px;
+        left: 0;
+        padding-left: 16px;
+        &.active {
+            display: flex !important;
+        }
     }
     header #nav .top-nav .search-bar-wrapper #searchQuerySubmit {
+        display: none !important;
         margin-left: 0 !important;
         background: none !important;
         position: absolute !important;
-        top: 28%;
-        right: 19vw;
+        top: 96px;
+        right: 0;
+        width: 64px;
         svg {
-            height: 33px !important;
-            width: 33px !important;
+            margin-top: 5px !important;
+            margin-left: 3px !important;
+            height: 30px !important;
+            width: 30px !important;
             path {
-                fill: #012E71 !important;
+                fill: #ffffff !important;
             }
+        }
+        &.active {
+            display: flex !important;
+            width: 48px !important;
+            outline: none;
+            background: #012e71 !important;
+            border-radius: 20px;
+            height: 43px;
+            top: 93px;
+        }
+    }
+    header #nav .top-nav .search-bar-wrapper .mobile_search-btn {
+        display: flex !important;
+        position: absolute;
+        top: 20px;
+        right: 88px;
+        svg {
+            height: 38px !important;
+            width: 38px !important;
         }
     }
     header #nav .top-nav .account-cart-container .cart-container {
@@ -503,7 +541,13 @@ header {
         }
     }
     #searchQuerySelect {
-        display: none !important
+        display: none !important;
+        position: absolute !important;
+        top: 102px !important;
+        right: 50px !important;
+        &.active {
+            display: flex !important;
+        }
     }
 }
 

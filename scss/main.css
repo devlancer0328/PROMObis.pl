@@ -139,6 +139,9 @@ header #nav .top-nav .search-bar-wrapper #searchQuerySubmit:hover {
   background-color: #83c000;
   transition: 0.6s;
 }
+header #nav .top-nav .search-bar-wrapper .mobile_search-btn {
+  display: none;
+}
 header #nav .top-nav .account-cart-container {
   display: flex;
   flex-direction: row;
@@ -472,6 +475,9 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
 }
 @media (max-width: 760px) {
+  header #nav.show-mobile-search-bar {
+    margin-bottom: 48px;
+  }
   header #nav .top-nav {
     width: 90vw !important;
   }
@@ -487,20 +493,50 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   header #nav .top-nav .search-bar-wrapper #searchQueryInput {
     display: none !important;
+    position: absolute;
+    top: 92px;
+    left: 0;
+    padding-left: 16px;
+  }
+  header #nav .top-nav .search-bar-wrapper #searchQueryInput.active {
+    display: flex !important;
   }
   header #nav .top-nav .search-bar-wrapper #searchQuerySubmit {
+    display: none !important;
     margin-left: 0 !important;
     background: none !important;
     position: absolute !important;
-    top: 28%;
-    right: 19vw;
+    top: 96px;
+    right: 0;
+    width: 64px;
   }
   header #nav .top-nav .search-bar-wrapper #searchQuerySubmit svg {
-    height: 33px !important;
-    width: 33px !important;
+    margin-top: 5px !important;
+    margin-left: 3px !important;
+    height: 30px !important;
+    width: 30px !important;
   }
   header #nav .top-nav .search-bar-wrapper #searchQuerySubmit svg path {
-    fill: #012E71 !important;
+    fill: #ffffff !important;
+  }
+  header #nav .top-nav .search-bar-wrapper #searchQuerySubmit.active {
+    display: flex !important;
+    width: 48px !important;
+    outline: none;
+    background: #012e71 !important;
+    border-radius: 20px;
+    height: 43px;
+    top: 93px;
+  }
+  header #nav .top-nav .search-bar-wrapper .mobile_search-btn {
+    display: flex !important;
+    position: absolute;
+    top: 20px;
+    right: 88px;
+  }
+  header #nav .top-nav .search-bar-wrapper .mobile_search-btn svg {
+    height: 38px !important;
+    width: 38px !important;
   }
   header #nav .top-nav .account-cart-container .cart-container {
     margin-left: 8px !important;
@@ -510,6 +546,12 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   #searchQuerySelect {
     display: none !important;
+    position: absolute !important;
+    top: 102px !important;
+    right: 50px !important;
+  }
+  #searchQuerySelect.active {
+    display: flex !important;
   }
 }
 /* mobile menu */
@@ -3271,15 +3313,17 @@ body.category .products-container .products-container-slot {
 #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-colors .avali-colors-slots {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-colors .avali-colors-slots .avali-colors-slot {
-  width: 12%;
-  height: 12%;
+  width: 11%;
+  height: 11%;
   border: 1px solid #D9D9D9;
   border-radius: 10px;
   background-color: #FFFFFF;
   cursor: pointer;
   margin-right: 6px;
+  margin-bottom: 6px;
 }
 #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-colors .avali-colors-slots .avali-colors-slot.active {
   border: 1px solid #83C000;
@@ -3364,7 +3408,7 @@ body.category .products-container .products-container-slot {
 #product-section .product-main-title .product-main-title-container .right-product-text-container .product-see-all-btn {
   width: 225px;
   height: 45px;
-  background: #FAFCFD;
+  background: #FFFFFF;
   border: 1px solid #012E71;
   border-radius: 39px;
   transition: 0.6s;
@@ -4219,6 +4263,9 @@ body.category .products-container .products-container-slot {
   #product-section {
     width: 90vw;
   }
+  #product-section .product-main-title {
+    margin: 16px 0;
+  }
   #product-section hr {
     background-color: #FFF;
     margin-top: 8px;
@@ -4274,9 +4321,21 @@ body.category .products-container .products-container-slot {
   #product-section .product-main-title .product-main-title-container {
     flex-direction: column;
     align-items: flex-start;
+    width: 90vw;
   }
   #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title {
     width: 80%;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
+  #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title.with-additional-info ul {
+    margin-top: 6px;
+    padding-left: 0;
+    margin-left: -32px;
+  }
+  #product-section .product-main-title .product-main-title-container .left-product-text-container .h1-title::before {
+    top: 22px;
   }
   #product-section .product-main-title .product-main-title-container .right-product-text-container {
     width: 100%;
@@ -4353,10 +4412,12 @@ body.category .products-container .products-container-slot {
   }
   #product-section .calculate-product-container {
     border: 0;
-    margin-bottom: 8px;
+    margin-bottom: 32px;
   }
   #product-section .calculate-product-container .calculate-product-slot {
+    position: relative;
     min-height: auto;
+    padding-bottom: 40px;
   }
   #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot {
     display: flex;
@@ -4383,37 +4444,49 @@ body.category .products-container .products-container-slot {
     margin-bottom: 8px;
   }
   #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-colors-quantity {
+    position: relative;
     display: flex;
     justify-content: flex-start;
     width: 90%;
     margin-bottom: 8px;
+  }
+  #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-colors-quantity select {
+    width: 30%;
   }
   #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-action {
+    position: relative;
     display: flex;
     justify-content: flex-start;
-    width: 90%;
-    margin-bottom: 8px;
+    margin-top: 4px;
+    width: 50%;
+    margin-left: 50%;
   }
   #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-action p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     margin-left: 40px;
     font-size: 14px;
+    line-height: 21px;
   }
   #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot .calculate-product-top-slot-action p::before {
     position: absolute;
     top: -2px;
-    left: -32px;
-    content: "+";
-    font-weight: 400;
-    font-size: 32px;
-    color: #83C000;
+    left: -56px;
+    content: "";
+    background: url("./../assets/icons/add-white-green.svg");
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   #product-section .calculate-product-container .calculate-product-slot .calculate-product-top .calculate-product-top-slot.another .calculate-product-top-slot-action.delete p::before {
     position: absolute;
-    top: 8px;
-    left: -26px;
-    background: url("./../assets/product-page/red-x-icon.svg");
-    width: 16px;
-    height: 16px;
+    top: 1px;
+    left: -40px;
+    background: url(./../assets/product-page/red-x-icon.svg);
+    width: 22px;
+    height: 22px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -4477,8 +4550,14 @@ body.category .products-container .products-container-slot {
   #product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-quantity p {
     font-size: 22px;
     line-height: 36px;
+    margin: 0;
+    margin-bottom: -24px;
   }
   #product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn {
+    position: absolute;
+    bottom: -48px;
+    left: 30px;
+    width: calc(100% - 60px);
     height: 42px;
     margin-top: 24px;
     transition: 0.6s;
@@ -4494,12 +4573,99 @@ body.category .products-container .products-container-slot {
     margin-left: 16px;
     margin-right: 16px;
     padding: 0 24px;
+    padding-bottom: 48px;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first {
+    position: relative;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first .delivery-price {
+    position: absolute;
+    top: 112px;
+    left: 0;
   }
   #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first .netto-price {
     text-align: right;
+    width: 100%;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first .netto-price p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-first .netto-price p span {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-second {
+    position: relative;
+    justify-content: flex-end;
   }
   #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-second .brutto-price {
     text-align: right;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-second .brutto-price p {
+    display: inline-flex;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-second .brutto-price p span {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  #product-section .calculate-product-container .calculate-product-bottom .calculate-product-bottom-second .realization-time {
+    position: absolute;
+    top: 80px;
+    left: 0;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-info,
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-color,
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-code {
+    margin: 0 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-title {
+    margin: 0 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+  }
+  #product-section .product-main-top-cantainer {
+    height: 840px !important;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-left .product-swiper .product-swiper-slider .swiper-pagination {
+    bottom: 10px !important;
+    left: 0 !important;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-left {
+    width: 100% !important;
+    position: absolute !important;
+    top: 164px !important;
+    left: 0 !important;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-status {
+    position: absolute !important;
+    top: 700px !important;
+    left: 15px !important;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-price {
+    position: absolute !important;
+    top: 570px !important;
+    left: 15px !important;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-buttons {
+    position: absolute !important;
+    top: 620px !important;
+    left: 15px !important;
+    width: calc(100% - 30px) !important;
+  }
+  #product-section .product-main-top-cantainer .product-main-top-right .product-main-top-description .product-main-top-colors {
+    position: absolute !important;
+    top: 720px !important;
+    left: 15px !important;
   }
 }
 #cart-section.cart {
