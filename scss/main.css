@@ -528,8 +528,8 @@ header #nav .bottom-nav .right-container ul li:hover {
     outline: none;
     background: #012e71 !important;
     border-radius: 20px;
-    height: 43px;
-    top: 93px;
+    height: 45px;
+    top: 92px;
   }
   header #nav .top-nav .search-bar-wrapper .mobile_search-btn {
     display: flex !important;
