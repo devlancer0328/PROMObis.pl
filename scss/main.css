@@ -1952,6 +1952,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   .clients-section {
     overflow-x: scroll;
     padding-bottom: 24px;
+    justify-content: flex-start;
   }
   .clients-section .client-image {
     padding-right: 2%;
