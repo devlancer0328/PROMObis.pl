@@ -1,6 +1,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [License](#license)
 * [Live](#live-star2)
 * [Screenshots](#screenshots)
 
@@ -12,6 +13,11 @@ Used technologies:
 * JavaScript
 * HTML5
 * SCSS
+
+## License
+License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
+
+This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
 
 ## Live :star2:
 * Main page :arrow_right: https://goldipl.github.io/PROMObis.pl/    
