@@ -36,6 +36,13 @@ body {
     accent-color: #83C000;
 }
 
+input:hover,
+input:focus,
+input:active {
+    outline: 0 !important;
+    border: 1px solid #83C000 !important;
+}
+
 body.open-modal {
     position: fixed;
     &::before {
