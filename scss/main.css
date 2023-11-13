@@ -8554,6 +8554,7 @@ body.login-page .cart-container-bottom {
 #contact-section .contact-form .contact-form-slot textarea {
   max-width: 100%;
   height: auto;
+  padding: 16px;
 }
 #contact-section .contact-form .recaptcha {
   display: flex;
