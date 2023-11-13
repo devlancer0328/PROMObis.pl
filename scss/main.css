@@ -6709,6 +6709,9 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
     justify-content: center;
     align-items: center;
   }
+  .col-10-container .account-password-container .account-pass-cont-right .account-pass-container input {
+    max-width: 100% !important;
+  }
   .col-10-container .account-password-container {
     flex-direction: column !important;
   }
