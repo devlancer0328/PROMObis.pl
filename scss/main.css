@@ -1834,8 +1834,8 @@ header #nav .bottom-nav .right-container ul li:hover {
     display: flex;
     margin-right: 4px;
     margin-left: auto;
-    width: 99px;
-    height: 30px;
+    width: 80% !important;
+    height: 30px !important;
     border: 0;
     margin-bottom: 8px;
   }
@@ -8414,6 +8414,28 @@ footer .footer-bottom p {
   #article-section .article_container .article_txt_img_img_box__images--img img {
     width: 100%;
     height: auto;
+  }
+}
+#blog-section {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+#blog-section .blog_container .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #253D4E;
+  margin: 0 0 24px 0;
+}
+#blog-section .blog_container .three-columns-section {
+  margin: 0 0 40px 0;
+}
+
+@media (max-width: 1280px) {
+  #blog-section .articblogle_container .title {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 #contact-section {

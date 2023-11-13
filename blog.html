@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promobis | Blog</title>
+    <link rel="stylesheet" href="./css/swiper-bundle.css"/>
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body class="article-page">
+    <header>
+        <nav id="nav">
+            <div class="top-nav">
+                <div class="hamburger">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </div>
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./assets/img/logo.svg" alt="promobis-logo" width="274" height="60">
+                    </a>
+                </div>
+                <div class="search-bar-wrapper">
+                    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="|   Czego szukasz?" value="" />
+                    <select id="searchQuerySelect">
+                        <option>Wszędzie</option>
+                        <option>Kategoria</option>
+                        <option>Kategoria2</option>
+                    </select>
+                    <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 4C7.13401 4 4 7.13401 4 11C4 14.866 7.13401 18 11 18C14.866 18 18 14.866 18 11C18 7.13401 14.866 4 11 4ZM2 11C2 6.02944 6.02944 2 11 2C15.9706 2 20 6.02944 20 11C20 15.9706 15.9706 20 11 20C6.02944 20 2 15.9706 2 11Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9433 15.9428C16.3338 15.5523 16.967 15.5523 17.3575 15.9428L21.7075 20.2928C22.098 20.6833 22.098 21.3165 21.7075 21.707C21.317 22.0975 20.6838 22.0975 20.2933 21.707L15.9433 17.357C15.5528 16.9665 15.5528 16.3333 15.9433 15.9428Z" fill="white"/>
+                        </svg>  
+                    </button>
+                    <div class="mobile_search-btn">
+                        <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="9" cy="9" r="8.25" stroke="#012E71" stroke-width="1.5"/>
+                            <path d="M15 16L20 21" stroke="#012E71" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="account-cart-container">
+                    <div class="account-container">
+                        <div class="logo-container">
+                            <a href="#">
+                                <img class="account-image" src="./assets/icons/account.svg" alt="account image" width="27" height="33">
+                            </a>
+                        </div>
+                        <div class="account-text-container">
+                            <a class="login" href="#">
+                                <p>Zaloguj się</p>
+                            </a>
+                            <a class="create-account" href="#">
+                                Utwórz konto
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <a class="cart-link" href="./cart.html">
+                            <div class="cart-logo-container">
+                                <img class="cart-image" src="./assets/icons/cart.svg" alt="cart image" width="31" height="31">
+                                <span class="cart-quantity">0</span>
+                            </div>
+                            <div class="cart-total-price">
+                                <p>0,00 zł</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="left-container">
+                    <ul>
+                        <li class="bottom-nav-links">Oferta gadżetów
+                            <div class="bottom-nav-sublist">
+                                <ul>
+                                    <li><a href="#">Koszulki</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Koszulki białe</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki czarne</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Koszulki żołte</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Okulary</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Okulary czarne</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Okulary białe</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Okulary niebieskie</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Długopisy</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Długopisy niebieskie</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Białe</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Czarne</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Zeszyty</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>A4</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>A5</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>A6</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="bottom-nav-links">Oferta tematyczna
+                            <div class="bottom-nav-sublist">
+                                <ul>
+                                    <li><a href="#">Buty 1</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Buty x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Buty y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Buty z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Spodnie</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Spodnie x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Spodnie y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Spodnie z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Bielizna</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Bielizna x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Bielizna y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Bielizna z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Teczki</a>
+                                        <div class="bottom-nav-sub-sublist">
+                                            <ul>
+                                                <a href="#">
+                                                    <li>Teczki x</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Teczki y</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li>Teczki z</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-container">
+                    <ul>
+                        <a href="#">
+                            <li>Promocje</li>
+                        </a>
+                        <a href="#">
+                            <li>Znakowanie</li>
+                        </a>
+                        <a href="#">
+                            <li>E-katalogi</li>
+                        </a>
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                        <a href="./contact.html">
+                            <li>Kontakt</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="main-wrapper">
+    
+        <section id="blog-section">
+            <div class="breadcrumbs">
+                <ul>
+                    <li class="breadcrumb-item">
+                        <a href="#">Strona główna</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="blog_container">
+                <h1 class="title">Blog</h1>
+                <div class="three-columns-section">
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/female-picking.jpg" alt="pick" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Prezenty dla klienta</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/middle-pic.jpg" alt="middle" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Grawery na gadżetach</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/headphones.jpg" alt="headphones" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Jakie wybrać słuchawki</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Dowiedz się więcej ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="three-columns-section">
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/female-picking.jpg" alt="pick" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Prezenty dla klienta</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/middle-pic.jpg" alt="middle" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Grawery na gadżetach</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/headphones.jpg" alt="headphones" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Jakie wybrać słuchawki</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Dowiedz się więcej ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="three-columns-section">
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/female-picking.jpg" alt="pick" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Prezenty dla klienta</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/middle-pic.jpg" alt="middle" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Grawery na gadżetach</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/headphones.jpg" alt="headphones" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Jakie wybrać słuchawki</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Dowiedz się więcej ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="three-columns-section">
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/female-picking.jpg" alt="pick" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Prezenty dla klienta</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/middle-pic.jpg" alt="middle" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Grawery na gadżetach</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Czytaj dalej ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="./assets/img/headphones.jpg" alt="headphones" width="481" height="297">
+                        </div>
+                        <div class="column-text-container">
+                            <div class="column-text">
+                                <h2>Jakie wybrać słuchawki</h2>
+                                <p>Lorem ipsum wyo sit amet, consectetur adipiscing elit. Potenti volutpat nunc sed cursus fermentum luctus. Fermentum pulvinar</p>
+                            </div>
+                            <div class="column-button">
+                                <a href="#">Dowiedz się więcej ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-left-container">
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            <p>Zamówienia</p>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Zaloguj się / Zarejestruj się</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Jak zamawiać?</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Formy płatności</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Zwroty i reklamacje</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Najczęściej zadawane pytania</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Regulamin</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Polityka prywatności</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Polityka cookies</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            <p>Informacje</p>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Kontakt</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">O nas</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Katalogi do pobrania</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Mapa strony</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Blog</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Nasze realizacje</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Facebook</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">YouTube</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            <p>Oferta</p>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Kubki reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Koszulki reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Torby bawełniane</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Plecaki na sznurkach</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Długopisy reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Czapki reklamowe</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Parasole</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="#">Pendrive</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right-container">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <img src="./assets/img/logo.svg" alt="footer-logo" width="187" height="45">
+                        </div>
+                        <div class="footer-address">
+                            <p>ul. Zabrodzka 2</p>
+                            <p>52-336 Wrocław</p>
+                        </div>
+                        <div class="footer-telephone">
+                            <p>tel. 71 336 96 90</p>
+                            <p>tel. 71 367 23 65</p>
+                        </div>
+                        <div class="footer-hours">
+                            <p>Czynne w dni robocze</p>
+                            <p>od godz. 8:00 do 16:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span></span> PROMObis. Wszystkie prawa zastrzeżone</p>
+        </div>
+        </footer>
+    </div>
+    <script src="./js/mobile_searchbar.js"></script>
+    <script src="./js/swiper-bundle.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
