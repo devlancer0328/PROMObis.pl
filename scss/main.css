@@ -8491,6 +8491,15 @@ footer .footer-bottom p {
     height: 40px;
   }
 }
+body.login-page .cart-container-bottom {
+  margin-bottom: 120px;
+}
+
+@media (max-width: 760px) {
+  body.login-page .cart-container-bottom {
+    margin-bottom: 40px;
+  }
+}
 #contact-section {
   width: 80vw;
   margin: 0 auto;

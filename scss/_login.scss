@@ -1,0 +1,13 @@
+body.login-page {
+    .cart-container-bottom {
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 760px) {
+    body.login-page {
+        .cart-container-bottom {
+            margin-bottom: 40px;
+        }
+    }
+}
