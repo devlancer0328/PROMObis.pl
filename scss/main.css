@@ -6773,7 +6773,7 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   #account-section .account-change-delivery-address-container,
   #account-section .account-change-invoice-data-container,
   #account-section .account-change-password-container {
-    padding: 24px;
+    padding: 48px 24px;
     width: 80vw;
     height: 80vh;
     top: 35vh;
