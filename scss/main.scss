@@ -32,6 +32,10 @@
 @import './login';
 @import './contact';
 
+body {
+    accent-color: #83C000;
+}
+
 body.open-modal {
     position: fixed;
     &::before {
@@ -54,7 +58,6 @@ body.open-modal {
 
 #main-wrapper {
     position: relative;
-    // top: 181px;
     top: 0
 }
 
