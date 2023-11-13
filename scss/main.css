@@ -1404,10 +1404,10 @@ header #nav .bottom-nav .right-container ul li:hover {
   margin-top: 8px;
 }
 #cart-section .cart-container-bottom .left-cart-container .mail-container {
-  width: 100%;
+  width: calc(100% - 4px);
 }
 #cart-section .cart-container-bottom .left-cart-container .mail-container input {
-  width: 100%;
+  width: calc(100% - 16px);
   border: 1px solid #ADADAD;
   border-radius: 18px;
   height: 45px;
@@ -1417,10 +1417,10 @@ header #nav .bottom-nav .right-container ul li:hover {
   background-color: #FAFCFD;
 }
 #cart-section .cart-container-bottom .left-cart-container .password-container {
-  width: 100%;
+  width: calc(100% - 4px);
 }
 #cart-section .cart-container-bottom .left-cart-container .password-container input {
-  width: 100%;
+  width: calc(100% - 16px);
   border: 1px solid #ADADAD;
   border-radius: 18px;
   height: 45px;

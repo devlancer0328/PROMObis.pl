@@ -63,9 +63,9 @@
                 }
             }
             .mail-container {
-                width: 100%;
+                width: calc(100% - 4px);
                 input {
-                    width: 100%;
+                    width: calc(100% - 16px);
                     border: 1px solid #ADADAD;
                     border-radius: 18px;
                     height: 45px;
@@ -76,9 +76,9 @@
                 }
             }
             .password-container {
-                width: 100%;
+                width: calc(100% - 4px);
                 input {
-                    width: 100%;
+                    width: calc(100% - 16px);
                     border: 1px solid #ADADAD;
                     border-radius: 18px;
                     height: 45px;
