@@ -8795,7 +8795,10 @@ body {
 
 input:hover,
 input:focus,
-input:active {
+input:active,
+textarea:hover,
+textarea:focus,
+textarea:active {
   outline: 0 !important;
   border: 1px solid #83C000 !important;
 }
