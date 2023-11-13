@@ -62,7 +62,11 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 
 * Blog page :arrow_right: https://goldipl.github.io/PROMObis.pl/blog   
 
-* Clients page :arrow_right: https://goldipl.github.io/PROMObis.pl/clients     
+* Clients page :arrow_right: https://goldipl.github.io/PROMObis.pl/clients 
+
+* Login page :arrow_right: https://goldipl.github.io/PROMObis.pl/login    
+
+* Register page :arrow_right: https://goldipl.github.io/PROMObis.pl/register        
 
 ## Screenshots
 * Desktop version :desktop_computer:   
