@@ -46,6 +46,10 @@ textarea:active {
     border: 1px solid #253D4E !important;
 }
 
+label {
+    user-select: none !important;
+}
+
 body.open-modal {
     position: fixed;
     &::before {

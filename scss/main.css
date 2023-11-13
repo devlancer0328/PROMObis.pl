@@ -8837,6 +8837,12 @@ textarea:active {
   border: 1px solid #253D4E !important;
 }
 
+label {
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+          user-select: none !important;
+}
+
 body.open-modal {
   position: fixed;
 }
