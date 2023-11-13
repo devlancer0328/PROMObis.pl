@@ -623,6 +623,11 @@
 /* =================================== 760 px ========================== */
 
 @media (max-width: 760px) {
+    #account-section label,
+    #account-section input {
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
     .row-container .col-2-container {
         width: 80% !important;
         padding: 16px 16px 16px 40px !important;
