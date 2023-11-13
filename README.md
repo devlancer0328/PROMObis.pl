@@ -58,6 +58,8 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 
 * Contact page :arrow_right: https://goldipl.github.io/PROMObis.pl/contact    
 
+* Article page :arrow_right: https://goldipl.github.io/PROMObis.pl/article   
+
 ## Screenshots
 * Desktop version :desktop_computer:   
 
