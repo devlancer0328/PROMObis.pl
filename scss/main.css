@@ -3885,7 +3885,12 @@ body.category .products-container .products-container-slot {
 #product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn:hover {
   background: #FFFFFF;
 }
-#product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn a {
+#product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn a,
+#product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn button {
+  font-family: Tahoma, sans-serif;
+  border: 0;
+  cursor: pointer;
+  background: #83C000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3897,6 +3902,13 @@ body.category .products-container .products-container-slot {
   width: 100%;
   height: 100%;
   text-align: center;
+  border-radius: 39px;
+}
+#product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn a:hover,
+#product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn button:hover {
+  color: #83C000;
+  background: #FFFFFF;
+  border: 1px solid #83C000;
 }
 #product-section .calculate-product-container .calculate-product-middle .calculate-product-middle-right .product-right-cart-btn:hover a {
   color: #83C000;
