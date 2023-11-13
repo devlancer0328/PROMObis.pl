@@ -523,7 +523,9 @@
         &:hover {
             background: #83C000;
         }
-        a {
+        a,
+        button {
+            font-family: Tahoma, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -535,9 +537,15 @@
             width: 100%;
             height: 100%;
             text-align: center;
+            background: #FFFFFF;
+            border: 1px solid #83C000;
+            border-radius: 39px;
+            cursor: pointer;
         }
-        &:hover a {
+        &:hover a,
+        &:hover button {
             color: #FFFFFF;
+            background: #83C000;
         }
     }
 }

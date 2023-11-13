@@ -103,21 +103,27 @@
                     &:hover {
                         background: #FFFFFF;
                     }
-                    a {
+                    a,
+                    button {
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         font-weight: 700;
                         font-size: 20px;
                         line-height: 24px;
+                        background: #012E71;
+                        border-radius: 39px;
                         color: #FFFFFF;
                         text-decoration: none;
                         width: 100%;
                         height: 100%;
                         text-align: center;
+                        cursor: pointer;
                     }
-                    &:hover a {
+                    &:hover a,
+                    &:hover button {
                         color: #012E71;
+                        background: #FFFFFF;
                     }
                 }
                 .remind-pass-btn {
@@ -130,7 +136,9 @@
                     height: 56px;
                     margin-top: 40px;
                     transition: 0.6s;
-                    a {
+                    a,
+                    button {
+                        font-family: Tahoma, sans-serif;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -141,6 +149,10 @@
                         width: 100%;
                         height: 100%;
                         text-align: center;
+                        background: #FFFFFF;
+                        border: 0;
+                        cursor: pointer;
+                        text-decoration: underline;
                         &:hover {
                             text-decoration: none;
                         }

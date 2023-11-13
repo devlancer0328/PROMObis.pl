@@ -190,6 +190,7 @@
         }
         .address-slot-btn {
             .save-btn {
+                font-family: Tahoma, sans-serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -205,6 +206,9 @@
                 margin-top: 22px;
                 transition: 0.6s;
                 margin-top: 64px;
+                font-size: 18px;
+                line-height: 22px;
+                cursor: pointer;
                 &:hover {
                     background: #FFFFFF;
                     color: #012E71;

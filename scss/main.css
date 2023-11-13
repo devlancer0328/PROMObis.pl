@@ -1446,21 +1446,26 @@ header #nav .bottom-nav .right-container ul li:hover {
 #cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn:hover {
   background: #FFFFFF;
 }
-#cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn a {
+#cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn a,
+#cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn button {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  background: #012E71;
+  border-radius: 39px;
   color: #FFFFFF;
   text-decoration: none;
   width: 100%;
   height: 100%;
   text-align: center;
+  cursor: pointer;
 }
-#cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn:hover a {
+#cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn:hover a, #cart-section .cart-container-bottom .left-cart-container .buttons-container .login-btn:hover button {
   color: #012E71;
+  background: #FFFFFF;
 }
 #cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn {
   display: flex;
@@ -1473,7 +1478,9 @@ header #nav .bottom-nav .right-container ul li:hover {
   margin-top: 40px;
   transition: 0.6s;
 }
-#cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn a {
+#cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn a,
+#cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn button {
+  font-family: Tahoma, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1484,8 +1491,13 @@ header #nav .bottom-nav .right-container ul li:hover {
   width: 100%;
   height: 100%;
   text-align: center;
+  background: #FFFFFF;
+  border: 0;
+  cursor: pointer;
+  text-decoration: underline;
 }
-#cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn a:hover {
+#cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn a:hover,
+#cart-section .cart-container-bottom .left-cart-container .buttons-container .remind-pass-btn button:hover {
   text-decoration: none;
 }
 #cart-section .cart-container-bottom .right-cart-container {
@@ -5784,7 +5796,10 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   background: #83C000;
 }
 .pricing-form .pricing-form-send-btn a,
-.pricing-form .pricing-form-save-btn a {
+.pricing-form .pricing-form-send-btn button,
+.pricing-form .pricing-form-save-btn a,
+.pricing-form .pricing-form-save-btn button {
+  font-family: Tahoma, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5796,10 +5811,16 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   width: 100%;
   height: 100%;
   text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #83C000;
+  border-radius: 39px;
+  cursor: pointer;
 }
-.pricing-form .pricing-form-send-btn:hover a,
-.pricing-form .pricing-form-save-btn:hover a {
+.pricing-form .pricing-form-send-btn:hover a, .pricing-form .pricing-form-send-btn:hover button,
+.pricing-form .pricing-form-save-btn:hover a,
+.pricing-form .pricing-form-save-btn:hover button {
   color: #FFFFFF;
+  background: #83C000;
 }
 
 #back-to-shop {
@@ -6262,6 +6283,7 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
 #account-section .account-change-delivery-address-container .address-slot-btn .save-btn,
 #account-section .account-change-invoice-data-container .address-slot-btn .save-btn,
 #account-section .account-change-password-container .address-slot-btn .save-btn {
+  font-family: Tahoma, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6277,6 +6299,9 @@ body.cart.summary .offerts-product-container .offerts-product-slot .offerts-prod
   margin-top: 22px;
   transition: 0.6s;
   margin-top: 64px;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
 }
 #account-section .account-add-a-new-address-container .address-slot-btn .save-btn:hover,
 #account-section .account-change-address-container .address-slot-btn .save-btn:hover,
@@ -8580,7 +8605,9 @@ body.login-page .cart-container-bottom {
 #contact-section .contact-form .send-btn:hover {
   background: #FFFFFF;
 }
-#contact-section .contact-form .send-btn a {
+#contact-section .contact-form .send-btn a,
+#contact-section .contact-form .send-btn button {
+  font-family: Tahoma, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8592,9 +8619,14 @@ body.login-page .cart-container-bottom {
   width: 100%;
   height: 100%;
   text-align: center;
+  background: #012E71;
+  border: 1px solid #012E71;
+  border-radius: 39px;
+  cursor: pointer;
 }
-#contact-section .contact-form .send-btn:hover a {
+#contact-section .contact-form .send-btn:hover a, #contact-section .contact-form .send-btn:hover button {
   color: #012E71;
+  background: #FFFFFF;
 }
 #contact-section .col-8-container {
   display: flex;
