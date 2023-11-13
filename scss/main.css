@@ -8438,6 +8438,28 @@ footer .footer-bottom p {
     line-height: 24px;
   }
 }
+#blog-section {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+#blog-section .blog_container .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #253D4E;
+  margin: 0 0 24px 0;
+}
+#blog-section .blog_container .three-columns-section {
+  margin: 0 0 40px 0;
+}
+
+@media (max-width: 1280px) {
+  #blog-section .blog_container .title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 #contact-section {
   width: 80vw;
   margin: 0 auto;

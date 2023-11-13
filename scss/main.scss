@@ -17,7 +17,7 @@
 @import './cart_page/cart';
 @import './cart_page/cart-your-data';
 @import './cart_page/cart-summary';
-@import 'offerts';
+@import './offerts';
 @import './account/account';
 @import './account/account_pricing';
 @import './account/account_pricing_details';
@@ -25,10 +25,11 @@
 @import './account/account_orders_details';
 @import './account/account_offerts';
 @import './account/account_files';
-@import 'footer';
+@import './footer';
 @import './article';
 @import './blog';
-@import 'contact';
+@import './clients';
+@import './contact';
 
 body.open-modal {
     position: fixed;
