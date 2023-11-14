@@ -19,14 +19,21 @@
         align-items: center;
         width: 80vw;
         .client-image {
-            border-right: 1px solid #012E71;
-            padding-right: 2.5%;
-            padding-left: 2.5%;
-            margin: 24px 0;
+            border: 1px solid #012E71;
+            width: 19%;
+            height: 100%;
+            box-sizing: border-box;
+            margin: 2px;
+            padding: 2px;
             img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 width: auto;
                 height: 80px;
+                max-width: 100%;
                 object-fit: contain;
+                margin: 24px auto;
             }
             &:hover img {
                 filter: sepia(100%) hue-rotate(190deg) saturate(100%);
@@ -43,6 +50,11 @@
                 line-height: 24px;
             }
         }
+        .clients-box {
+            .client-image {
+                width: 32%;
+            }
+        }
     }
 }
 
@@ -52,6 +64,7 @@
         .clients-box {
             width: 100%;
             .client-image {
+                width: 48%;
                 img {
                     height: 40px;
                 }
