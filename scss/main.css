@@ -1918,13 +1918,16 @@ header #nav .bottom-nav .right-container ul li:hover {
   align-items: center;
 }
 .clients-section .client-image {
+  width: 16%;
   border-right: 1px solid #012E71;
   padding-right: 2.5%;
   padding-left: 2.5%;
 }
 .clients-section .client-image img {
-  width: auto;
+  width: 100%;
   height: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .clients-section .client-image:hover img {
   filter: sepia(100%) hue-rotate(190deg) saturate(100%);
@@ -1961,13 +1964,14 @@ header #nav .bottom-nav .right-container ul li:hover {
     padding-left: 1%;
   }
 }
-@media (max-width: 1520px) {
+@media (max-width: 1280px) {
   .clients-section {
     overflow-x: scroll;
     padding-bottom: 24px;
     justify-content: flex-start;
   }
   .clients-section .client-image {
+    width: unset;
     padding-right: 2%;
     padding-left: 2%;
   }
