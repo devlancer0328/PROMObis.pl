@@ -613,6 +613,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   }
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active {
     flex-direction: column;
+    padding-left: 0;
   }
   header #nav .bottom-nav.active .right-container {
     display: flex;
@@ -667,6 +668,7 @@ header #nav .bottom-nav .right-container ul li:hover {
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
     justify-content: flex-start !important;
     align-items: center !important;
+    white-space: break-spaces;
   }
 }
 .breadcrumbs ul {

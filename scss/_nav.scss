@@ -606,6 +606,7 @@ header {
                             }
                             &.active {
                                 flex-direction: column;
+                                padding-left: 0;
                             }
                         }
                     }
@@ -670,5 +671,6 @@ header {
     header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
         justify-content: flex-start !important;
         align-items: center !important;
+        white-space: break-spaces;
     }
 }
