@@ -1,94 +1,105 @@
+<p align="center">
+    <img src="./assets/img/logo.svg" height="50"/>
+</p>
+
+<h1 align="center">PROMObis website</h1>
+
+<p align="center">E-commerce static website written using HTML5, SCSS, Vanilla Javascript with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
+</p>
+
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [License](#license)
-* [Live](#live-star2)
-* [Screenshots](#screenshots)
 
-## General info
-PROMObis.pl website ➡️ E-commerce static website written using HTML5, SCSS, Vanilla Javascript with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
+- [Technologies](#technologies)
+- [License](#license)
+- [Live](#live-star2)
+- [Screenshots](#screenshots)
 
-## Technologies   
+## Technologies
+
 Used technologies:
-* JavaScript
-* HTML5
-* SCSS
+
+- JavaScript
+- HTML5
+- SCSS
 
 ## License
+
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
 
 This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
 
 ## Live :star2:
-* Main page :arrow_right: https://goldipl.github.io/PROMObis.pl/    
 
-* Category :arrow_right: https://goldipl.github.io/PROMObis.pl/category   
+- Main page :arrow_right: https://goldipl.github.io/PROMObis.pl/
 
-* Product page :arrow_right: https://goldipl.github.io/PROMObis.pl/product   
+- Category :arrow_right: https://goldipl.github.io/PROMObis.pl/category
 
-* Cart page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart    
+- Product page :arrow_right: https://goldipl.github.io/PROMObis.pl/product
 
-* Cart person data page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-your-data-person    
+- Cart page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart
 
-* Cart company data page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-your-data-company    
+- Cart person data page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-your-data-person
 
-* New account page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-new-account    
+- Cart company data page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-your-data-company
 
-* Cart summary page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-summary    
+- New account page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-new-account
 
-* Offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/offerts    
+- Cart summary page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-summary
 
-* Account page :arrow_right: https://goldipl.github.io/PROMObis.pl/account    
+- Offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/offerts
 
-* Account send offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_send_offerts   
+- Account page :arrow_right: https://goldipl.github.io/PROMObis.pl/account
 
-* Account save offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_save_offerts    
+- Account send offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_send_offerts
 
-* Account pricing page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_pricing    
+- Account save offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_save_offerts
 
-* Account pricing details page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_pricing_details    
+- Account pricing page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_pricing
 
-* Account orders page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_orders    
+- Account pricing details page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_pricing_details
 
-* Account orders details page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_orders_details    
+- Account orders page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_orders
 
-* Account files page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_files    
+- Account orders details page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_orders_details
 
-* Account no files page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_no_files    
+- Account files page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_files
 
-* Contact page :arrow_right: https://goldipl.github.io/PROMObis.pl/contact    
+- Account no files page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_no_files
 
-* Article page :arrow_right: https://goldipl.github.io/PROMObis.pl/article   
+- Contact page :arrow_right: https://goldipl.github.io/PROMObis.pl/contact
 
-* Blog page :arrow_right: https://goldipl.github.io/PROMObis.pl/blog   
+- Article page :arrow_right: https://goldipl.github.io/PROMObis.pl/article
 
-* Clients page :arrow_right: https://goldipl.github.io/PROMObis.pl/clients 
+- Blog page :arrow_right: https://goldipl.github.io/PROMObis.pl/blog
 
-* Login page :arrow_right: https://goldipl.github.io/PROMObis.pl/login    
+- Clients page :arrow_right: https://goldipl.github.io/PROMObis.pl/clients
 
-* Register page :arrow_right: https://goldipl.github.io/PROMObis.pl/register        
+- Login page :arrow_right: https://goldipl.github.io/PROMObis.pl/login
+
+- Register page :arrow_right: https://goldipl.github.io/PROMObis.pl/register
 
 ## Screenshots
-* Desktop version :desktop_computer:   
 
-![Screenshot](./screenshots/Desktop_strona_glowna.jpg)  
+- Desktop version :desktop_computer:
 
-![Screenshot](./screenshots/Desktop_strona_kategorii.jpg)    
+![Screenshot](./screenshots/Desktop_strona_glowna.jpg)
 
-![Screenshot](./screenshots/Desktop_strona_produktu.jpg)   
+![Screenshot](./screenshots/Desktop_strona_kategorii.jpg)
 
-* Tablet version :computer:   
+![Screenshot](./screenshots/Desktop_strona_produktu.jpg)
 
-![Screenshot](./screenshots/Tablet_strona_glowna.jpg)  
+- Tablet version :computer:
 
-![Screenshot](./screenshots/Tablet_strona_kategorii.jpg)    
+![Screenshot](./screenshots/Tablet_strona_glowna.jpg)
 
-![Screenshot](./screenshots/Tablet_strona_produktu.jpg) 
+![Screenshot](./screenshots/Tablet_strona_kategorii.jpg)
 
-* Mobile version :iphone:      
+![Screenshot](./screenshots/Tablet_strona_produktu.jpg)
 
-![Screenshot](./screenshots/Telefon_strona_glowna.jpg)  
+- Mobile version :iphone:
 
-![Screenshot](./screenshots/Telefon_strona_kategorii.jpg)    
+![Screenshot](./screenshots/Telefon_strona_glowna.jpg)
 
-![Screenshot](./screenshots/Telefon_strona_produktu.jpg) 
+![Screenshot](./screenshots/Telefon_strona_kategorii.jpg)
+
+![Screenshot](./screenshots/Telefon_strona_produktu.jpg)
