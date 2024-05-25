@@ -30,53 +30,53 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 
 ## Live :star2:
 
-- Main page :arrow_right: https://goldipl.github.io/PROMObis.pl/
+- Main page :arrow_right: https://prom-obis-pl.vercel.app/
 
-- Category :arrow_right: https://goldipl.github.io/PROMObis.pl/category
+- Category :arrow_right: https://prom-obis-pl.vercel.app/category
 
-- Product page :arrow_right: https://goldipl.github.io/PROMObis.pl/product
+- Product page :arrow_right: https://prom-obis-pl.vercel.app/product
 
-- Cart page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart
+- Cart page :arrow_right: https://prom-obis-pl.vercel.app/cart
 
-- Cart person data page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-your-data-person
+- Cart person data page :arrow_right: https://prom-obis-pl.vercel.app/cart-your-data-person
 
-- Cart company data page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-your-data-company
+- Cart company data page :arrow_right: https://prom-obis-pl.vercel.app/cart-your-data-company
 
-- New account page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-new-account
+- New account page :arrow_right: https://prom-obis-pl.vercel.app/cart-new-account
 
-- Cart summary page :arrow_right: https://goldipl.github.io/PROMObis.pl/cart-summary
+- Cart summary page :arrow_right: https://prom-obis-pl.vercel.app/cart-summary
 
-- Offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/offerts
+- Offerts page :arrow_right: https://prom-obis-pl.vercel.app/offerts
 
-- Account page :arrow_right: https://goldipl.github.io/PROMObis.pl/account
+- Account page :arrow_right: https://prom-obis-pl.vercel.app/account
 
-- Account send offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_send_offerts
+- Account send offerts page :arrow_right: https://prom-obis-pl.vercel.app/account_send_offerts
 
-- Account save offerts page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_save_offerts
+- Account save offerts page :arrow_right: https://prom-obis-pl.vercel.app/account_save_offerts
 
-- Account pricing page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_pricing
+- Account pricing page :arrow_right: https://prom-obis-pl.vercel.app/account_pricing
 
-- Account pricing details page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_pricing_details
+- Account pricing details page :arrow_right: https://prom-obis-pl.vercel.app/account_pricing_details
 
-- Account orders page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_orders
+- Account orders page :arrow_right: https://prom-obis-pl.vercel.app/account_orders
 
-- Account orders details page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_orders_details
+- Account orders details page :arrow_right: https://prom-obis-pl.vercel.app/account_orders_details
 
-- Account files page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_files
+- Account files page :arrow_right: https://prom-obis-pl.vercel.app/account_files
 
-- Account no files page :arrow_right: https://goldipl.github.io/PROMObis.pl/account_no_files
+- Account no files page :arrow_right: https://prom-obis-pl.vercel.app/account_no_files
 
-- Contact page :arrow_right: https://goldipl.github.io/PROMObis.pl/contact
+- Contact page :arrow_right: https://prom-obis-pl.vercel.app/contact
 
-- Article page :arrow_right: https://goldipl.github.io/PROMObis.pl/article
+- Article page :arrow_right: https://prom-obis-pl.vercel.app/article
 
-- Blog page :arrow_right: https://goldipl.github.io/PROMObis.pl/blog
+- Blog page :arrow_right: https://prom-obis-pl.vercel.app/blog
 
-- Clients page :arrow_right: https://goldipl.github.io/PROMObis.pl/clients
+- Clients page :arrow_right: https://prom-obis-pl.vercel.app/clients
 
-- Login page :arrow_right: https://goldipl.github.io/PROMObis.pl/login
+- Login page :arrow_right: https://prom-obis-pl.vercel.app/login
 
-- Register page :arrow_right: https://goldipl.github.io/PROMObis.pl/register
+- Register page :arrow_right: https://prom-obis-pl.vercel.app/register
 
 ## Screenshots
 
